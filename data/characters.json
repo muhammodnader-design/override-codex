@@ -2,6 +2,7 @@
   {
     "name": "Niro Hart",
     "faction": "Hart Family",
+    "title": "Malevolence Heir / Sole Surviving Hart Heir",
     "quotes": [
       "Don't call it cruelty. I'm just finishing what your lessons started.",
       "You had twelve chances to be family. You spent them all making me.",
@@ -12,6 +13,7 @@
   {
     "name": "Victor Hart",
     "faction": "Hart Family",
+    "title": "Patriarch (deceased)",
     "quotes": [
       "A Hart does not explain himself. He dictates and others adjust.",
       "Sentiment is expensive. I don't pay for what doesn't profit the name.",
@@ -22,6 +24,7 @@
   {
     "name": "Elena Hart (Mother)",
     "faction": "Hart Family",
+    "title": "Matriarch (silenced witness)",
     "quotes": [
       "Looking away was the only way I knew how to keep you breathing.",
       "Don't mistake my silence for approval. It was survival.",
@@ -32,6 +35,7 @@
   {
     "name": "Seraphine Hart",
     "faction": "Hart Family",
+    "title": "Named Successor (deceased)",
     "quotes": [
       "Oh, little mistake, did you think the table was ever set for you?",
       "Smile properly when you answer. You embarrass the portrait.",
@@ -42,6 +46,7 @@
   {
     "name": "Thaddeus Hart / Thad",
     "faction": "Hart Family",
+    "title": "The Kind Brother (deceased)",
     "quotes": [
       "Just keep your head down a little longer, okay? I'll figure something out.",
       "You shouldn't have to endure this to be called brother.",
@@ -52,6 +57,7 @@
   {
     "name": "Edward Hart",
     "faction": "Hart Family",
+    "title": "Enforcer (deceased)",
     "quotes": [
       "Let's see how long you last before you start begging the dark.",
       "It's not locked to punish you. It's locked to teach you where you belong.",
@@ -62,6 +68,7 @@
   {
     "name": "Nigel Hart",
     "faction": "Hart Family",
+    "title": "Enforcer (deceased)",
     "quotes": [
       "Get up. If you can still breathe, you can still run.",
       "No one respects the weak who stays down. So move.",
@@ -72,6 +79,7 @@
   {
     "name": "Naobito Yagami",
     "faction": "Yagami",
+    "title": "Key of Duality (Vessel)",
     "quotes": [
       "It's not possession if I already agreed to carry the weight.",
       "Quiet is easier. People don't stare at quiet.",
@@ -82,6 +90,7 @@
   {
     "name": "Yurei Himura (Dark Maiden)",
     "faction": "Dark Maiden",
+    "title": "Dark Maiden / Hollow Shell",
     "quotes": [
       "Heehee~ you didn't solve my puzzle, lamb, you invited me in.",
       "Shhh, don't hide those new eyes. I made them just for you.",
@@ -92,6 +101,7 @@
   {
     "name": "Lucien Moreau",
     "faction": "Weavers",
+    "title": "Weaver of Time",
     "quotes": [
       "Time doesn't heal. It simply gives you room to hold the ache correctly.",
       "Compress it. Power is not loud, child, it's dense.",
@@ -102,6 +112,7 @@
   {
     "name": "Leon Cross",
     "faction": "Independent",
+    "title": "Barkeep / Independent",
     "quotes": [
       "Bar's closed. And you're standing in my bar.",
       "I didn't ask for a collar. Or your permission.",
@@ -112,6 +123,7 @@
   {
     "name": "Proxy / PRX-04",
     "faction": "Independent",
+    "title": "Field Asset",
     "quotes": [
       "Congrats, you just pinged everyone who can kill you from orbit.",
       "Left side's premium, right side's scrapyard. Still shoots though.",
@@ -122,6 +134,7 @@
   {
     "name": "Nemimoth (Key of Hunger)",
     "faction": "Keys",
+    "title": "Key of Hunger",
     "quotes": [
       "Infinity is lonely when no one else can see where it ends.",
       "Another sibling woke up. I felt you before I saw you.",
@@ -132,6 +145,7 @@
   {
     "name": "Asha Nkosi",
     "faction": "Rankers",
+    "title": "Weaver of Beasts",
     "quotes": [
       "Second place? Good. Means I still have someone worth hunting.",
       "Talk less, bleed more. That's how we settle rankings.",
@@ -142,6 +156,7 @@
   {
     "name": "Viktor Drago",
     "faction": "Rankers",
+    "title": "Weaver of Chains",
     "quotes": [
       "Strength needs no argument. It needs a witness.",
       "Chains don't restrict me. They remind you where you stand.",
@@ -152,6 +167,7 @@
   {
     "name": "Hana Yagami",
     "faction": "Yagami",
+    "title": "Mistress of Threads",
     "quotes": [
       "Of course I'm at the top. The list merely caught up to reality.",
       "Threads are not pulled. They are convinced to move.",
@@ -162,6 +178,7 @@
   {
     "name": "Isolde Aster",
     "faction": "Rankers",
+    "title": "Former Sword Saint of Lightning",
     "quotes": [
       "Power without form is just flailing with better lighting.",
       "I don't need to be faster. I need to be precise once.",
@@ -172,6 +189,7 @@
   {
     "name": "Mireille Vale",
     "faction": "Weavers",
+    "title": "Executive Assistant / Blade",
     "quotes": [
       "Master, say the word and they all disappear for you.",
       "Don't look at anyone else. Just keep looking at me.",
@@ -182,6 +200,7 @@
   {
     "name": "Kenshi Kashimo",
     "faction": "Rankers",
+    "title": "Over-Rev Combatant",
     "quotes": [
       "If you're seeing my afterimage, you're already too slow to win.",
       "Over-Rev isn't speed. It's deciding the finish line's already behind me.",
@@ -192,6 +211,7 @@
   {
     "name": "Master Kael Voss",
     "faction": "Weavers",
+    "title": "Weaver of Neutrality",
     "quotes": [
       "This is improperly classified and therefore improperly contained.",
       "Enthusiasm is not a substitute for protocol.",
@@ -202,6 +222,7 @@
   {
     "name": "Lady Elara Vane",
     "faction": "Weavers",
+    "title": "Weaver of Threads",
     "quotes": [
       "Darling, I didn't pull your strings. I just made you want to dance.",
       "Every thread matters. Even the ones that think they're free.",
@@ -212,6 +233,7 @@
   {
     "name": "High Weaver Selene Arkwright",
     "faction": "Weavers",
+    "title": "High Weaver (Law)",
     "quotes": [
       "Hierarchy exists so anomalies like you know where to kneel.",
       "This is not entertainment. This is order being disrupted.",
@@ -222,6 +244,7 @@
   {
     "name": "Reno",
     "faction": "Independent",
+    "title": "Field Asset / Logistics",
     "quotes": [
       "Probability of success: 12%. Proceeding anyway.",
       "Efficient. Quiet. Done. No further comment needed.",
@@ -232,6 +255,7 @@
   {
     "name": "Saya Kurogane",
     "faction": "Kurogane",
+    "title": "Kurogane Heir",
     "quotes": [
       "A-ah, please don't look at my hands when they shake like this!",
       "I'm not ready, but I'll stand here anyway if you need me.",
@@ -242,6 +266,7 @@
   {
     "name": "Amara Khalil",
     "faction": "Weavers",
+    "title": "Weaver of Souls",
     "quotes": [
       "I wish you wouldn't rank kindness. It was never a competition.",
       "Even a cruel soul deserves to be heard once before it fades.",
@@ -252,6 +277,7 @@
   {
     "name": "Mei Ling Zhao (Weaver of Silence)",
     "faction": "Weavers",
+    "title": "Weaver of Silence",
     "quotes": [
       "...",
       "No. You didn't hear me. That was the point.",
@@ -262,6 +288,7 @@
   {
     "name": "Isabella Cortez",
     "faction": "Weavers",
+    "title": "Weaver of Flames",
     "quotes": [
       "Finally, a meeting that isn't boring enough to put my own flames out.",
       "Burn bright or don't bother showing up at all.",
@@ -272,6 +299,7 @@
   {
     "name": "Omar al-Sayed",
     "faction": "Independent",
+    "title": "Weaver of Sands",
     "quotes": [
       "The sands remember every footstep, even those that try to erase themselves.",
       "Patience. The desert always wins by waiting.",
@@ -282,6 +310,7 @@
   {
     "name": "Dr. Elias Thorn",
     "faction": "Independent",
+    "title": "Weaver of Flesh",
     "quotes": [
       "Fascinating. Your Information Alteration just rewrote my notes as I wrote them.",
       "I need a fresh sample. Don't worry, you'll barely feel the extraction.",
@@ -292,6 +321,7 @@
   {
     "name": "Freya Haldorsdottir",
     "faction": "Rankers",
+    "title": "Weaver of Storms",
     "quotes": [
       "Call a storm and I will answer with a bigger one.",
       "Thunder doesn't ask permission to break the sky.",
@@ -302,6 +332,7 @@
   {
     "name": "Soren Blackwood",
     "faction": "Independent",
+    "title": "Weaver of Shadows",
     "quotes": [
       "You didn't see me leave. You never do.",
       "Shadows don't follow me. I follow them.",
@@ -312,6 +343,7 @@
   {
     "name": "Kiritaka Yagami",
     "faction": "Yagami",
+    "title": "Patriarch (Yagami)",
     "quotes": [
       "That's my boy! See, Hana? Battle IQ, just like his old man!",
       "Haha, look at him climb. Told you he'd rewrite that list.",
@@ -322,6 +354,7 @@
   {
     "name": "Sylvara Kane",
     "faction": "Independent",
+    "title": "Anomaly",
     "quotes": [
       "Um... if I'm not on the list, does that mean I'm safe or just forgotten?",
       "Please don't call me the secret final boss. I'm really not!",
@@ -332,6 +365,7 @@
   {
     "name": "The King (Ivory Board)",
     "faction": "Ivory Board",
+    "title": "Ivory Board Sovereign",
     "quotes": [
       "Nemi, you've been staring at that projection for hours. Are you eating properly?",
       "They call me King, but I can't even protect you from a boarding Queen.",
@@ -342,6 +376,7 @@
   {
     "name": "VeilNet Anchor",
     "faction": "Ivory Board",
+    "title": "Broadcast Host",
     "quotes": [
       "Ladies, gentlemen, monsters and miracles - welcome to where debts die screaming!",
       "This isn't a tournament, this is the universe filing for divorce in blood!",
@@ -352,6 +387,7 @@
   {
     "name": "The Maid",
     "faction": "Independent",
+    "title": "Servant (hidden ally)",
     "quotes": [
       "Young master... shall I... no, forgive me, I shouldn't ask.",
       "If they see me help you, they'll hurt you twice for it.",

@@ -8,6 +8,44 @@ ILL  = os.path.join(BASE, "illust5rations")
 text = open(os.path.join(BASE, "character_lines.txt"), encoding="utf-8").read()
 
 # faction + image filename overrides (best-effort)
+TITLE = {
+ "Niro Hart":"Malevolence Heir / Sole Surviving Hart Heir",
+ "Victor Hart":"Patriarch (deceased)",
+ "Elena Hart (Mother)":"Matriarch (silenced witness)",
+ "Seraphine Hart":"Named Successor (deceased)",
+ "Thaddeus Hart / Thad":"The Kind Brother (deceased)",
+ "Edward Hart":"Enforcer (deceased)",
+ "Nigel Hart":"Enforcer (deceased)",
+ "Naobito Yagami":"Key of Duality (Vessel)",
+ "Yurei Himura (Dark Maiden)":"Dark Maiden / Hollow Shell",
+ "Lucien Moreau":"Weaver of Time",
+ "Leon Cross":"Barkeep / Independent",
+ "Proxy / PRX-04":"Field Asset",
+ "Nemimoth (Key of Hunger)":"Key of Hunger",
+ "Asha Nkosi":"Weaver of Beasts",
+ "Viktor Drago":"Weaver of Chains",
+ "Hana Yagami":"Mistress of Threads",
+ "Isolde Aster":"Former Sword Saint of Lightning",
+ "Mireille Vale":"Executive Assistant / Blade",
+ "Kenshi Kashimo":"Over-Rev Combatant",
+ "Master Kael Voss":"Weaver of Neutrality",
+ "Lady Elara Vane":"Weaver of Threads",
+ "High Weaver Selene Arkwright":"High Weaver (Law)",
+ "Reno":"Field Asset / Logistics",
+ "Saya Kurogane":"Kurogane Heir",
+ "Amara Khalil":"Weaver of Souls",
+ "Mei Ling Zhao (Weaver of Silence)":"Weaver of Silence",
+ "Isabella Cortez":"Weaver of Flames",
+ "Omar al-Sayed":"Weaver of Sands",
+ "Dr. Elias Thorn":"Weaver of Flesh",
+ "Freya Haldorsdottir":"Weaver of Storms",
+ "Soren Blackwood":"Weaver of Shadows",
+ "Kiritaka Yagami":"Patriarch (Yagami)",
+ "Sylvara Kane":"Anomaly",
+ "The King (Ivory Board)":"Ivory Board Sovereign",
+ "VeilNet Anchor":"Broadcast Host",
+ "The Maid":"Servant (hidden ally)",
+}
 FACTION = {
  "Niro Hart":"Hart Family","Victor Hart":"Hart Family","Elena Hart (Mother)":"Hart Family",
  "Seraphine Hart":"Hart Family","Thaddeus Hart / Thad":"Hart Family","Edward Hart":"Hart Family",
@@ -82,6 +120,7 @@ for raw in text.splitlines():
     if current is not None and current["quotes"]:
         chars.append(current)
     current = {"name": line, "faction": FACTION.get(line, "Other"),
+               "title": TITLE.get(line, ""),
                "quotes": [], "image": find_image(line)}
 if current is not None and current["quotes"]:
     chars.append(current)
@@ -132,16 +171,56 @@ disclaimer = open(os.path.join(BASE,"disclaimer.txt"),encoding="utf-8").read().s
 lore = {
   "disclaimer": disclaimer,
   "factions": [
-    {"name":"Hart Family","desc":"The central family. Power, cruelty, and inheritance define them."},
-    {"name":"Yagami","desc":"Naobito and Hana's line. Analytical, survival-driven."},
-    {"name":"Weavers","desc":"Those who pull threads of reality — Elara, Selene, Lucien, Kael, Mireille, Amara, Isabella, Mei Ling."},
-    {"name":"Rankers","desc":"Combatants who climb the lists — Asha, Viktor, Kenshi, Freya, Isolde."},
-    {"name":"Keys","desc":"Nemimoth and the Keys of Hunger."},
-    {"name":"Ivory Board","desc":"The governing body — The King, VeilNet Anchor."},
+    {"name":"Hart Family","desc":"The central family. Power, cruelty, and inheritance define them. Niro is the sole surviving heir."},
+    {"name":"Yagami","desc":"Naobito and Hana's line. Analytical, survival-driven. Kiritaka is the patriarch."},
+    {"name":"Weavers","desc":"Thirteen reality-shapers (Selene, Elara, Lucien, Kael, Amara, Viktor, Mei Ling, Isabella, Omar, Asha, Thorn, Freya, Soren)."},
+    {"name":"Rankers","desc":"Combatants who climb the lists — Asha, Viktor, Kenshi, Freya, Isolde, Reno."},
+    {"name":"Keys","desc":"Nemimoth (Key of Hunger), Naobito/Yurei (Key of Duality)."},
+    {"name":"Ivory Board","desc":"The governing body — The King, VeilNet Anchor. Controls contracts and markers."},
     {"name":"Kurogane","desc":"Saya Kurogane and allies."},
     {"name":"Independent","desc":"Rogue actors: Leon, Proxy, Reno, Omar, Soren, Elias Thorn, Sylvara, The Maid."},
-    {"name":"Dark Maiden","desc":"Yurei Himura — the entity behind the puzzle."},
-  ]
+    {"name":"Dark Maiden","desc":"Yurei Himura — the entity behind the puzzle that pulled Naobito in."},
+  ],
+  "concepts": [
+    {"term":"Override Zone","desc":"A pocket-realm between realities where broken hours, puzzles, and entities live. Naobito was pulled in at 14."},
+    {"term":"Malevolence","desc":"Red mana type. Niro's signature. Can be compressed into catastrophic point-force orbs."},
+    {"term":"Mana seams","desc":"Unit of magical energy. Pure-grade seams are high-value currency (48,000 bought Reno's contract)."},
+    {"term":"Mana compression","desc":"Niro's signature technique: fold hate/density instead of wasteful spectacle."},
+    {"term":"Key of Duality","desc":"Naobito Yagami as vessel, paired with Yurei (Hollow Shell)."},
+    {"term":"Key of Hunger","desc":"Nemimoth — sibling entity, waits for others to find him."},
+    {"term":"Ivory Board","desc":"Multiversal governing body. Uses search-and-destroy pawns; Reno was one until Elara bought his contract."},
+    {"term":"VeilNet","desc":"Multiversal broadcast network. Hosts: Succubus Anchor & Incubus Co-Desk."},
+    {"term":"Hart Industries","desc":"Niro's empire: mobility, mana-tech, logistics, consumer fronts. Culturally omnipresent."},
+    {"term":"Over-Rev","desc":"Kenshi Kashimo's technique: decide the finish line is already behind you."},
+    {"term":"Corruption layers","desc":"Six layers answered faster than Naobito's nerves in the pit vs Isolde."},
+  ],
+  "rankings": [
+    {"tier":"God Tier","names":["Hana Yagami (Mistress of Threads)","Lucien Moreau"]},
+    {"tier":"High Tier","names":["Niro Hart","Asha Nkosi","Viktor Drago"]},
+    {"tier":"Rising Anomaly","names":["Naobito + Yurei (Key of Duality)","Kenshi Kashimo"]},
+    {"tier":"High Combatant","names":["Isolde Aster","Reno"]},
+  ],
+  "relationships": [
+    {"pair":"Lucien + Elara","note":"Closest strategic partnership. Plots as systems. Trust high, warmth limited."},
+    {"pair":"Mei Ling + Soren","note":"Best covert pairing. Silence and shadows. Excellent extractions."},
+    {"pair":"Isabella + Freya","note":"Volatile kinship. Fire and storm escalate and cover blind spots."},
+    {"pair":"Amara + Omar","note":"Soft-power axis. Souls and terrain. Survival corridors and aftermath care."},
+    {"pair":"Viktor + Kael","note":"Hardline alignment. Containment and hierarchy."},
+    {"pair":"Asha + Viktor","note":"Rival-respect. Measure each other in impact."},
+    {"pair":"Thorn + Elara/Lucien","note":"Transactional. They use his brilliance; he uses their cover."},
+    {"pair":"Selene (center)","note":"High Weaver. Law and final process. Respected more than loved. Isolated by rank."},
+  ],
+  "trust": {
+    "high": ["Lucien–Elara–Selene (command architecture)","Mei Ling–Soren–Amara (quiet ops / human cost)","Isabella–Freya–Asha (force, momentum)"],
+    "low": ["Kael vs Lucien/Elara/Isabella/Asha/Thorn","Viktor vs Soren/Amara/Lucien","Thorn vs nearly everyone","Selene vs unpermitted spectacle"],
+  },
+  "dossiers": [
+    {"title":"Ivory Board Brief — Niro Hart","summary":"Restricted brief. Niro Hart: sole surviving Hart heir, Malevolence (red), mana compression, Hart Industries empire. Born 13th child; slaughtered family at 16; left mother alive as punishment. Boredom is an operational risk."},
+    {"title":"VeilNet Live — Reno interview","summary":"Reno (field asset) bought by Lady Elara from Ivory Board for 48,000 pure-grade seams. Former search-and-destroy pawn. Loyal to clear contract."},
+    {"title":"VeilNet Live — Isolde Aster","summary":"Former Sword Saint of Lightning, returned. Finds Naobito attractive (inherited from Kiritaka). Separates Maiden-speed from Naobito's choices."},
+    {"title":"Weavers Dossier","summary":"Thirteen Weavers with peer assessments and a relationship map: core pairs, trust clusters, factional read of the rebellion era."},
+  ],
+  "quotes_extra": []
 }
 with open(os.path.join(OUT,"data","lore.json"),"w",encoding="utf-8") as f:
     json.dump(lore, f, ensure_ascii=False, indent=2)

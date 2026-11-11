@@ -153,7 +153,7 @@ function renderCharacters() {
       <div class="card" data-slug="${slug(c.name)}" style="cursor:pointer;">
         ${c.image ? `<img src="${c.image}" alt="${c.name}" loading="lazy" />` : `<div style="aspect-ratio:3/4;background:var(--bg-2);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--muted);">no portrait</div>`}
         <h3>${c.name}</h3>
-        <div class="meta">${c.faction}</div>
+        <div class="meta">${c.title ? c.title+' · ' : ''}${c.faction}</div>
         <div class="quote">"${(c.quotes[0]||'').slice(0,90)}${(c.quotes[0]||'').length>90?'…':''}"</div>
       </div>
     `).join('') || '<div class="empty">No characters match.</div>';
@@ -190,6 +190,7 @@ function renderCharacter(s) {
       </div>
       <div>
         <h2 style="font-family:var(--font-head); margin:0 0 4px;">${c.name}</h2>
+        ${c.title ? `<div style="color:var(--accent-2); font-size:14px; margin-bottom:6px;">${c.title}</div>` : ''}
         <div class="meta" style="margin-bottom:12px;">${c.faction}</div>
         <button class="btn sm" id="favBtn">${isFav ? '★ Favorited' : '☆ Favorite'}</button>
         <h3 style="margin-top:16px;">Quotes</h3>
@@ -369,12 +370,53 @@ function openImage(path, name) {
 
 // ---------- Lore ----------
 function renderLore() {
+  const L = state.lore;
   $app().innerHTML = `
-    <h2 class="section-title">Lore & Factions</h2>
-    ${state.lore.factions.map(f=>`<div class="faction-card"><h3>${f.name}</h3><p>${f.desc}</p></div>`).join('')}
-    <h2 class="section-title" style="margin-top:32px;">Disclaimer</h2>
-    <div class="card"><p style="white-space:pre-wrap;">${escapeHtml(state.lore.disclaimer)}</p></div>
+    <h2 class="section-title">Lore & World</h2>
+    <div class="controls" style="margin-bottom:8px;">
+      <a class="btn sm" href="#lore-factions">Factions</a>
+      <a class="btn sm" href="#lore-concepts">Concepts</a>
+      <a class="btn sm" href="#lore-rankings">Rankings</a>
+      <a class="btn sm" href="#lore-relationships">Relationships</a>
+      <a class="btn sm" href="#lore-dossiers">Dossiers</a>
+      <a class="btn sm" href="#lore-disclaimer">Disclaimer</a>
+    </div>
+
+    <h3 id="lore-factions" class="section-title" style="font-size:20px;">Factions</h3>
+    ${L.factions.map(f=>`<div class="faction-card"><h3>${f.name}</h3><p>${f.desc}</p></div>`).join('')}
+
+    <h3 id="lore-concepts" class="section-title" style="font-size:20px; margin-top:24px;">Concepts & Terms</h3>
+    <div class="grid cols-3">
+      ${L.concepts.map(c=>`<div class="card"><h3 style="font-size:15px;">${c.term}</h3><p class="meta">${c.desc}</p></div>`).join('')}
+    </div>
+
+    <h3 id="lore-rankings" class="section-title" style="font-size:20px; margin-top:24px;">Power Rankings (fan tier list)</h3>
+    ${L.rankings.map(r=>`<div class="card" style="margin-bottom:10px;"><h3 style="font-size:15px;">${r.tier}</h3><p class="meta">${r.names.join(' · ')}</p></div>`).join('')}
+
+    <h3 id="lore-relationships" class="section-title" style="font-size:20px; margin-top:24px;">Weaver Relationships</h3>
+    <div class="grid cols-3">
+      ${L.relationships.map(r=>`<div class="card"><h3 style="font-size:14px;">${r.pair}</h3><p class="meta">${r.note}</p></div>`).join('')}
+    </div>
+    <div class="card" style="margin-top:12px;">
+      <h3 style="font-size:15px;">Trust clusters</h3>
+      <p class="meta"><strong>High:</strong> ${L.trust.high.join(' · ')}</p>
+      <p class="meta" style="margin-top:6px;"><strong>Friction:</strong> ${L.trust.low.join(' · ')}</p>
+    </div>
+
+    <h3 id="lore-dossiers" class="section-title" style="font-size:20px; margin-top:24px;">Dossiers & Broadcasts</h3>
+    ${L.dossiers.map(d=>`<div class="card" style="margin-bottom:10px;"><h3 style="font-size:15px;">${d.title}</h3><p class="meta">${d.summary}</p></div>`).join('')}
+
+    <h3 id="lore-disclaimer" class="section-title" style="font-size:20px; margin-top:24px;">Disclaimer</h3>
+    <div class="card"><p style="white-space:pre-wrap;">${escapeHtml(L.disclaimer)}</p></div>
   `;
+  // smooth scroll for anchor links
+  $app().querySelectorAll('a[href^="#lore-"]').forEach(a => {
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      const el = document.getElementById(a.getAttribute('href').slice(1));
+      if (el) el.scrollIntoView({behavior:'smooth'});
+    });
+  });
 }
 
 // ---------- About ----------
