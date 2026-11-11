@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build artifacts
+extract_*.json
+merge_lore.py
+lore_dump.txt
+chunk*.txt
+extracted_*.txt
+words_k.txt
+make_extract*.py
+write_json.py
+extract_docx.py
