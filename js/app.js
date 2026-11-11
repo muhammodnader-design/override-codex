@@ -191,7 +191,11 @@ function renderCharacter(s) {
       <div>
         <h2 style="font-family:var(--font-head); margin:0 0 4px;">${c.name}</h2>
         ${c.title ? `<div style="color:var(--accent-2); font-size:14px; margin-bottom:6px;">${c.title}</div>` : ''}
-        <div class="meta" style="margin-bottom:12px;">${c.faction}</div>
+        <div class="meta" style="margin-bottom:12px;">${c.faction}${c.role ? ' · '+c.role : ''}</div>
+        ${c.aliases && c.aliases.length ? `<div class="meta" style="margin-bottom:8px;"><strong>Aliases:</strong> ${c.aliases.join(', ')}</div>` : ''}
+        ${c.bio ? `<p style="margin:12px 0;">${c.bio}</p>` : ''}
+        ${c.first_appearance ? `<p class="meta" style="margin-top:8px;"><strong>First appearance:</strong> ${c.first_appearance}</p>` : ''}
+        ${c.novels && c.novels.length ? `<p class="meta"><strong>Appears in:</strong> ${c.novels.join(', ')}</p>` : ''}
         <button class="btn sm" id="favBtn">${isFav ? '★ Favorited' : '☆ Favorite'}</button>
         <h3 style="margin-top:16px;">Quotes</h3>
         <ul style="padding-left:18px;">
@@ -376,8 +380,11 @@ function renderLore() {
     <div class="controls" style="margin-bottom:8px;">
       <a class="btn sm" href="#lore-factions">Factions</a>
       <a class="btn sm" href="#lore-concepts">Concepts</a>
+      <a class="btn sm" href="#lore-locations">Locations</a>
+      <a class="btn sm" href="#lore-events">Events</a>
       <a class="btn sm" href="#lore-rankings">Rankings</a>
       <a class="btn sm" href="#lore-relationships">Relationships</a>
+      <a class="btn sm" href="#lore-quotes">Quotes</a>
       <a class="btn sm" href="#lore-dossiers">Dossiers</a>
       <a class="btn sm" href="#lore-disclaimer">Disclaimer</a>
     </div>
@@ -389,6 +396,14 @@ function renderLore() {
     <div class="grid cols-3">
       ${L.concepts.map(c=>`<div class="card"><h3 style="font-size:15px;">${c.term}</h3><p class="meta">${c.desc}</p></div>`).join('')}
     </div>
+
+    <h3 id="lore-locations" class="section-title" style="font-size:20px; margin-top:24px;">Locations (${L.locations.length})</h3>
+    <div class="grid cols-3">
+      ${L.locations.map(l=>`<div class="card"><h3 style="font-size:15px;">${l.name}</h3><p class="meta">${l.desc||''}</p></div>`).join('')}
+    </div>
+
+    <h3 id="lore-events" class="section-title" style="font-size:20px; margin-top:24px;">Events & Timeline (${L.events.length})</h3>
+    ${L.events.map(e=>`<div class="card" style="margin-bottom:10px;"><h3 style="font-size:15px;">${e.title} <span class="meta" style="font-size:11px;">(${e.novel||''})</span></h3><p class="meta">${e.summary||''}</p>${e.participants&&e.participants.length?`<p class="meta" style="margin-top:4px;"><strong>Participants:</strong> ${e.participants.join(', ')}</p>`:''}</div>`).join('')}
 
     <h3 id="lore-rankings" class="section-title" style="font-size:20px; margin-top:24px;">Power Rankings (fan tier list)</h3>
     ${L.rankings.map(r=>`<div class="card" style="margin-bottom:10px;"><h3 style="font-size:15px;">${r.tier}</h3><p class="meta">${r.names.join(' · ')}</p></div>`).join('')}
@@ -403,12 +418,30 @@ function renderLore() {
       <p class="meta" style="margin-top:6px;"><strong>Friction:</strong> ${L.trust.low.join(' · ')}</p>
     </div>
 
+    <h3 id="lore-quotes" class="section-title" style="font-size:20px; margin-top:24px;">Iconic Quotes (${L.quotes.length})</h3>
+    <div id="quoteList">
+      ${L.quotes.slice(0,40).map(q=>`<div class="card" style="margin-bottom:8px;"><p style="font-style:italic; margin:0 0 4px;">"${q.quote}"</p><div class="meta">— ${q.speaker}</div></div>`).join('')}
+    </div>
+    ${L.quotes.length>40?`<button class="btn" id="loadMoreQuotes" style="margin-top:8px;">Load more (${L.quotes.length-40} remaining)</button>`:''}
+
     <h3 id="lore-dossiers" class="section-title" style="font-size:20px; margin-top:24px;">Dossiers & Broadcasts</h3>
     ${L.dossiers.map(d=>`<div class="card" style="margin-bottom:10px;"><h3 style="font-size:15px;">${d.title}</h3><p class="meta">${d.summary}</p></div>`).join('')}
 
     <h3 id="lore-disclaimer" class="section-title" style="font-size:20px; margin-top:24px;">Disclaimer</h3>
     <div class="card"><p style="white-space:pre-wrap;">${escapeHtml(L.disclaimer)}</p></div>
   `;
+  // load more quotes
+  const btn = document.getElementById('loadMoreQuotes');
+  if (btn) {
+    let shown = 40;
+    btn.addEventListener('click', () => {
+      shown += 40;
+      const list = document.getElementById('quoteList');
+      list.innerHTML = L.quotes.slice(0,shown).map(q=>`<div class="card" style="margin-bottom:8px;"><p style="font-style:italic; margin:0 0 4px;">"${q.quote}"</p><div class="meta">— ${q.speaker}</div></div>`).join('');
+      if (shown >= L.quotes.length) btn.remove();
+      else btn.textContent = `Load more (${L.quotes.length-shown} remaining)`;
+    });
+  }
   // smooth scroll for anchor links
   $app().querySelectorAll('a[href^="#lore-"]').forEach(a => {
     a.addEventListener('click', e => {

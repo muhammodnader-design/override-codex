@@ -3,7 +3,7 @@
   "factions": [
     {
       "name": "Hart Family",
-      "desc": "The central family. Power, cruelty, and inheritance define them. Niro is the sole surviving heir."
+      "desc": "A wealthy, ruthless bloodline that measures love in obedience and treats weakness as a disease. Its members abuse the thirteenth child, Niro, until he destroys them."
     },
     {
       "name": "Yagami",
@@ -23,7 +23,7 @@
     },
     {
       "name": "Ivory Board",
-      "desc": "The governing body — The King, VeilNet Anchor. Controls contracts and markers."
+      "desc": "The ruling body that controls lower districts through Mana Collars, surveillance grids, suppression towers, and hard-light lockdowns. It is truly run by the High Queen, with the King as a figurehead."
     },
     {
       "name": "Kurogane",
@@ -36,12 +36,96 @@
     {
       "name": "Dark Maiden",
       "desc": "Yurei Himura — the entity behind the puzzle that pulled Naobito in."
+    },
+    {
+      "name": "The 12 True Weavers (The Loom)",
+      "desc": "The Mistress of Threads' direct enforcers and interpreters of the Law of Containment, each representing a fundamental aspect of stitching and balance (Threads, Neutrality, Time, Souls, Chains, Silence, Flames, Sands, Beasts, Flesh, Storms, Shadows, Fate). They monitor cracked vessels and decide containment or destruction."
+    },
+    {
+      "name": "Specialists",
+      "desc": "Neutralization mages who track and hunt Corruption Mana leaks and cracked vessels. Ranked (e.g., Rank 5), they use silver-white mana and detection Range Crests. Saya Kurogane is one, torn between duty and empathy."
+    },
+    {
+      "name": "Hart Industries",
+      "desc": "Niro Hart's global empire spanning phones, cars, food, clothing, medical supplies, and mana-tech, controlling roughly 47% of the Asian mana-tech market. It dominates supply chains so deeply that even Naobito's woven jacket bears a HART thread."
+    },
+    {
+      "name": "School Bullies (Kenji, Haruto, Daisuke)",
+      "desc": "Naobito's long-time school tormentors who beat and humiliated him for years, shaping his loneliness and his fixation on fixing broken things. Three of them are targeted by Yurei's first spells; Takumi dies."
+    },
+    {
+      "name": "The 12 True Weavers",
+      "desc": "An order of powerful mana Weavers. Lucien Moreau, Weaver of Time, belongs to it and trains Niro in the Override Zone."
+    },
+    {
+      "name": "Elite Councils of the Nine Realms",
+      "desc": "The collective hosts of the Blood Tournament, offering a single favor from the councils to each bracket winner and treating Symbiote-Host pairs as single entries with a delayed bracket."
+    },
+    {
+      "name": "Eternal Court of Pure Light",
+      "desc": "Angelic delegates radiating aqua mana; represented by Aetherion, who explains the tournament rules."
+    },
+    {
+      "name": "Abyssal Dominion",
+      "desc": "Demon lords pulsing with Malevolence, including Lord Varak and Gorzak the Flayer, who seek to test themselves against the Symbiote-Host pair."
+    },
+    {
+      "name": "Verdant Conclave",
+      "desc": "Green-natured spirit elders and fighters like Lirael Thornvine, emphasizing patience, efficiency, and living mana."
+    },
+    {
+      "name": "Silver Veil Enclave",
+      "desc": "Neutralization masters in flowing white robes; the Kurogane Clan's broader neutralization tradition belongs here."
+    },
+    {
+      "name": "Fractured Realms Coalition",
+      "desc": "Outcasts, rogue vessels, and independent powers; home dimension of Sylvara Kane, where reality was torn apart centuries ago."
+    },
+    {
+      "name": "Kurogane Clan",
+      "desc": "A neutralization bloodline clan whose proud ordinary is silver-white interruption—stopping other people's miracles before they finish becoming dangerous. Runs a compound of drills, boundary stones, elders, and charts; its pride is threatened when Kitsuke awakens Cryokinesis."
+    },
+    {
+      "name": "Veil Wardens (Neutral Enforcers)",
+      "desc": "Rogue vessels and independent mages operating from a hidden bunker; they monitor the tournament and offer sanctuary to Naobito if he wins."
+    },
+    {
+      "name": "VeilNet (Underground Broadcast Network)",
+      "desc": "The hidden mana-society television network streaming the Blood Tournament across encrypted channels, hosted by the incubus/succubus anchor."
+    },
+    {
+      "name": "Rival Mega-Corporation (Earth)",
+      "desc": "A rival Tokyo mega-corp whose CEO watches the feed and plots to kill or recruit Naobito to prevent a Hart alliance."
+    },
+    {
+      "name": "Ivory Board Enforcers",
+      "desc": "White-and-gold armored units, from street Enforcers to specialist squads with stabilized suppression fields, who police districts and respond to Key signatures."
+    },
+    {
+      "name": "Syndicate Pawns",
+      "desc": "Collared lower-district residents and laborers packed into bars and streets, watching VeilNet and serving as infrastructure hostages through the collar grid."
+    },
+    {
+      "name": "Yagami Line",
+      "desc": "The family line behind Haruto and the legendary Naobito. Associated with black coats, telepathy, and stepping into powers older systems preferred caged. Haruto leads the Kurogane compound under the Yagami crest but is not his father."
+    },
+    {
+      "name": "Kashimo Route",
+      "desc": "Kei and Kenshi Kashimo's fast, unbound network. Reaches places Kurogane banners do not, carries messages and perimeter checks, and treats rules as weather to be moved through rather than obeyed."
+    },
+    {
+      "name": "Crimson Market Network",
+      "desc": "Neo-Haven's underground market district and its practical contacts (Sae's mute workshop). Sells sealed work, stabilizer lattices, and attention; copper-weave rooms kill telepathy and force ordinary senses."
+    },
+    {
+      "name": "The Board",
+      "desc": "An old system referenced in upper-realm stories that thought itself permanent until it cracked. Sae's lattice is delivered with no Board tags, marking the Board as a tagging/authority structure from the older era."
     }
   ],
   "concepts": [
     {
       "term": "Override Zone",
-      "desc": "A pocket-realm between realities where broken hours, puzzles, and entities live. Naobito was pulled in at 14."
+      "desc": "A dimension outside time where clocks stop, mana does not leak, and the Law of Containment does not apply; a void of memory islands where fate can be woven."
     },
     {
       "term": "Malevolence",
@@ -53,15 +137,15 @@
     },
     {
       "term": "Mana compression",
-      "desc": "Niro's signature technique: fold hate/density instead of wasteful spectacle."
+      "desc": "Folding output back into itself before release to raise density and force; Niro demonstrates 1.7 mega seams uncompressed and 5 compressed."
     },
     {
       "term": "Key of Duality",
-      "desc": "Naobito Yagami as vessel, paired with Yurei (Hollow Shell)."
+      "desc": "Naobito Yagami's Key: violet Duality that can rewrite and contain, here used to fight the High Queen while restraining himself."
     },
     {
       "term": "Key of Hunger",
-      "desc": "Nemimoth — sibling entity, waits for others to find him."
+      "desc": "Nemimoth's Key: a void-touched power that unsettles rooms and pulls at infinity; she is not yet awakened and still requires unlocking."
     },
     {
       "term": "Ivory Board",
@@ -77,11 +161,247 @@
     },
     {
       "term": "Over-Rev",
-      "desc": "Kenshi Kashimo's technique: decide the finish line is already behind you."
+      "desc": "Kenshi Kashimo's kinetic technique that pushes his body past Mach 5, leaving trails of blue plasma and burning his reserves hot and fast."
     },
     {
       "term": "Corruption layers",
       "desc": "Six layers answered faster than Naobito's nerves in the pit vs Isolde."
+    },
+    {
+      "term": "Mana",
+      "desc": "A living force that must be locked inside something (soul, bone, coin, blade, cloth) or it rots everything it touches. It is not mist or wind; free mana dissolved cities in the first age."
+    },
+    {
+      "term": "Law of Containment",
+      "desc": "The rule that mana must be stored, measured, and released only through physical objects or disciplined souls; no free-floating mana. Written in the Mistress's blood after the first age."
+    },
+    {
+      "term": "Corruption Mana",
+      "desc": "The violet, ancient, hungry mana of Yurei Himura, born from betrayal and broken salvation, that feeds on attachment and ownership. Naobito carries tens of thousands of Seams of it."
+    },
+    {
+      "term": "Malevolence Mana",
+      "desc": "Niro Hart's deep bloody-red energy that lets him absorb, generate, and convert any energy (physical, thermal, kinetic, mana) at will, measured around 1.7 million Seams."
+    },
+    {
+      "term": "Neutralization Mana",
+      "desc": "Silver-white mana used by Specialists like Saya to detect, neutralize, and contain Corruption, often forming clean geometric circles."
+    },
+    {
+      "term": "Seams",
+      "desc": "The unit of measurement for mana quantity and density (e.g., tens of thousands for Naobito/Yurei, ~1.7 million for Niro)."
+    },
+    {
+      "term": "Range Crest",
+      "desc": "A geometric mana pattern drawn on the ground or in the air; Naobito creates a unique 'Sixfold Eclipse' six-winged, six-eyed pattern that establishes a controlled field of Corruption Mana."
+    },
+    {
+      "term": "Geometric Seal / Fold",
+      "desc": "A technique using obsidian coins as catalysts to stitch space itself, folding locations together in a violent snap; Reno's signature ability."
+    },
+    {
+      "term": "Keys (Six Keys)",
+      "desc": "The cursed puzzle was one of six keys; Naobito realizes he himself is the larger puzzle/key, designed by the Mistress of Threads, with five more keys yet to turn."
+    },
+    {
+      "term": "Destined Vessel",
+      "desc": "A person designed to bond with a fallen entity; Naobito is the first vessel to achieve symbiosis with Yurei instead of being consumed."
+    },
+    {
+      "term": "Six Wings / Six Eyes",
+      "desc": "Yurei's mark on Naobito: six shadow wings of midnight feathers and torn silk, plus four extra violet eyes on his forehead/temples, giving six total eyes that blink in sync with hers."
+    },
+    {
+      "term": "Geometric Script",
+      "desc": "The ancient language in which reality was first stitched, readable only by the Mistress by right; Naobito can read it naturally, marking him as something unprecedented."
+    },
+    {
+      "term": "Shadow Bandages",
+      "desc": "Endless strips of ancient yellowed cloth stained with blood and sigils that Yurei uses to bind, smother, and attack, crawling up victims' legs or blooming from mouths."
+    },
+    {
+      "term": "Yami no Otome",
+      "desc": "Japanese name for the Dark Maiden; invoked in spells like 'Kuro no tsubasa yo, yami no ito o hiku' that Naobito casts under possession."
+    },
+    {
+      "term": "Weakness is a disease",
+      "desc": "The Hart family creed, spoken by Victor and Elias, that justifies abuse and becomes Niro's justification for slaughter."
+    },
+    {
+      "term": "Home invasion cover story",
+      "desc": "The lie Elena is forced to tell police, blaming masked intruders for the massacre."
+    },
+    {
+      "term": "Mana-infused technology",
+      "desc": "Hart Industries' development of products powered by controlled mana, including autonomous vehicles and Malevolence engines."
+    },
+    {
+      "term": "Base-Thread (Nature Mana)",
+      "desc": "The low-reserve, low-output mana ordinary people run on, colloquially 'green stuff' on Earth, contrasted with fighter-tier mana."
+    },
+    {
+      "term": "Innate Weave (Gimmick)",
+      "desc": "A fighter's one signature trick; Kenshi's is kinetic conversion/speed, Naobito's is the Hollow Shell, Asha's is Beast Mana."
+    },
+    {
+      "term": "Hollow Shell (K'tai)",
+      "desc": "Naobito's technique where black bandages and tentacles erupt and rebuild a housed entity's body around his own architecture, letting him wear Yurei as a biological mech suit and read/rewrite her information."
+    },
+    {
+      "term": "Information Alteration",
+      "desc": "Naobito's ability, first used against Asha's Apex Mantle, to rewrite a housed entity's foundational data (density, mana composition) in real time, even phasing them through attacks."
+    },
+    {
+      "term": "Key of Echoes",
+      "desc": "Sylvara Kane's hidden designation; her sonic Echo ability and broken geometric node mirror Naobito's, making her the counterpart needed to align the remaining Keys."
+    },
+    {
+      "term": "Fused Range Crest",
+      "desc": "A new crest born from Naobito and Sylvara's synced bond, combining six wings with echoing sonic spirals and six eyes, launching the Goliath into deep space."
+    },
+    {
+      "term": "Wild Hunt: Apex Mantle",
+      "desc": "Asha Nkosi's named technique: a colossal wave of pure predatory Beast Mana shaped like countless spectral jaws and claws that floods the entire pit."
+    },
+    {
+      "term": "Echo (Sonic) Ability",
+      "desc": "Sylvara's awakened power: a raw, apocalyptic sonic scream that warps air, shatters stone, and weaponizes her fear into devastating force."
+    },
+    {
+      "term": "Class-S Reality Anomaly",
+      "desc": "Selene's official designation for Naobito after the arena's destruction, sealing the footage to prevent mass panic."
+    },
+    {
+      "term": "Symbiote-Host Bracket",
+      "desc": "A tournament bracket treating bonded vessel-and-entity pairs as a single entry, with a slight delay to observe the field."
+    },
+    {
+      "term": "Folded Gates",
+      "desc": "Spatial folds used to reach the Crimson Veil Arena and to travel between dimensions; Hana stitches them effortlessly."
+    },
+    {
+      "term": "Beast Mana",
+      "desc": "Asha Nkosi's green-and-gold predatory mana that hardens into living armor of fang and claw and coalesces into spectral predators."
+    },
+    {
+      "term": "Kinetic Mana",
+      "desc": "Blue mana that absorbs and converts kinetic force, used by Kenshi to catch projectiles and fuel Over-Rev."
+    },
+    {
+      "term": "Key of Focus",
+      "desc": "Leon Cross's Key: a forehead gemstone that drinks ambient energy and fires concentrated cobalt beams of destruction."
+    },
+    {
+      "term": "Inhibitor Collar / Mana Collar",
+      "desc": "Suppression hardware locked around lower-district residents' necks, throttling Key output and feeding a live collar grid."
+    },
+    {
+      "term": "Void-edged Authority",
+      "desc": "The High Queen's power, wielded as spears and lashes of condensed absence that shear through Duality."
+    },
+    {
+      "term": "Soul-bindings (Guardian Network)",
+      "desc": "Loyalty lines threaded through the Dome's guardians, cut by Amara to disable its defenses."
+    },
+    {
+      "term": "Pulse Regulator / Collar Grid",
+      "desc": "The tower system feeding a live collar pulse into three districts; if collapsed wrong, it cooks linked collars, so the pulse must be disabled first."
+    },
+    {
+      "term": "Range Crest (Spatial Fold)",
+      "desc": "Reno's geometric crest that folds space, used to teleport the group from the mag-lev to the warehouse."
+    },
+    {
+      "term": "Shadow-breach",
+      "desc": "Soren's technique of tearing an exit from absolute shadow, starved in the Ivory Dome's bright, clean architecture."
+    },
+    {
+      "term": "Key-sense / Late Recognition",
+      "desc": "The deep structural pull by which Keys recognize each other, as when Nemimoth senses Sylvara's Echo."
+    },
+    {
+      "term": "Prophecy of the Keys",
+      "desc": "The High Queen's claim that the Keys will stop being sentient and become weapons capable of dismantling or fabricating anything, and that a 'god' made them as jokes."
+    },
+    {
+      "term": "Sixfold Duality Presence",
+      "desc": "When Yurei fully surfaces along the bond, six violet eyes burn and her voice layers in perfect terrible unison."
+    },
+    {
+      "term": "Neutralization",
+      "desc": "Kurogane silver-white interruption art: stopping other people's miracles before they finish becoming dangerous. The clan's proud ordinary and Kitsuke's expected inheritance."
+    },
+    {
+      "term": "Cryokinesis",
+      "desc": "True-form innate ice weave; Kitsuke's mismatched gift, appearing as frost, ice lines, sheets, and snow flowers. Answers training when not clutched."
+    },
+    {
+      "term": "Telepathy",
+      "desc": "Haruto's ability to hear thoughts, sort them (threats, lies, private fears), and apply simple command pressure to a decision-center. Costs more for complex orders and fails more often."
+    },
+    {
+      "term": "Telepathic Command Pressure",
+      "desc": "Short, simple telepathic orders such as 'Stop' that turn the surface of a person more easily than deeper thoughts; used by Haruto in the Crimson Market."
+    },
+    {
+      "term": "Obsidian Travel Coin / Range Crest",
+      "desc": "Matte-black coin with mana-worked geometric seams that folds space; opens a violet-black sigil transporting users between compound and Neo-Haven. Landing drift can be off by degrees."
+    },
+    {
+      "term": "Stabilizer Lattice",
+      "desc": "Dark metal and cloudy crystal frame from Sae's workshop; seated into boundary stones to keep a junior's surge from ringing public wards. Argues with old stones, then settles."
+    },
+    {
+      "term": "Boundary Stones",
+      "desc": "Warded compound markers scored with neutralization marks over older cuts; conduct mana and hum when the lattice is seated."
+    },
+    {
+      "term": "Demonstration Season",
+      "desc": "Quarterly showing where junior disciples display control, elders watch bloodlines behave, and instructors pretend not to gamble on stagnation."
+    },
+    {
+      "term": "Gimmickless",
+      "desc": "Compound term for a disciple with no awakened weave; Jin turns the absence into room, footwork, and stubbornness."
+    },
+    {
+      "term": "Bloodline Mismatch / Divergence",
+      "desc": "Elders' framing for a gift that does not match the family brochure; Saito reframes it as uncomfortable, not cursed."
+    },
+    {
+      "term": "The Dome",
+      "desc": "A tournament spoken of in upper-realm rumor, associated with Naobito Yagami and the breaking of skies and people."
+    },
+    {
+      "term": "The Queen in White",
+      "desc": "A figure from old stories who collected futures; part of the Naobito legend."
+    },
+    {
+      "term": "The Keys",
+      "desc": "Six (or people-like) entities from old stories, 'not metal' but people or almost people; one is 'a girl who could eat rooms by being lonely too hard.'"
+    },
+    {
+      "term": "The Board",
+      "desc": "An old system that thought itself permanent until it cracked; Sae's lattice has no Board tags."
+    },
+    {
+      "term": "The Mistress",
+      "desc": "A referenced designer behind which half the clans may still be walking; Elder Morinaga warns names like Yagami make elders sit up because of what might sit behind them."
+    },
+    {
+      "term": "The Maiden",
+      "desc": "A referenced figure in the old-name list (Dome, Queen, Maiden, Key); possibly the Dark Maiden of the wider Override Zone, but this account leaves her deliberately unexplained."
+    },
+    {
+      "term": "Override Zone (primary continuity)",
+      "desc": "The main continuity this account sits outside of; the Timeline Notice says the central crisis resolved differently there."
+    },
+    {
+      "term": "Jointed Ice Giant (dream omen)",
+      "desc": "Kitsuke's recurring dream of a giant made of cold with a broken shrine-gate head; it laughs at his frost and is checked by winged dark and blue plasma. He turns the fear into training."
+    },
+    {
+      "term": "Copper-Weave Mute Room",
+      "desc": "A room shielded by copper-weave and old sigils that blocks telepathy in and out, forcing reliance on ordinary senses."
     }
   ],
   "rankings": [
@@ -147,6 +467,274 @@
     {
       "pair": "Selene (center)",
       "note": "High Weaver. Law and final process. Respected more than loved. Isolated by rank."
+    },
+    {
+      "pair": "Naobito Yagami & Yurei Himura",
+      "note": "Vessel and Dark Maiden bound by the puzzle; evolves from toxic possession and ownership into a fragile, chosen partnership where she becomes a voice and he decides when to call on her power."
+    },
+    {
+      "pair": "Naobito Yagami & Saya Kurogane",
+      "note": "Empathetic bond between a hunted vessel and a bleeding-heart Specialist; Saya sees his pain and loneliness and chooses to protect and understand him rather than erase him."
+    },
+    {
+      "pair": "Naobito Yagami & Niro Hart",
+      "note": "Mutual recognition of two people tired of being stepped on; Niro sees Naobito as a fascinating equal or new toy, while Naobito refuses to be anyone's victim and meets his challenge."
+    },
+    {
+      "pair": "Naobito Yagami & Lucien Moreau",
+      "note": "Mentor/guide dynamic; Lucien offers the Override Zone and watches Naobito's possible futures without interfering, acting as his closest ally among the Weavers."
+    },
+    {
+      "pair": "Naobito Yagami & Lady Elara Vane",
+      "note": "Tailor and project; Elara measures and stitches him, wants containment, and dispatches Reno as failsafe, yet is intrigued by his unprecedented symbiosis."
+    },
+    {
+      "pair": "Niro Hart & Mireille Vale",
+      "note": "Master and yandere devotee; Mireille kills for him with obsessive love, while Niro treats her as a useful, replaceable tool and keeps her at arm's length."
+    },
+    {
+      "pair": "Saya Kurogane & Master Kael Voss",
+      "note": "Novice and master; Kael grants her permission to observe Naobito and warns her about the Dark Maiden, while Saya's emotion challenges his neutrality."
+    },
+    {
+      "pair": "Lady Elara Vane & Reno",
+      "note": "Weaver and pawn; Reno is her body, catalyst-carrier, and hidden failsafe, silent and obedient, though he shows small acknowledgments of Naobito's growth."
+    },
+    {
+      "pair": "Naobito Yagami & Kenji/Haruto/Daisuke",
+      "note": "Victim and tormentors; years of bullying shaped Naobito's isolation and fueled Yurei's first acts of shadow violence against them."
+    },
+    {
+      "pair": "Yurei Himura & Mountain Village",
+      "note": "Oracle and community; she once healed and bound oaths for her village until warlords burned it, breaking her into the Dark Maiden."
+    },
+    {
+      "pair": "Naobito Yagami & Takumi Sato",
+      "note": "Victim and chief bully; Takumi's public humiliation triggers Yurei's lethal retaliation, making him the first major casualty of Naobito's possession."
+    },
+    {
+      "pair": "Niro Hart & Victor Hart",
+      "note": "Abusive father and thirteenth son; Victor's creed and lessons forge Niro's hatred, and Niro kills him during the massacre."
+    },
+    {
+      "pair": "Niro Hart & Elena Hart",
+      "note": "Mother and son bound by her silence; she watches his abuse and survives the massacre, forced to live with the truth."
+    },
+    {
+      "pair": "Niro Hart & Thaddeus Hart",
+      "note": "The only genuine bond Niro has; Thad protects him and is murdered by the other siblings, becoming the catalyst for Niro's slaughter."
+    },
+    {
+      "pair": "Niro Hart & Seraphine Hart",
+      "note": "Rival siblings; Seraphine is the golden heir who torments Niro and conspires to kill Thad, and Niro obliterates her in the massacre."
+    },
+    {
+      "pair": "Niro Hart & Edward Hart",
+      "note": "Tormentor and victim; Edward's psychological cruelty ends when Niro kills him first in the dining hall."
+    },
+    {
+      "pair": "Niro Hart & Nigel Hart",
+      "note": "Brute and target; Nigel's beatings are repaid when a Malevolence orb blows through his chest."
+    },
+    {
+      "pair": "Niro Hart & Lucien Moreau",
+      "note": "Student and Weaver mentor; Lucien trains Niro in the Override Zone and warns that consequences return."
+    },
+    {
+      "pair": "Thaddeus Hart & Seraphine Hart",
+      "note": "Opposing siblings; Thad tries to protect Niro while Seraphine mocks him and removes him as a threat."
+    },
+    {
+      "pair": "Victor Hart & Elena Hart",
+      "note": "Patriarch and silent wife; Victor demands obedience and Elena survives by never looking at Niro."
+    },
+    {
+      "pair": "Niro Hart & Director Cho",
+      "note": "New CEO and resistant director; Niro breaks Cho's will and forces his retirement."
+    },
+    {
+      "pair": "Naobito Yagami & Hana Yagami",
+      "note": "Mother and son: Hana reveals herself as the Mistress and Naobito's mother, triggering his infant memory; she tests and proudly watches him while he refuses to be her puzzle."
+    },
+    {
+      "pair": "Naobito Yagami & Kiritaka Yagami",
+      "note": "Father and son: Kiritaka confirms he knew of the Key design, expresses pride, warns of waking Keys, and teases Yurei before vanishing."
+    },
+    {
+      "pair": "Naobito Yagami & Kenshi Kashimo",
+      "note": "Childhood friends reunited: Kenshi travels across dimensions to back Naobito up, fights beside him to a draw against Asha, and hides with him in Neo-Haven."
+    },
+    {
+      "pair": "Naobito Yagami & Sylvara Kane",
+      "note": "Key of Duality and Key of Echoes: bonded through a mindscape meeting and a fused Range Crest, becoming the first two aligned Keys."
+    },
+    {
+      "pair": "Naobito Yagami & Asha Nkosi",
+      "note": "Rival respect: Asha fights them at full strength and, after being forced defensive, acknowledges them as worthy opponents worth keeping alive."
+    },
+    {
+      "pair": "Yurei Himura & Hana Yagami",
+      "note": "Mutual respect: Yurei calls Hana a true weaver who knows what she made, and Hana's test forces Yurei to accept Naobito rewriting her code."
+    },
+    {
+      "pair": "Yurei Himura & Sylvara Kane",
+      "note": "Maiden and echo: Yurei awakens Sylvara's Echo with a single command and calls her 'little echo,' guiding the new Key."
+    },
+    {
+      "pair": "Reno & Lady Elara Vane",
+      "note": "Weaver and pawn: Reno reports Naobito's stabilized stats to Elara, who smiles thinly and treats her pawn as a measuring tool."
+    },
+    {
+      "pair": "Kenshi Kashimo & Asha Nkosi",
+      "note": "Speed vs Beast: Kenshi threads the needle through her Apex Mantle, earning her grudging respect and a kinetic scar she keeps."
+    },
+    {
+      "pair": "Leon Cross & Proxy",
+      "note": "Collared Key and half-scavenged cyborg who move through the underbelly together; Proxy hacks and records while Leon provides firepower."
+    },
+    {
+      "pair": "Leon Cross & Iris Vane",
+      "note": "Vampire rescuer and extracted Key; she brokers his survival and he breaks Board symbols for her shadow war."
+    },
+    {
+      "pair": "Leon Cross & Niro Hart",
+      "note": "Mentor and student in mana compression; Niro teaches Leon to fold his cobalt beam into something decisive."
+    },
+    {
+      "pair": "Leon Cross & Kenshi Kashimo",
+      "note": "New allies who spar in the sublevel and fight side by side during the suppression-tower attack."
+    },
+    {
+      "pair": "Iris Vane & Lady Elara Vane",
+      "note": "Disowned sisters on opposite sides of the Board; Iris resents being used as Elara's VIP courier."
+    },
+    {
+      "pair": "Naobito Yagami & Nemimoth",
+      "note": "He calls her brother and stays behind in the Dome to let her escape; she fears for him and refuses to return if he is broken."
+    },
+    {
+      "pair": "Naobito Yagami & Soren Blackwood",
+      "note": "Weaver and vessel operating in tandem; Soren extracts Nemimoth on Naobito's order and later watches over her."
+    },
+    {
+      "pair": "Naobito Yagami & High Queen",
+      "note": "Antagonists: she expects and wounds him, he refuses to become her spectacle; she reveals the prophecy of the Keys."
+    },
+    {
+      "pair": "Nemimoth & Sylvara Kane",
+      "note": "Incomplete Keys who recognize each other; Nemimoth calls Sylvara 'sister' in the safehouse."
+    },
+    {
+      "pair": "Nemimoth & Hana Yagami",
+      "note": "Mistress and unawakened Key; Hana reassures Nemimoth and states she still requires unlocking."
+    },
+    {
+      "pair": "Nemimoth & The King",
+      "note": "Father and daughter; he risks his position to aid her escape and gives Leon the regulator backdoor."
+    },
+    {
+      "pair": "Nemimoth & High Queen",
+      "note": "Mother and daughter bound by isolation and control; Nemimoth fears her mother's appetite for breaking things."
+    },
+    {
+      "pair": "Saya Kurogane & Nemimoth",
+      "note": "Specialist and extracted Key; Saya offers safety and tells her she does not have to earn rest."
+    },
+    {
+      "pair": "Reno & Nemimoth",
+      "note": "Guard and charge; Reno escorts her to the safehouse and seals the wards while she connects with Sylvara."
+    },
+    {
+      "pair": "Kenshi Kashimo & Naobito Yagami",
+      "note": "Best friends; Kenshi fights to reach the news of Naobito's capture and is dragged into the Override Zone with him."
+    },
+    {
+      "pair": "High Queen & Lucien Moreau",
+      "note": "Rival authorities; she accuses him of overstepping as he stops her private duel and relocates the board."
+    },
+    {
+      "pair": "Yurei Himura & High Queen",
+      "note": "Antagonists: Yurei threatens the High Queen for wounding Naobito, layered sixfold and hostile."
+    },
+    {
+      "pair": "Kitsuke Kurogane & Haruto Yagami",
+      "note": "Telepathic mentor and protector: Haruto hears Kitsuke's loud thoughts, trains his ice indirectly, seats the lattice, and keeps clan panic off him; Kitsuke trusts him with wary affection."
+    },
+    {
+      "pair": "Kitsuke Kurogane & Ryo Kurogane",
+      "note": "Brothers: Ryo is the steady rear guard who insists on being told before Kitsuke leaves the walls and blocks the main path for him."
+    },
+    {
+      "pair": "Kitsuke Kurogane & Aya Kurogane",
+      "note": "Siblings: Aya worries fiercely, threatens war over nicknames, and refuses to let Kitsuke be pulled out of his depth quietly."
+    },
+    {
+      "pair": "Kitsuke Kurogane & Mei Kurogane",
+      "note": "Siblings: Mei's affection (snow flowers, waves, snowflake delight) makes the compound survivable for Kitsuke."
+    },
+    {
+      "pair": "Kitsuke Kurogane & Hanae Kurogane",
+      "note": "Mother and son: Hanae chooses arms-first comfort over politics and keeps a light on after the abduction."
+    },
+    {
+      "pair": "Kitsuke Kurogane & Kei Kashimo",
+      "note": "Trainee and trainer with a flirtatious edge: Kei teaches 'let it run ahead,' calls him snowflake, and is beaten protecting him."
+    },
+    {
+      "pair": "Kitsuke Kurogane & Jin Kurogane",
+      "note": "Sparring partners: Jin offers gimmickless belonging and shows that fights can be fun, not trials."
+    },
+    {
+      "pair": "Kitsuke Kurogane & Toma",
+      "note": "Rivals turned respectful: Toma underestimates Kitsuke, then bows from one knee and admits it."
+    },
+    {
+      "pair": "Kitsuke Kurogane & Elder Saito",
+      "note": "Diagnostician and patient: Saito names the cryokinesis clean and sets limits without calling it a curse."
+    },
+    {
+      "pair": "Kitsuke Kurogane & Suspicious Elder",
+      "note": "Manipulator and target: the elder offers a 'better place' that reads as a different cage."
+    },
+    {
+      "pair": "Kitsuke Kurogane & The Abductor",
+      "note": "Captor and captive: the operative sedates and removes Kitsuke for a master who collects useful winters."
+    },
+    {
+      "pair": "Haruto Yagami & Naobito Yagami",
+      "note": "Father and son (referenced): Haruto is not his father, but blood remembers direction; Naobito's legend shapes expectations around Haruto."
+    },
+    {
+      "pair": "Haruto Yagami & Sae",
+      "note": "Old connection through Naobito: Sae confessed to Naobito; Haruto collects her lattice and lets her old grievance land."
+    },
+    {
+      "pair": "Haruto Yagami & Kei Kashimo",
+      "note": "Accepted visitor and host: Haruto grants temporary status, tolerates her testing of doors, and trusts her with ice training."
+    },
+    {
+      "pair": "Haruto Yagami & Kenshi Kashimo",
+      "note": "Mutual respect across systems: Haruto calls Kenshi unconditionally caring, smart, and unbound."
+    },
+    {
+      "pair": "Kei Kashimo & Kenshi Kashimo",
+      "note": "Niece and uncle: Kei carries Kashimo weather and routes; Kenshi's reputation precedes her."
+    },
+    {
+      "pair": "Hanae Kurogane & Haruto Yagami",
+      "note": "Tense cooperation: Hanae fears Yagami authority but accepts practical protection and lattice prevention."
+    },
+    {
+      "pair": "Ryo Kurogane & Aya Kurogane",
+      "note": "Co-guardians: siblings coordinate to protect Kitsuke and the family wing."
+    },
+    {
+      "pair": "Kurogane Clan & Yagami Line",
+      "note": "Host clan and leading line: the compound lives under Yagami leadership after the crest changed weight."
+    },
+    {
+      "pair": "Kurogane Clan & Kashimo Route",
+      "note": "Cautious contact: officers distrust Kei's unauthorized entry while Haruto accepts her routes."
     }
   ],
   "trust": {
@@ -180,5 +768,2029 @@
       "summary": "Thirteen Weavers with peer assessments and a relationship map: core pairs, trust clusters, factional read of the rebellion era."
     }
   ],
-  "quotes_extra": []
+  "quotes_extra": [],
+  "locations": [
+    {
+      "name": "Naobito's Cramped Bedroom / Empty Apartment",
+      "desc": "A small, parentless apartment with a single futon, cracked mirror, and silence where Naobito lives alone and solves puzzles. It is where the puzzle is solved, Yurei possesses him, and he scrubs Takumi's blood from his hands."
+    },
+    {
+      "name": "School (Hallway, Cafeteria, Rooftop, Gates)",
+      "desc": "Naobito's school where bullies torment him and Takumi is killed in a bloody explosion. The hallway becomes a slaughterhouse; the cafeteria is where Reno collects Naobito; the rooftop becomes a training arena in the Zone."
+    },
+    {
+      "name": "Abandoned Rail Yard Lot",
+      "desc": "A junk collector's trash pile behind an old rail yard where Naobito finds the cursed shifting-rune puzzle. It later appears as a floating memory island in the Override Zone."
+    },
+    {
+      "name": "Lady Elara's Atelier",
+      "desc": "A Gothic-modern pocket-dimension workshop of black steel beams, smoked glass, crimson velvet, and obsidian mannequins. It enforces the Law of Containment absolutely, muzzling Yurei, and serves as Elara's measuring ground."
+    },
+    {
+      "name": "Override Zone",
+      "desc": "A timeless violet-black void outside normal time where the Law of Containment does not apply. Memory islands drift like lanterns; it serves as a forge for Naobito's training, negotiation with Yurei, and creation of his Range Crest."
+    },
+    {
+      "name": "Loom Sanctum",
+      "desc": "A vast circular chamber in a pocket dimension of silver and midnight threads, with twelve obsidian thrones and rotating Range Crest constellations. It is where the 12 True Weavers judge Naobito."
+    },
+    {
+      "name": "Sanctum of Absolute Zero",
+      "desc": "A hidden, perfectly neutral chamber beneath Mount Fuji of white marble pillars and silver Range Crests where Master Kael Voss resides and Saya reports."
+    },
+    {
+      "name": "Abandoned Subway Platform",
+      "desc": "A cracked, disused concrete platform deep beneath Tokyo where Saya traces violet residue and first meets Elara and Reno."
+    },
+    {
+      "name": "Late-Night Ramen Shop / Alley",
+      "desc": "A tiny, warm tonkotsu ramen shop in a narrow alley where Naobito and Saya share a humanizing meal, followed by Niro Hart's dramatic arrival."
+    },
+    {
+      "name": "Hart Spire (Obsidian Penthouse)",
+      "desc": "Niro Hart's luxurious top-floor penthouse of black marble, blood-red accents, and a grand piano overlooking Tokyo, where he plots and later receives Naobito."
+    },
+    {
+      "name": "Hart Manor",
+      "desc": "The family estate containing the training hall, portrait room, dining hall, west study, Thad's shrine-room, Niro's small room, and Victor's study."
+    },
+    {
+      "name": "Mountain Village (Yurei's Origin)",
+      "desc": "The village where every child was taught to weave and where young Yurei Himura served as a living oracle binding wounds and oaths, before warlords burned it."
+    },
+    {
+      "name": "Memory Islands (within Override Zone)",
+      "desc": "Floating islands inside the Zone displaying looping memories: Naobito's bedroom, the bloody school hallway, the burning village, and the rail-yard puzzle corner."
+    },
+    {
+      "name": "Hart family cemetery",
+      "desc": "Where Elias Hart is buried and eight-year-old Niro first sparks Malevolence Mana."
+    },
+    {
+      "name": "Training hall beneath the manor",
+      "desc": "A cold marble chamber lined with mirrors where Niro's 'lessons' are administered."
+    },
+    {
+      "name": "Hart Industries headquarters (47th floor)",
+      "desc": "The boardroom where Niro confronts and breaks Director Cho."
+    },
+    {
+      "name": "Mountain road",
+      "desc": "Where Thaddeus Hart is murdered in a staged car accident."
+    },
+    {
+      "name": "Hospital",
+      "desc": "Where Elena Hart is interviewed by detectives and repeats the home-invasion lie."
+    },
+    {
+      "name": "Crimson Veil Arena",
+      "desc": "A colossal stadium carved from black stone and living shadow hidden beneath three continents, reachable only through Folded gates. It is destroyed when Naobito, Yurei, and Kenshi's final clash shatters its spatial barriers, leaving an open crater under the sky."
+    },
+    {
+      "name": "Deep Space / Void Observatory",
+      "desc": "Naobito and Yurei's violet pocket of Corruption Mana where they watch the tournament broadcast, receive Kiritaka's visit, and feel Hana's pull."
+    },
+    {
+      "name": "Ethereal Sanctum",
+      "desc": "Hana Yagami's dimension of starlight and cosmic silk where she and Kiritaka observe the fight on ethereal screens and discuss the Hollow Shell."
+    },
+    {
+      "name": "Competitor's Lounge",
+      "desc": "A dim, concrete under-arena room where Naobito crashes after his first fight, tended by Saya and analyzed by Reno."
+    },
+    {
+      "name": "Under-Arena Corridors",
+      "desc": "Damp tunnels beneath the arena where Naobito, Saya, Sylvara, Reno, and Kenshi regroup between matches."
+    },
+    {
+      "name": "Weavers' VIP Box",
+      "desc": "A suspended arc of obsidian thrones where the 12 True Weavers watch, calculate, and are shocked by Naobito's power and Lucien's warmth."
+    },
+    {
+      "name": "Niro's Luxury Box",
+      "desc": "A private box on the opposite side where Niro Hart and Mireille Vale watch with wine and obsessive devotion."
+    },
+    {
+      "name": "Kurogane Estate",
+      "desc": "A traditional Japanese estate with warded walls where Saya's clan watches the VeilNet feed and plots."
+    },
+    {
+      "name": "Rival Corp Tower (Tokyo)",
+      "desc": "A sleek high-rise boardroom where a rival mega-corp CEO watches the feed and plots against Naobito."
+    },
+    {
+      "name": "Veil Wardens Bunker",
+      "desc": "A hidden bunker beneath the city where rogue vessels and independent mages monitor the tournament."
+    },
+    {
+      "name": "Primal Expanse",
+      "desc": "Asha Nkosi's lush, overgrown jungle domain where she keeps her scars as trophies after the fight."
+    },
+    {
+      "name": "Apex Spire",
+      "desc": "The grand hall of the True Weavers where Selene designates Naobito a Class-S Reality Anomaly and Viktor forges reality-binding chains."
+    },
+    {
+      "name": "Chrono-Sanctum",
+      "desc": "Lucien Moreau's timeless room of starlight where he moves chess pieces across a multiversal board, ending on Neo-Haven."
+    },
+    {
+      "name": "Neo-Haven, Nevada",
+      "desc": "A neon-lit desert city with thin Veil and smuggler Gates; Kenshi's home and later the hiding place of Naobito, Yurei, and Kenshi."
+    },
+    {
+      "name": "The Underbelly Dive Bar",
+      "desc": "A bar buried under the floating sector of the Ivory Board, wedged between rusted support pillars, where Syndicate Pawns watch illegal VeilNet feeds."
+    },
+    {
+      "name": "Pawn District",
+      "desc": "The Ivory Board's lower district of wet concrete, neon, and collared residents, sealed into kill-boxes during white lockdowns."
+    },
+    {
+      "name": "Ivory Dome",
+      "desc": "The High Queen's pristine white chamber of seamless floors and silence wards, designed for isolation and containment, breached by the Weavers' assault."
+    },
+    {
+      "name": "Ivory Board Elite District Overlook",
+      "desc": "High-altitude terraces and observation spires above the Pawn District, where Soren and Nemimoth watch the damaged Dome."
+    },
+    {
+      "name": "Neo Haven",
+      "desc": "A rain-soaked Thin Veil city of stacked hab-blocks, mag-lev transit, and black-market junctions, used as a safe staging ground."
+    },
+    {
+      "name": "Neo Haven Mag-Lev Transit",
+      "desc": "Crowded vertical transit lines where Iris masks Leon's Key signature and Reno folds the group out."
+    },
+    {
+      "name": "Abandoned Warehouse (Neo Haven)",
+      "desc": "A high-concrete, broken-skylight warehouse where Reno folds the group and removes Leon's collar."
+    },
+    {
+      "name": "Niro Hart's Penthouse (Neo Haven)",
+      "desc": "A pristine glass-walled penthouse high above the city, serving as neutral ground with beds, privacy wards, and a warded sublevel."
+    },
+    {
+      "name": "Warded Sublevel (Testing Floor)",
+      "desc": "A black-plated containment floor beneath the penthouse where Leon fires the Key of Focus and Niro teaches compression."
+    },
+    {
+      "name": "Ivory Board Suppression Tower",
+      "desc": "A Board-affiliated tower anchoring the collar-signal relay for three lower sectors, publicly destroyed by Leon's compressed cobalt beam."
+    },
+    {
+      "name": "The Loom Sanctum",
+      "desc": "An immense hall of living thread and pale cosmic light where Hana sits on a throne of woven starlight and the Weavers argue over Nemimoth."
+    },
+    {
+      "name": "Override Zone (Obsidian Platform)",
+      "desc": "A vast violet-black void outside time where Lucien drags the factions to discuss the prophecy."
+    },
+    {
+      "name": "Temporary Domicile (Elara's Safehouse)",
+      "desc": "A sealed, private, warded apartment arranged by Elara where Nemimoth is housed with Reno, Saya, and Sylvara."
+    },
+    {
+      "name": "Kurogane Compound",
+      "desc": "Home of the Kurogane clan: pale stone, black banners, practice yards, family wing, archive wing, and boundary stones. Where Kitsuke awakens, trains, and is abducted."
+    },
+    {
+      "name": "Elder Morinaga's House",
+      "desc": "Smells of old paper and roasted barley tea; where shaped history is poured with tea."
+    },
+    {
+      "name": "Assessment Room (Archive Wing)",
+      "desc": "Old room with faded wall charms behind the archive wing where Elder Saito measures weaves with a lens."
+    },
+    {
+      "name": "Neo-Haven",
+      "desc": "American rain-and-neon city reached by obsidian travel coin; contains the Crimson Market District."
+    },
+    {
+      "name": "Crimson Market District",
+      "desc": "Neo-Haven market of fried oil, wet wiring, red neon, and illegal upper rooms; where Kitsuke learns the city sells everything, including attention."
+    },
+    {
+      "name": "Sae's Mute Workshop",
+      "desc": "Copper-weave dampened room in the Crimson Market where telepathy cannot enter or leave; lit by ordinary lamps, full of tools and sealed work."
+    },
+    {
+      "name": "Outer Path / North Gate",
+      "desc": "Packed dirt beyond the compound's north gate where banners stop; meeting place for Kei Kashimo."
+    },
+    {
+      "name": "West Boundary Stones",
+      "desc": "Mossy old markers scored with Kurogane neutralization marks over older cuts; where Haruto seats the stabilizer lattice."
+    },
+    {
+      "name": "North Storehouse Roof",
+      "desc": "Warm roof where Aya, Mei, and Kitsuke trespass and watch the compound; later Jin and Kitsuke watch sunrise."
+    },
+    {
+      "name": "East Records Annex",
+      "desc": "Where the suspicious elder and sealed-case courier speak too closely and approach Kitsuke."
+    },
+    {
+      "name": "Central Courtyard",
+      "desc": "Most visible place in the compound; where Kitsuke and Haruto land from Neo-Haven and where the abduction occurs."
+    },
+    {
+      "name": "Family Wing",
+      "desc": "Kurogane family rooms: kitchen table, futons, heater; the one place that still feels like theirs."
+    },
+    {
+      "name": "Upper Realms (rumored)",
+      "desc": "Rumored higher sphere of tournaments, queens, and Keys; source of stories that make servants lower their voices."
+    }
+  ],
+  "events": [
+    {
+      "title": "Solving the Cursed Puzzle",
+      "summary": "Naobito fits the final shifting rune in his bedroom; reality snaps to black and Yurei Himura pulls him into the void, binding him with shadow lashes and infinite bandages.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "First Possession and Bully Attack",
+      "summary": "Yurei marks Naobito with six wings and extra eyes, then forces a spell from his lips that makes three bullies collapse with invisible black bandages.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura",
+        "Kenji",
+        "Haruto",
+        "Daisuke"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "Takumi Sato's Death",
+      "summary": "Takumi mocks and shoves Naobito in the hallway; Yurei torments him with infinite imaginary pain before his body combusts from the inside out, spraying blood across the corridor.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura",
+        "Takumi Sato"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "Love and Ownership Conversation",
+      "summary": "Naobito demands to know if Yurei loves him; she answers that she loves him as a goddess loves her favorite doll, by ownership, and threatens to make another boy explode.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "Elara's Collection and Atelier Interrogation",
+      "summary": "Reno folds Naobito from the cafeteria to Elara's atelier with an obsidian coin; Elara enforces the Law of Containment, muzzling Yurei, and questions Naobito about the puzzle's origin and intent.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura",
+        "Reno",
+        "Lady Elara Vane"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "Three Choices",
+      "summary": "Elara offers containment training, full separation, or refusal (leading to Specialists); Naobito rejects all and demands agency.",
+      "participants": [
+        "Naobito Yagami",
+        "Lady Elara Vane",
+        "Reno"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "Lucien's Arrival and Override Zone Offer",
+      "summary": "Lucien Moreau appears, revealing Naobito will not die as Yurei's vessel but evolve beyond gods, and offers the time-paused Override Zone as a place to grow without pressure.",
+      "participants": [
+        "Naobito Yagami",
+        "Lucien Moreau",
+        "Lady Elara Vane",
+        "Reno"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "Entry into the Override Zone",
+      "summary": "Naobito chooses the Zone; Yurei floods back into him with wings and eyes; he and Lucien arrive in the violet void with memory islands.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura",
+        "Lucien Moreau"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "Toxic Confrontation and Negotiation",
+      "summary": "Naobito calls the bond toxic and demands choice; Yurei argues she was his only protector; he asks her to be a voice, not a possessor. She withdraws extra eyes and wings, becoming a whisper in his mind.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "Combat Training and Range Crest Creation",
+      "summary": "In the Zone, Naobito fights shadow bullies bare-handed, then creates his own 'Sixfold Eclipse' Range Crest, learning to weave Corruption Mana with intent rather than leaking it.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura",
+        "Lucien Moreau",
+        "Reno"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "Saya's Investigation",
+      "summary": "Saya traces violet residue at the school and an abandoned subway platform, feeling Naobito's loneliness, and vows to give him a chance before erasure.",
+      "participants": [
+        "Saya Kurogane"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "Kael's Briefing",
+      "summary": "Saya reports to Master Kael Voss in the Sanctum of Absolute Zero; he permits observation and warns that the Dark Maiden will burn the world to keep Naobito.",
+      "participants": [
+        "Saya Kurogane",
+        "Master Kael Voss"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "Return to Real World and Meeting Saya",
+      "summary": "Naobito exits the Zone to a Tokyo rooftop and meets Saya, who shares her past and the 12 Weavers' stances over a late-night ramen meal.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura",
+        "Saya Kurogane"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "Niro Hart's Introduction",
+      "summary": "Niro arrives in a limousine after the ramen dinner, introduces himself as a bored quintillionaire killer, and offers Naobito partnership; he later details his family massacre.",
+      "participants": [
+        "Naobito Yagami",
+        "Saya Kurogane",
+        "Niro Hart",
+        "Mireille Vale",
+        "Yurei Himura"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "Loom Sanctum Trial",
+      "summary": "The 12 True Weavers gather to judge Naobito; he demands proper introductions, reads the Mistress's geometric script on Selene's shoulder, and reveals the puzzle's deeper purpose.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura",
+        "Lucien Moreau",
+        "Lady Elara Vane",
+        "Reno",
+        "High Weaver Selene Arkwright",
+        "Master Kael Voss",
+        "Viktor Drago",
+        "Amara Khalil",
+        "Mei Ling Zhao",
+        "Isabella Cortez",
+        "Omar al-Sayed",
+        "Asha Nkosi",
+        "Dr. Elias Thorn",
+        "Freya Haldorsdottir",
+        "Soren Blackwood"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "Six Keys Revelation",
+      "summary": "Naobito declares the six-winged puzzle was one of six keys and that he himself is the puzzle designed by the Mistress of Threads, making him unsealable and potentially the next evolution of the Law.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura",
+        "Lucien Moreau",
+        "High Weaver Selene Arkwright"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "Departure to Niro Hart",
+      "summary": "Naobito abruptly asks Reno to take him to Niro Hart, bypassing the council; Reno folds him to Hart Spire's penthouse balcony, where Niro welcomes him.",
+      "participants": [
+        "Naobito Yagami",
+        "Reno",
+        "Niro Hart",
+        "Mireille Vale"
+      ],
+      "novel": "Override Zone: The Dark Maiden"
+    },
+    {
+      "title": "Funeral of Elias Hart",
+      "summary": "At eight years old, Niro attends his grandfather's funeral, hears Victor's creed that weakness is a disease, and ignites the first spark of Malevolence Mana.",
+      "participants": [
+        "Niro Hart",
+        "Victor Hart",
+        "Elena Hart",
+        "Thaddeus Hart",
+        "Seraphine Hart",
+        "Edward Hart",
+        "Nigel Hart"
+      ],
+      "novel": "Override Zone: The 'Hart' that shall beat"
+    },
+    {
+      "title": "The Lessons (ages 8-12)",
+      "summary": "Victor and four siblings subject Niro to physical, psychological, and verbal abuse in the training hall, forging his hatred and resolve.",
+      "participants": [
+        "Niro Hart",
+        "Victor Hart",
+        "Thaddeus Hart",
+        "Edward Hart",
+        "Nigel Hart",
+        "Seraphine Hart",
+        "Elena Hart"
+      ],
+      "novel": "Override Zone: The 'Hart' that shall beat"
+    },
+    {
+      "title": "Mother's Choice",
+      "summary": "Elena watches Niro's abuse from behind one-way glass and chooses silence and survival over protecting him.",
+      "participants": [
+        "Elena Hart",
+        "Niro Hart",
+        "Seraphine Hart",
+        "Victor Hart"
+      ],
+      "novel": "Override Zone: The 'Hart' that shall beat"
+    },
+    {
+      "title": "Accidental Entry into the Override Zone",
+      "summary": "Fourteen-year-old Niro, beaten and angry, tears a hole into the Override Zone and meets Lucien Moreau, who allows him to train there.",
+      "participants": [
+        "Niro Hart",
+        "Lucien Moreau"
+      ],
+      "novel": "Override Zone: The 'Hart' that shall beat"
+    },
+    {
+      "title": "Override Zone Training: How to Hold Hate",
+      "summary": "Lucien teaches Niro to compress his screaming Malevolence Mana into dense, controlled orbs, marking his first real step toward power.",
+      "participants": [
+        "Niro Hart",
+        "Lucien Moreau"
+      ],
+      "novel": "Override Zone: The 'Hart' that shall beat"
+    },
+    {
+      "title": "Thad's Plea to Victor",
+      "summary": "Thad asks Victor to stop Niro's lessons and offers to surrender his inheritance; Victor refuses and Seraphine mocks him.",
+      "participants": [
+        "Thaddeus Hart",
+        "Victor Hart",
+        "Seraphine Hart"
+      ],
+      "novel": "Override Zone: The 'Hart' that shall beat"
+    },
+    {
+      "title": "Murder of Thaddeus Hart",
+      "summary": "Seraphine, Edward, and Nigel stage Thad's death as a car accident on the mountain road to remove his protection of Niro.",
+      "participants": [
+        "Thaddeus Hart",
+        "Seraphine Hart",
+        "Edward Hart",
+        "Nigel Hart",
+        "Niro Hart"
+      ],
+      "novel": "Override Zone: The 'Hart' that shall beat"
+    },
+    {
+      "title": "Discovery of the Murder Plot",
+      "summary": "On the eve of his sixteenth birthday, Niro overhears Seraphine, Edward, and Nigel confessing that they killed Thad, snapping his last mercy.",
+      "participants": [
+        "Niro Hart",
+        "Seraphine Hart",
+        "Edward Hart",
+        "Nigel Hart"
+      ],
+      "novel": "Override Zone: The 'Hart' that shall beat"
+    },
+    {
+      "title": "Hart Family Massacre",
+      "summary": "Sixteen-year-old Niro slaughters his father and ten siblings with Malevolence Mana during a family dinner, sparing only his mother.",
+      "participants": [
+        "Niro Hart",
+        "Victor Hart",
+        "Seraphine Hart",
+        "Edward Hart",
+        "Nigel Hart",
+        "Elena Hart"
+      ],
+      "novel": "Override Zone: The 'Hart' that shall beat"
+    },
+    {
+      "title": "The Quiet After Blood",
+      "summary": "After the massacre, Niro visits Thad's shrine-room, changes into a clean identical outfit, and steels himself before seizing the empire.",
+      "participants": [
+        "Niro Hart"
+      ],
+      "novel": "Override Zone: The 'Hart' that shall beat"
+    },
+    {
+      "title": "Cover-Up and Inheritance",
+      "summary": "Niro coerces Elena into telling police a home-invasion story, transfers ownership of Hart Industries, and inherits everything at sixteen.",
+      "participants": [
+        "Niro Hart",
+        "Elena Hart"
+      ],
+      "novel": "Override Zone: The 'Hart' that shall beat"
+    },
+    {
+      "title": "Police Interview",
+      "summary": "Elena repeats the home-invasion lie to detectives while Niro watches through the glass with his demonic smile.",
+      "participants": [
+        "Elena Hart",
+        "Niro Hart"
+      ],
+      "novel": "Override Zone: The 'Hart' that shall beat"
+    },
+    {
+      "title": "Hiring of Mireille Vale",
+      "summary": "At nineteen, Niro hires Mireille as his secretary after she declares her obsessive devotion to his ego and elegance.",
+      "participants": [
+        "Niro Hart",
+        "Mireille Vale"
+      ],
+      "novel": "Override Zone: The 'Hart' that shall beat"
+    },
+    {
+      "title": "First Boardroom Kill",
+      "summary": "Niro exposes Director Cho's crimes and has Mireille break his wrist and threaten him, forcing Cho's retirement and securing the board.",
+      "participants": [
+        "Niro Hart",
+        "Mireille Vale",
+        "Director Cho"
+      ],
+      "novel": "Override Zone: The 'Hart' that shall beat"
+    },
+    {
+      "title": "Empire Building and Boredom",
+      "summary": "From nineteen to twenty-seven, Niro expands Hart Industries, kills when necessary, and grows bored as a quintillionaire.",
+      "participants": [
+        "Niro Hart",
+        "Mireille Vale"
+      ],
+      "novel": "Override Zone: The 'Hart' that shall beat"
+    },
+    {
+      "title": "Rumor of the Tokyo Vessel",
+      "summary": "At twenty-seven, Niro hears of a boy in Tokyo bonded to an ancient maiden and leaking Corruption Mana, sparking his interest.",
+      "participants": [
+        "Niro Hart"
+      ],
+      "novel": "Override Zone: The 'Hart' that shall beat"
+    },
+    {
+      "title": "Blood Tournament Opening",
+      "summary": "The Crimson Veil Arena opens with thousands of spectators; the 12 True Weavers, Niro Hart, and representatives of the Nine Realms are introduced before the first bouts.",
+      "participants": [
+        "VeilNet Anchor",
+        "High Weaver Selene Arkwright",
+        "Niro Hart",
+        "Mireille Vale"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Naobito's Meteor Arrival",
+      "summary": "Naobito and Yurei shatter their viewing window and descend from deep space as a blazing violet meteor, cracking the arena floor and announcing the Symbiote-Host bracket.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Hana Yagami's Arrival",
+      "summary": "The Mistress of Threads steps into the pit in cyan mana, freezing the arena, and triggers a memory flashback of Naobito's infancy as the first Key.",
+      "participants": [
+        "Hana Yagami",
+        "Naobito Yagami",
+        "Yurei Himura"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Naobito vs Lord Varak",
+      "summary": "Lord Varak shatters Hana's gate to challenge Naobito, but is systematically dismantled and bound in violet bandages within seconds.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura",
+        "Lord Varak of the Red Abyss",
+        "Hana Yagami"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Isolde Aster's Challenge",
+      "summary": "The revived Sword Saint of Lightning fights Naobito in a cyan-violet storm dome, delivers Hana's message that the tournament is a filter and the Keys are hidden among the fighters, and whispers 'Pass' upon defeat.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura",
+        "Isolde Aster"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Hollow Shell Split & Mindscape Bridging",
+      "summary": "Yurei is pulled into Naobito's mindscape (a rainy apartment) to bridge broken soul-nodes while Naobito fights Isolde solo, then returns with administrative access and optimized power.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura",
+        "Hana Yagami"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Sylvara's Awakening",
+      "summary": "Yurei's voice tells Sylvara to scream; her Echo ability awakens in an apocalyptic sonic blast that staggers the Goliath.",
+      "participants": [
+        "Sylvara Kane",
+        "Yurei Himura",
+        "Naobito Yagami"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Fused Range Crest vs Goliath",
+      "summary": "Naobito and Sylvara create a fused Range Crest and launch the Goliath several light-years into deep space.",
+      "participants": [
+        "Naobito Yagami",
+        "Sylvara Kane",
+        "Yurei Himura"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Mindscape Bonding",
+      "summary": "Naobito pulls Sylvara into his mindscape, where she feels like family; they agree to finish the fight together.",
+      "participants": [
+        "Naobito Yagami",
+        "Sylvara Kane",
+        "Yurei Himura"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Kenshi's Arrival",
+      "summary": "Kenshi Kashimo travels from Neo-Haven via smuggler Gate, breaks into the under-arena corridor, and reunites with Naobito.",
+      "participants": [
+        "Kenshi Kashimo",
+        "Naobito Yagami",
+        "Saya Kurogane",
+        "Sylvara Kane",
+        "Reno"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Asha Nkosi's Challenge",
+      "summary": "Asha invokes her authority as a True Weaver to turn her match into a 2v1 against Naobito/Yurei and Kenshi, demanding a full-strength fight.",
+      "participants": [
+        "Asha Nkosi",
+        "Naobito Yagami",
+        "Yurei Himura",
+        "Kenshi Kashimo"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Hollow Shell vs Asha",
+      "summary": "Naobito uses K'tai to house Yurei in a reconstructed body, fighting Asha with scythe, wings, and Kenshi's kinetic support, then rewriting Yurei's code to phase through Apex Mantle.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura",
+        "Kenshi Kashimo",
+        "Asha Nkosi"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Arena Destruction",
+      "summary": "The final three-way clash shatters the Crimson Veil Arena's spatial barriers, vaporizing spectator rows and exposing the fight to the open sky.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura",
+        "Kenshi Kashimo",
+        "Asha Nkosi"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Draw Declaration & Class-S Designation",
+      "summary": "Selene declares the match a draw and designates Naobito a Class-S Reality Anomaly, sealing the footage.",
+      "participants": [
+        "High Weaver Selene Arkwright",
+        "Naobito Yagami",
+        "Yurei Himura",
+        "Kenshi Kashimo",
+        "Asha Nkosi"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Finals Announcement",
+      "summary": "Hana declares Naobito already qualified for the finals and places him directly into the Weavers' VIP box, where Lucien shows unprecedented warmth.",
+      "participants": [
+        "Hana Yagami",
+        "Naobito Yagami",
+        "Lucien Moreau",
+        "The 12 True Weavers"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Kiritaka's Visit",
+      "summary": "Naobito's immortal father appears in deep space, confirms his knowledge of the Key design, expresses pride, and warns that the remaining Keys are waking.",
+      "participants": [
+        "Kiritaka Yagami",
+        "Naobito Yagami",
+        "Yurei Himura"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Epilogues",
+      "summary": "Asha keeps her scars in the Primal Expanse; Selene designates Naobito Class-S and Viktor forges reality-binding chains while Thorn drafts a chimera; Lucien moves three pieces onto a Neo-Haven square.",
+      "participants": [
+        "Asha Nkosi",
+        "High Weaver Selene Arkwright",
+        "Viktor Drago",
+        "Dr. Elias Thorn",
+        "Lucien Moreau"
+      ],
+      "novel": "Override Zone: The Blood Tournament"
+    },
+    {
+      "title": "Blood Tournament Aftermath Broadcast",
+      "summary": "VeilNet Live in Lusthara interviews Kenshi and Naobito about the arena's collapse and the anomalous rewrite event while millions watch.",
+      "participants": [
+        "VeilNet Anchor",
+        "Kenshi Kashimo",
+        "Naobito Yagami"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "Leon Cross's Bar Confrontation and White Lockdown",
+      "summary": "An Ivory Board Knight demands Leon's bar and power grid after an unregistered Key signature; Leon's collar flares; Iris Vane tears a blood rift and extracts Leon and Proxy.",
+      "participants": [
+        "Leon Cross",
+        "Proxy",
+        "Iris Vane"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "Extraction to Neo Haven and Iris's Deal",
+      "summary": "Iris brings Leon and Proxy to Neo Haven and offers protection and collar removal in exchange for breaking Board assets.",
+      "participants": [
+        "Leon Cross",
+        "Proxy",
+        "Iris Vane"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "Reno's Fold and Shadow-War Revelation",
+      "summary": "Reno folds the group into a warehouse, reveals the Weavers are building a rebellion against the High Queen, and removes Leon's collar, awakening the Key of Focus.",
+      "participants": [
+        "Leon Cross",
+        "Proxy",
+        "Iris Vane",
+        "Reno"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "Niro's Penthouse and Neutral-Ground Arrangement",
+      "summary": "The group arrives at Niro's penthouse; Niro offers shelter and a front-row seat to Board damage while Mireille distrusts Leon.",
+      "participants": [
+        "Leon Cross",
+        "Proxy",
+        "Iris Vane",
+        "Reno",
+        "Niro Hart",
+        "Mireille Vale"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "Kenshi's Arrival and Sparring",
+      "summary": "Kenshi arrives at the penthouse, spars with Leon in the sublevel, and the group plans a public strike on a Board suppression tower.",
+      "participants": [
+        "Leon Cross",
+        "Proxy",
+        "Iris Vane",
+        "Kenshi Kashimo",
+        "Niro Hart",
+        "Mireille Vale"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "Leon's Sublevel Training and Compression Lesson",
+      "summary": "Leon fires the Key of Focus in the warded sublevel; feeling it is only a laser, he receives Niro's mana-compression lesson and demonstration of 5 mega seams.",
+      "participants": [
+        "Leon Cross",
+        "Kenshi Kashimo",
+        "Proxy",
+        "Iris Vane",
+        "Niro Hart",
+        "Mireille Vale"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "Naobito's Sealed Meeting with Six Weavers",
+      "summary": "Naobito asks Amara, Mei Ling, Isabella, Omar, Freya, and Soren to help extract Nemimoth from the Ivory Dome; they agree to a preliminary assessment.",
+      "participants": [
+        "Naobito Yagami",
+        "Amara Khalil",
+        "Mei Ling Zhao",
+        "Isabella Cortez",
+        "Omar al-Sayed",
+        "Freya Haldorsdottir",
+        "Soren Blackwood"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "Yurei's Warning in the Mindscape",
+      "summary": "Yurei confronts Naobito about moving too fast and risking both of them for Nemimoth; he embraces her and reaffirms he is not replacing her.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "Shadow-Breach of the Ivory Dome",
+      "summary": "Soren pulls Naobito into Nemimoth's chamber; Nemimoth greets him as brother; the High Queen enters expecting him; Naobito orders Soren to take Nemimoth and stays behind.",
+      "participants": [
+        "Naobito Yagami",
+        "Soren Blackwood",
+        "Nemimoth",
+        "High Queen"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "Elite District Overlook Watch",
+      "summary": "Soren and Nemimoth watch the damaged Ivory Dome from the elite district terrace; Nemimoth vows not to return if Naobito is broken.",
+      "participants": [
+        "Soren Blackwood",
+        "Nemimoth"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "Naobito vs High Queen",
+      "summary": "Naobito fights the High Queen while restraining himself; she wounds him; Yurei surfaces with six eyes and threatens her; the six Weavers assault the Dome; Lucien stops time.",
+      "participants": [
+        "Naobito Yagami",
+        "Yurei Himura",
+        "High Queen",
+        "Amara Khalil",
+        "Mei Ling Zhao",
+        "Isabella Cortez",
+        "Omar al-Sayed",
+        "Freya Haldorsdottir",
+        "Soren Blackwood",
+        "Lucien Moreau"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "High Queen's Prophecy",
+      "summary": "The High Queen tells Naobito the Keys will become sentient weapons and 'god's funniest jokes'; Lucien drags all into the Override Zone to discuss it.",
+      "participants": [
+        "Naobito Yagami",
+        "High Queen",
+        "Lucien Moreau"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "Kenshi's Warning Call",
+      "summary": "In Niro's sublevel, Kenshi receives a call that Naobito is locked in the Ivory Dome with the High Queen; the group reacts and prepares.",
+      "participants": [
+        "Kenshi Kashimo",
+        "Leon Cross",
+        "Proxy",
+        "Iris Vane",
+        "Niro Hart",
+        "Mireille Vale"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "Leon's Public Destruction of Suppression Tower",
+      "summary": "Leon fires a compressed cobalt beam through the Board suppression tower; Kenshi handles Enforcers; Proxy hijacks feeds; the King provides the regulator backdoor; the pulse dies and collars fail safe; Leon finishes the tower.",
+      "participants": [
+        "Leon Cross",
+        "Kenshi Kashimo",
+        "Proxy",
+        "The King"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "Nemimoth's Extraction to the Loom Sanctum",
+      "summary": "Nemimoth appears in the Loom Sanctum where Hana tells her she is not yet an awakened Key; the Weavers argue over Lucien's overreach.",
+      "participants": [
+        "Nemimoth",
+        "Hana Yagami",
+        "High Weaver Selene Arkwright",
+        "Master Kael Voss",
+        "Viktor Drago",
+        "Lady Elara Vane",
+        "Dr. Elias Thorn"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "Nemimoth's Safehouse and Sister Recognition",
+      "summary": "Reno, Saya, and Sylvara receive Nemimoth in Elara's temporary domicile; Nemimoth senses Sylvara's half-awakened Key of Echoes and calls her sister.",
+      "participants": [
+        "Nemimoth",
+        "Reno",
+        "Saya Kurogane",
+        "Sylvara Kane"
+      ],
+      "novel": "Override Zone: Cobalt Knight"
+    },
+    {
+      "title": "Timeline Notice",
+      "summary": "The account opens by stating it sits outside primary Override Zone continuity; certain referenced events are deliberately left unexplained and not every detail is authoritative.",
+      "participants": [
+        "Narrator"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "Overheard Names in the Linen Room",
+      "summary": "Kitsuke overhears two maids whispering about Naobito Yagami, the Dome, the Queen, the Keys, and the Mistress, seeding the compound's hidden history.",
+      "participants": [
+        "Kitsuke Kurogane",
+        "The Compound Maids"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "Telepathy Confrontation",
+      "summary": "Haruto tells Kitsuke his thoughts are loud, admits he hears and sorts minds, and promises not to report private thoughts; Kitsuke's fear becomes wary trust.",
+      "participants": [
+        "Kitsuke Kurogane",
+        "Haruto Yagami"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "Family Dinner Disclosure",
+      "summary": "Kitsuke tells his family about Haruto's telepathy; Ryo, Aya, Mei, and Hanae react with anger, worry, and practical protection.",
+      "participants": [
+        "Kitsuke Kurogane",
+        "Ryo Kurogane",
+        "Aya Kurogane",
+        "Mei Kurogane",
+        "Hanae Kurogane"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "Crimson Market Errand",
+      "summary": "Haruto takes Kitsuke to Neo-Haven's Crimson Market by obsidian coin, commands a lure to stop, and collects a cleaned stabilizer lattice from Sae in a mute workshop.",
+      "participants": [
+        "Kitsuke Kurogane",
+        "Haruto Yagami",
+        "Sae",
+        "The Crimson Market Lure"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "Public Cryokinesis Awakening",
+      "summary": "During demonstration season, Kitsuke's palm on the test crystal produces frost and ice instead of neutralization, shocking the clan; Haruto shields him from gossip.",
+      "participants": [
+        "Kitsuke Kurogane",
+        "Instructor Daisuke",
+        "Haruto Yagami",
+        "Kurogane Clan"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "Saito's Assessment",
+      "summary": "Elder Saito measures Kitsuke's palm and names the power true-form Cryokinesis, writes limits, and warns that the compound's pride may be harder to train than the ice.",
+      "participants": [
+        "Kitsuke Kurogane",
+        "Elder Saito",
+        "Haruto Yagami"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "Kei Kashimo Arrives",
+      "summary": "Kei meets Kitsuke on the outer path, demonstrates speed, gives advice to let ice run ahead, and flirts with the nickname snowflake.",
+      "participants": [
+        "Kitsuke Kurogane",
+        "Kei Kashimo"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "Kei's Unauthorized Entry",
+      "summary": "Kei enters the compound through rear stones without escort; Haruto grants temporary visitor status under Mother's conditions.",
+      "participants": [
+        "Kei Kashimo",
+        "Haruto Yagami",
+        "Hanae Kurogane",
+        "Kurogane Clan"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "Lattice Seating at West Boundary",
+      "summary": "Haruto seats the stabilizer lattice into the west boundary stones; the hum steadies the line and Kitsuke learns not to answer the surge with a wall.",
+      "participants": [
+        "Haruto Yagami",
+        "Kei Kashimo",
+        "Kitsuke Kurogane"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "Storehouse Roof Trespass",
+      "summary": "Aya, Mei, and Kitsuke climb the north storehouse roof; Haruto overrides a courier's alarm and lets the children be children.",
+      "participants": [
+        "Kitsuke Kurogane",
+        "Aya Kurogane",
+        "Mei Kurogane",
+        "Haruto Yagami",
+        "The Sealed-Case Courier"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "Toma Dominance Bout",
+      "summary": "Kitsuke sends ice ahead and puts the older neutralization elite Toma on one knee in the center square, earning respect.",
+      "participants": [
+        "Kitsuke Kurogane",
+        "Toma",
+        "Instructor Daisuke",
+        "Kurogane Clan"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "Jin's Sealed Exchange",
+      "summary": "Gimmickless Jin Kurogane challenges and defeats Kitsuke in pure hand-to-hand, teaching him that fights can be fun and that not all allies light up.",
+      "participants": [
+        "Kitsuke Kurogane",
+        "Jin Kurogane",
+        "Instructor Daisuke"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "First Ice Training",
+      "summary": "Kei trains Kitsuke at the west edge to throw frost lines with intention; he converts a panic surge into a controlled sheet.",
+      "participants": [
+        "Kitsuke Kurogane",
+        "Kei Kashimo",
+        "Haruto Yagami"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "Dream of the Ice Giant",
+      "summary": "Kitsuke dreams of a jointed ice giant checked by a winged dark figure and a blue-plasma grinner, then trains before dawn to turn the fear into aimed cuts.",
+      "participants": [
+        "Kitsuke Kurogane"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "Snow Flower for Mei",
+      "summary": "After the assessment, Kitsuke makes a small ice flower on the engawa; Mei licks it and laughs, and the family holds together.",
+      "participants": [
+        "Kitsuke Kurogane",
+        "Mei Kurogane",
+        "Aya Kurogane",
+        "Hanae Kurogane"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "Suspicious Elder's Offer",
+      "summary": "Near the east records annex, a kindly elder warns Kitsuke that some clan attention is inventory and offers a 'better place,' sounding like a different cage.",
+      "participants": [
+        "Kitsuke Kurogane",
+        "Suspicious Elder",
+        "The Sealed-Case Courier"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    },
+    {
+      "title": "Abduction of Kitsuke",
+      "summary": "An unknown matte-black operative defeats Kei, sedates Kitsuke, and carries him out; Haruto arrives too late. Kitsuke is held for a master who collects useful winters.",
+      "participants": [
+        "Kitsuke Kurogane",
+        "Kei Kashimo",
+        "The Abductor",
+        "Haruto Yagami",
+        "Hanae Kurogane",
+        "Ryo Kurogane",
+        "Aya Kurogane",
+        "Mei Kurogane",
+        "Jin Kurogane"
+      ],
+      "novel": "Override Zone: The Kurogane Heir"
+    }
+  ],
+  "quotes": [
+    {
+      "speaker": "Yurei Himura",
+      "quote": "Heeheehee… clever little lamb… you opened my box~"
+    },
+    {
+      "speaker": "Yurei Himura",
+      "quote": "Shhh… no more running from bullies, little Naobito. No more hiding. You're mine now. My pretty new toy… my six-winged pet~"
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "What… what have I become?"
+    },
+    {
+      "speaker": "Yurei Himura",
+      "quote": "I love you the way a goddess loves her favorite doll… the way a storm loves the ship it sinks. I would tear the world apart before I let anyone else touch this body again."
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "That's not… that's not love. That's ownership."
+    },
+    {
+      "speaker": "Yurei Himura",
+      "quote": "Ownership is the deepest love I know, sweet Naobito."
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "He shouldn't have touched what's mine."
+    },
+    {
+      "speaker": "Reno",
+      "quote": "You're the one leaking."
+    },
+    {
+      "speaker": "Lady Elara Vane",
+      "quote": "You are a cracked vessel, Naobito Yagami. If you do not learn to contain what lives inside you… properly, deliberately, like a craftsman… the pressure will keep building."
+    },
+    {
+      "speaker": "Lucien Moreau",
+      "quote": "This kid will not die as Yami no Otome's vessel. He will evolve beyond even the wildest fantasies of those fraud self-proclaimed gods."
+    },
+    {
+      "speaker": "Yurei Himura",
+      "quote": "We don't need the Weavers, little lamb… They want to contain us. I want to own you the way you already own me—completely."
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "I want us to be… something that doesn't destroy me. I want to choose when you speak. I want to choose when the wings come out."
+    },
+    {
+      "speaker": "Yurei Himura",
+      "quote": "Fine, my sweet, stubborn lamb… I'll stay right here… inside your mind. No extra eyes watching you. No wings smothering you. Just me. A voice."
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "Skepticism without action is just another cage. Real progress… you have to punch the cage until it breaks."
+    },
+    {
+      "speaker": "Saya Kurogane",
+      "quote": "I stand with the boy who was drowning… and the girl who chose to drown with him rather than let him die alone."
+    },
+    {
+      "speaker": "Niro Hart",
+      "quote": "I like killing, Naobito. Not because I'm broken. But because the world finally learned it was better to kneel than to humiliate me."
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "The six-winged puzzle I solved… it wasn't just a prison for Yurei. It was one key. Out of six. And the bigger puzzle… is me."
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "I'm done being the boy everyone ignores."
+    },
+    {
+      "speaker": "Reno",
+      "quote": "Time's up."
+    },
+    {
+      "speaker": "Victor Hart",
+      "quote": "My father taught us one thing above all else: weakness is a disease. The Hart name does not tolerate it. We cut it out. We burn it away. Strength is the only currency that matters in this world."
+    },
+    {
+      "speaker": "Niro Hart",
+      "quote": "If weakness is a disease... then I will become the cure. I will cut every single one of you out. One day."
+    },
+    {
+      "speaker": "Seraphine Hart",
+      "quote": "Say it, little brother. 'I am the thirteenth mistake. I will never inherit. I exist only because Mother failed to prevent me.'"
+    },
+    {
+      "speaker": "Thaddeus Hart",
+      "quote": "You're not alone, okay? I've got your back. We'll get through this family together."
+    },
+    {
+      "speaker": "Niro Hart",
+      "quote": "Don't promise things this family won't let you keep."
+    },
+    {
+      "speaker": "Elena Hart",
+      "quote": "Forgive me. I thought if I didn't look, they'd forget you. I didn't know they'd try to erase you."
+    },
+    {
+      "speaker": "Niro Hart",
+      "quote": "Good. Then it's mine now."
+    },
+    {
+      "speaker": "Niro Hart",
+      "quote": "I was thinking about how I'm going to kill every single one of them. Slowly."
+    },
+    {
+      "speaker": "Lucien Moreau",
+      "quote": "Time may not move here, but consequences always find their way back."
+    },
+    {
+      "speaker": "Lucien Moreau",
+      "quote": "Hate is heavy - make it dense."
+    },
+    {
+      "speaker": "Niro Hart",
+      "quote": "Did you see that? Three seconds."
+    },
+    {
+      "speaker": "Niro Hart",
+      "quote": "You watched, Mother. Every lesson. Every bruise. Every time they called me the mistake. You never said a word. So I'll let you live with it."
+    },
+    {
+      "speaker": "Niro Hart",
+      "quote": "You always said weakness is a disease, Father. I finally agree. I'm curing it tonight."
+    },
+    {
+      "speaker": "Niro Hart",
+      "quote": "Weakness is a disease. I cut it out."
+    },
+    {
+      "speaker": "Niro Hart",
+      "quote": "Live with it, Mother. That's my punishment."
+    },
+    {
+      "speaker": "Mireille Vale",
+      "quote": "I like your personality, Mr. Hart. Your unmatched ego. Your cold elegance. The way you look at people like they're already dead and just don't know it."
+    },
+    {
+      "speaker": "Mireille Vale",
+      "quote": "Only for you."
+    },
+    {
+      "speaker": "Niro Hart",
+      "quote": "You're insane."
+    },
+    {
+      "speaker": "Mireille Vale",
+      "quote": "Mr. Hart doesn't like no-confidence votes during rain. He finds them... noisy."
+    },
+    {
+      "speaker": "Niro Hart",
+      "quote": "Finally... something interesting."
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "Our turn."
+    },
+    {
+      "speaker": "Hana Yagami",
+      "quote": "Let the real game begin."
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "I don't care if you're my mother, Mistress."
+    },
+    {
+      "speaker": "Hana Yagami",
+      "quote": "You will address me as 'Ka-san' if speaking directly to me. And if you cannot respect me as a mother... respect me as an elder."
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "Your power is loud. But it's empty."
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "Tell her... I'm not her puzzle anymore. I'm the one who solves it."
+    },
+    {
+      "speaker": "Isolde Aster",
+      "quote": "Pass."
+    },
+    {
+      "speaker": "Yurei Himura",
+      "quote": "System online, little lamb. Give her hell."
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "I'm not waiting for the finals."
+    },
+    {
+      "speaker": "Yurei Himura",
+      "quote": "Breathe, little echo. We've got you."
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "Stay behind me. We'll finish this together."
+    },
+    {
+      "speaker": "Kenshi Kashimo",
+      "quote": "My best friend's got a date with a goddess. I'm just the plus-one."
+    },
+    {
+      "speaker": "Asha Nkosi",
+      "quote": "Come, little vessel. Come, loud Earth boy. Show me everything you have."
+    },
+    {
+      "speaker": "Asha Nkosi",
+      "quote": "YES! BREAK IT ALL! LET'S SEE WHO SURVIVES THE FALL!"
+    },
+    {
+      "speaker": "Asha Nkosi",
+      "quote": "Well fought... both of you."
+    },
+    {
+      "speaker": "Lucien Moreau",
+      "quote": "Tell me... how many of you still believe the boy is merely a fragile host being controlled by his Dark Maiden?"
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "I was expecting to get executed, not adopted."
+    },
+    {
+      "speaker": "Kenshi Kashimo",
+      "quote": "Your mom's a goddess, your dad's immortal, and now the Beast Weaver wants to throw hands for fun. Your life is insane, Nao."
+    },
+    {
+      "speaker": "Yurei Himura",
+      "quote": "She's testing us... separately."
+    },
+    {
+      "speaker": "Lucien Moreau",
+      "quote": "Your move, little anomaly."
+    },
+    {
+      "speaker": "Hana Yagami",
+      "quote": "Prove to them why I chose you."
+    },
+    {
+      "speaker": "Leon Cross",
+      "quote": "So this is what it actually feels like."
+    },
+    {
+      "speaker": "Iris Vane",
+      "quote": "Welcome to the board, Key of Focus."
+    },
+    {
+      "speaker": "Niro Hart",
+      "quote": "I wouldn't dream of it."
+    },
+    {
+      "speaker": "Kenshi Kashimo",
+      "quote": "Morning, sunshine."
+    },
+    {
+      "speaker": "Mireille Vale",
+      "quote": "Do not address Master that way."
+    },
+    {
+      "speaker": "Kenshi Kashimo",
+      "quote": "Easy, Silver. If I wanted trouble, you'd already know."
+    },
+    {
+      "speaker": "Iris Vane",
+      "quote": "So we don't start with sabotage. We start with embarrassment."
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "I want to extract Nemimoth from the Ivory Board."
+    },
+    {
+      "speaker": "Yurei Himura",
+      "quote": "You are moving too fast."
+    },
+    {
+      "speaker": "Yurei Himura",
+      "quote": "I did not bind myself to you so you could throw both of us into a void for a girl who called you brother once."
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "But I am not reaching for her instead of you. I am not replacing anything."
+    },
+    {
+      "speaker": "Niro Hart",
+      "quote": "You're thinking about it the wrong way."
+    },
+    {
+      "speaker": "Leon Cross",
+      "quote": "No complex weave. No domain. No transformation. Just point and fire."
+    },
+    {
+      "speaker": "Niro Hart",
+      "quote": "You asked if a forehead laser was enough. It is - if you stop treating it like leftover scraps from a collared life and start treating it like the only honest thing they never managed to take from you."
+    },
+    {
+      "speaker": "High Queen",
+      "quote": "I have been expecting you."
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "You wanted me here. You have me. Stop circling."
+    },
+    {
+      "speaker": "High Queen",
+      "quote": "A rebellion that grows in the dark is useful, Naobito Yagami. It gathers the strong. And when it is ripe... it becomes a single target."
+    },
+    {
+      "speaker": "Naobito Yagami",
+      "quote": "Your version of honest is just appetite with better posture."
+    },
+    {
+      "speaker": "Yurei Himura",
+      "quote": "You made a mistake."
+    },
+    {
+      "speaker": "Yurei Himura",
+      "quote": "He was restraining himself for reasons that do not include you. Touch what is mine again... and I will stop letting him be polite."
+    },
+    {
+      "speaker": "High Queen",
+      "quote": "You are a Key of Infinity. There will be a time when you will stop being sentient... You are his funniest jokes, Yagami."
+    },
+    {
+      "speaker": "Lucien Moreau",
+      "quote": "Enough."
+    },
+    {
+      "speaker": "The King",
+      "quote": "Because my daughter is no longer inside the cage they built for her. And because I am tired of systems that only know how to survive by attaching themselves to living people."
+    },
+    {
+      "speaker": "Saya Kurogane",
+      "quote": "You don't have to earn the right to sit down. Just sit."
+    },
+    {
+      "speaker": "Nemimoth",
+      "quote": "Sister."
+    },
+    {
+      "speaker": "Haruto Yagami",
+      "quote": "Your thoughts are very loud today, Kitsuke."
+    },
+    {
+      "speaker": "Haruto Yagami",
+      "quote": "I hear more than people want. I do not report every private thought. If I did, this clan would tear itself apart before the week ended."
+    },
+    {
+      "speaker": "Haruto Yagami",
+      "quote": "You are twelve. Your secrets are still small. That is not an insult."
+    },
+    {
+      "speaker": "Haruto Yagami",
+      "quote": "When your thoughts start circling like that again, you may come ask me yourself. It is less exhausting than listening to you invent my crimes in advance."
+    },
+    {
+      "speaker": "Haruto Yagami",
+      "quote": "You did not do wrong by awakening. You only did it publicly. That is inconvenient. Not shameful."
+    },
+    {
+      "speaker": "Haruto Yagami",
+      "quote": "Hiding turns ability into shame, and shame leaks."
+    },
+    {
+      "speaker": "Haruto Yagami",
+      "quote": "If she calls you snowflake in the yard, your sister will declare war. Try not to enjoy that too visibly."
+    },
+    {
+      "speaker": "Elder Morinaga",
+      "quote": "As safe as any house living near old fire."
+    },
+    {
+      "speaker": "Elder Morinaga",
+      "quote": "If you hear more names—Dome, Queen, Maiden, Key—do not swallow them whole. Bring them to someone living. Stories become cruel when children have to carry them alone."
+    },
+    {
+      "speaker": "Elder Saito",
+      "quote": "You are not cursed. You are mismatched to the family brochure. That is uncomfortable. It is not the end of your name."
+    },
+    {
+      "speaker": "Elder Saito",
+      "quote": "He is unbound. That is rarer than malice and harder to chart."
+    },
+    {
+      "speaker": "Kei Kashimo",
+      "quote": "Cold isn't a wall, Kitsuke. Cold is momentum that froze mid-stride. If you wait until you're cornered to use it, you'll just freeze your own feet to the dirt."
+    },
+    {
+      "speaker": "Kei Kashimo",
+      "quote": "If you ever do let that ice run ahead of you… make sure I'm there to see it. I like being first in line when cute boys become problems."
+    },
+    {
+      "speaker": "Kei Kashimo",
+      "quote": "Morning, snowflake. Your house is lively."
+    },
+    {
+      "speaker": "Kei Kashimo",
+      "quote": "Hand-to-hand keeps you human. Ice keeps you alive. Use both or you're only half a problem, and half-problems get filed."
+    },
+    {
+      "speaker": "Kei Kashimo",
+      "quote": "Relax, snowflake. If I was here to cause a problem, I wouldn't start with the cutest one on the path."
+    },
+    {
+      "speaker": "Jin Kurogane",
+      "quote": "The clan's not only the ones who light up. Some of us are on your side the boring way. Remember the fun when the other kind of fight comes back."
+    },
+    {
+      "speaker": "Sae",
+      "quote": "Don't turn into a man who only answers soft things with silence. It's harder on everybody else than he ever understood."
+    },
+    {
+      "speaker": "Suspicious Elder",
+      "quote": "Whenever you feel like they will be done with you, tell me. I will take you to a place better than this compound."
+    },
+    {
+      "speaker": "The Abductor",
+      "quote": "My master is gonna love you."
+    },
+    {
+      "speaker": "Mei Kurogane",
+      "quote": "If he can hear thinking, can we think nice things at him on purpose? Like, good luck? Or stop looking so sad?"
+    },
+    {
+      "speaker": "Hanae Kurogane",
+      "quote": "You may tell me the rest tomorrow. Tonight you are here. That is enough."
+    },
+    {
+      "speaker": "Kitsuke Kurogane",
+      "quote": "If that thing is mine, I'm not waiting for anyone next time."
+    },
+    {
+      "speaker": "Haruto Yagami",
+      "quote": "Your aim is improving."
+    },
+    {
+      "speaker": "Haruto Yagami",
+      "quote": "Thank you for the thought. It was quieter than most."
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Solving the Cursed Puzzle",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "Naobito fits the final shifting rune in his bedroom; reality snaps to black and Yurei Himura pulls him into the void, binding him with shadow lashes and infinite bandages."
+    },
+    {
+      "title": "First Possession and Bully Attack",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "Yurei marks Naobito with six wings and extra eyes, then forces a spell from his lips that makes three bullies collapse with invisible black bandages."
+    },
+    {
+      "title": "Takumi Sato's Death",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "Takumi mocks and shoves Naobito in the hallway; Yurei torments him with infinite imaginary pain before his body combusts from the inside out, spraying blood across the corridor."
+    },
+    {
+      "title": "Love and Ownership Conversation",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "Naobito demands to know if Yurei loves him; she answers that she loves him as a goddess loves her favorite doll, by ownership, and threatens to make another boy explode."
+    },
+    {
+      "title": "Elara's Collection and Atelier Interrogation",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "Reno folds Naobito from the cafeteria to Elara's atelier with an obsidian coin; Elara enforces the Law of Containment, muzzling Yurei, and questions Naobito about the puzzle's origin and intent."
+    },
+    {
+      "title": "Three Choices",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "Elara offers containment training, full separation, or refusal (leading to Specialists); Naobito rejects all and demands agency."
+    },
+    {
+      "title": "Lucien's Arrival and Override Zone Offer",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "Lucien Moreau appears, revealing Naobito will not die as Yurei's vessel but evolve beyond gods, and offers the time-paused Override Zone as a place to grow without pressure."
+    },
+    {
+      "title": "Entry into the Override Zone",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "Naobito chooses the Zone; Yurei floods back into him with wings and eyes; he and Lucien arrive in the violet void with memory islands."
+    },
+    {
+      "title": "Toxic Confrontation and Negotiation",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "Naobito calls the bond toxic and demands choice; Yurei argues she was his only protector; he asks her to be a voice, not a possessor. She withdraws extra eyes and wings, becoming a whisper in his mind."
+    },
+    {
+      "title": "Combat Training and Range Crest Creation",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "In the Zone, Naobito fights shadow bullies bare-handed, then creates his own 'Sixfold Eclipse' Range Crest, learning to weave Corruption Mana with intent rather than leaking it."
+    },
+    {
+      "title": "Saya's Investigation",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "Saya traces violet residue at the school and an abandoned subway platform, feeling Naobito's loneliness, and vows to give him a chance before erasure."
+    },
+    {
+      "title": "Kael's Briefing",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "Saya reports to Master Kael Voss in the Sanctum of Absolute Zero; he permits observation and warns that the Dark Maiden will burn the world to keep Naobito."
+    },
+    {
+      "title": "Return to Real World and Meeting Saya",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "Naobito exits the Zone to a Tokyo rooftop and meets Saya, who shares her past and the 12 Weavers' stances over a late-night ramen meal."
+    },
+    {
+      "title": "Niro Hart's Introduction",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "Niro arrives in a limousine after the ramen dinner, introduces himself as a bored quintillionaire killer, and offers Naobito partnership; he later details his family massacre."
+    },
+    {
+      "title": "Loom Sanctum Trial",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "The 12 True Weavers gather to judge Naobito; he demands proper introductions, reads the Mistress's geometric script on Selene's shoulder, and reveals the puzzle's deeper purpose."
+    },
+    {
+      "title": "Six Keys Revelation",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "Naobito declares the six-winged puzzle was one of six keys and that he himself is the puzzle designed by the Mistress of Threads, making him unsealable and potentially the next evolution of the Law."
+    },
+    {
+      "title": "Departure to Niro Hart",
+      "novel": "Override Zone: The Dark Maiden",
+      "summary": "Naobito abruptly asks Reno to take him to Niro Hart, bypassing the council; Reno folds him to Hart Spire's penthouse balcony, where Niro welcomes him."
+    },
+    {
+      "title": "Funeral of Elias Hart",
+      "novel": "Override Zone: The 'Hart' that shall beat",
+      "summary": "At eight years old, Niro attends his grandfather's funeral, hears Victor's creed that weakness is a disease, and ignites the first spark of Malevolence Mana."
+    },
+    {
+      "title": "The Lessons (ages 8-12)",
+      "novel": "Override Zone: The 'Hart' that shall beat",
+      "summary": "Victor and four siblings subject Niro to physical, psychological, and verbal abuse in the training hall, forging his hatred and resolve."
+    },
+    {
+      "title": "Mother's Choice",
+      "novel": "Override Zone: The 'Hart' that shall beat",
+      "summary": "Elena watches Niro's abuse from behind one-way glass and chooses silence and survival over protecting him."
+    },
+    {
+      "title": "Accidental Entry into the Override Zone",
+      "novel": "Override Zone: The 'Hart' that shall beat",
+      "summary": "Fourteen-year-old Niro, beaten and angry, tears a hole into the Override Zone and meets Lucien Moreau, who allows him to train there."
+    },
+    {
+      "title": "Override Zone Training: How to Hold Hate",
+      "novel": "Override Zone: The 'Hart' that shall beat",
+      "summary": "Lucien teaches Niro to compress his screaming Malevolence Mana into dense, controlled orbs, marking his first real step toward power."
+    },
+    {
+      "title": "Thad's Plea to Victor",
+      "novel": "Override Zone: The 'Hart' that shall beat",
+      "summary": "Thad asks Victor to stop Niro's lessons and offers to surrender his inheritance; Victor refuses and Seraphine mocks him."
+    },
+    {
+      "title": "Murder of Thaddeus Hart",
+      "novel": "Override Zone: The 'Hart' that shall beat",
+      "summary": "Seraphine, Edward, and Nigel stage Thad's death as a car accident on the mountain road to remove his protection of Niro."
+    },
+    {
+      "title": "Discovery of the Murder Plot",
+      "novel": "Override Zone: The 'Hart' that shall beat",
+      "summary": "On the eve of his sixteenth birthday, Niro overhears Seraphine, Edward, and Nigel confessing that they killed Thad, snapping his last mercy."
+    },
+    {
+      "title": "Hart Family Massacre",
+      "novel": "Override Zone: The 'Hart' that shall beat",
+      "summary": "Sixteen-year-old Niro slaughters his father and ten siblings with Malevolence Mana during a family dinner, sparing only his mother."
+    },
+    {
+      "title": "The Quiet After Blood",
+      "novel": "Override Zone: The 'Hart' that shall beat",
+      "summary": "After the massacre, Niro visits Thad's shrine-room, changes into a clean identical outfit, and steels himself before seizing the empire."
+    },
+    {
+      "title": "Cover-Up and Inheritance",
+      "novel": "Override Zone: The 'Hart' that shall beat",
+      "summary": "Niro coerces Elena into telling police a home-invasion story, transfers ownership of Hart Industries, and inherits everything at sixteen."
+    },
+    {
+      "title": "Police Interview",
+      "novel": "Override Zone: The 'Hart' that shall beat",
+      "summary": "Elena repeats the home-invasion lie to detectives while Niro watches through the glass with his demonic smile."
+    },
+    {
+      "title": "Hiring of Mireille Vale",
+      "novel": "Override Zone: The 'Hart' that shall beat",
+      "summary": "At nineteen, Niro hires Mireille as his secretary after she declares her obsessive devotion to his ego and elegance."
+    },
+    {
+      "title": "First Boardroom Kill",
+      "novel": "Override Zone: The 'Hart' that shall beat",
+      "summary": "Niro exposes Director Cho's crimes and has Mireille break his wrist and threaten him, forcing Cho's retirement and securing the board."
+    },
+    {
+      "title": "Empire Building and Boredom",
+      "novel": "Override Zone: The 'Hart' that shall beat",
+      "summary": "From nineteen to twenty-seven, Niro expands Hart Industries, kills when necessary, and grows bored as a quintillionaire."
+    },
+    {
+      "title": "Rumor of the Tokyo Vessel",
+      "novel": "Override Zone: The 'Hart' that shall beat",
+      "summary": "At twenty-seven, Niro hears of a boy in Tokyo bonded to an ancient maiden and leaking Corruption Mana, sparking his interest."
+    },
+    {
+      "title": "Blood Tournament Opening",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "The Crimson Veil Arena opens with thousands of spectators; the 12 True Weavers, Niro Hart, and representatives of the Nine Realms are introduced before the first bouts."
+    },
+    {
+      "title": "Naobito's Meteor Arrival",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "Naobito and Yurei shatter their viewing window and descend from deep space as a blazing violet meteor, cracking the arena floor and announcing the Symbiote-Host bracket."
+    },
+    {
+      "title": "Hana Yagami's Arrival",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "The Mistress of Threads steps into the pit in cyan mana, freezing the arena, and triggers a memory flashback of Naobito's infancy as the first Key."
+    },
+    {
+      "title": "Naobito vs Lord Varak",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "Lord Varak shatters Hana's gate to challenge Naobito, but is systematically dismantled and bound in violet bandages within seconds."
+    },
+    {
+      "title": "Isolde Aster's Challenge",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "The revived Sword Saint of Lightning fights Naobito in a cyan-violet storm dome, delivers Hana's message that the tournament is a filter and the Keys are hidden among the fighters, and whispers 'Pass' upon defeat."
+    },
+    {
+      "title": "Hollow Shell Split & Mindscape Bridging",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "Yurei is pulled into Naobito's mindscape (a rainy apartment) to bridge broken soul-nodes while Naobito fights Isolde solo, then returns with administrative access and optimized power."
+    },
+    {
+      "title": "Sylvara's Awakening",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "Yurei's voice tells Sylvara to scream; her Echo ability awakens in an apocalyptic sonic blast that staggers the Goliath."
+    },
+    {
+      "title": "Fused Range Crest vs Goliath",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "Naobito and Sylvara create a fused Range Crest and launch the Goliath several light-years into deep space."
+    },
+    {
+      "title": "Mindscape Bonding",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "Naobito pulls Sylvara into his mindscape, where she feels like family; they agree to finish the fight together."
+    },
+    {
+      "title": "Kenshi's Arrival",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "Kenshi Kashimo travels from Neo-Haven via smuggler Gate, breaks into the under-arena corridor, and reunites with Naobito."
+    },
+    {
+      "title": "Asha Nkosi's Challenge",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "Asha invokes her authority as a True Weaver to turn her match into a 2v1 against Naobito/Yurei and Kenshi, demanding a full-strength fight."
+    },
+    {
+      "title": "Hollow Shell vs Asha",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "Naobito uses K'tai to house Yurei in a reconstructed body, fighting Asha with scythe, wings, and Kenshi's kinetic support, then rewriting Yurei's code to phase through Apex Mantle."
+    },
+    {
+      "title": "Arena Destruction",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "The final three-way clash shatters the Crimson Veil Arena's spatial barriers, vaporizing spectator rows and exposing the fight to the open sky."
+    },
+    {
+      "title": "Draw Declaration & Class-S Designation",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "Selene declares the match a draw and designates Naobito a Class-S Reality Anomaly, sealing the footage."
+    },
+    {
+      "title": "Finals Announcement",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "Hana declares Naobito already qualified for the finals and places him directly into the Weavers' VIP box, where Lucien shows unprecedented warmth."
+    },
+    {
+      "title": "Kiritaka's Visit",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "Naobito's immortal father appears in deep space, confirms his knowledge of the Key design, expresses pride, and warns that the remaining Keys are waking."
+    },
+    {
+      "title": "Epilogues",
+      "novel": "Override Zone: The Blood Tournament",
+      "summary": "Asha keeps her scars in the Primal Expanse; Selene designates Naobito Class-S and Viktor forges reality-binding chains while Thorn drafts a chimera; Lucien moves three pieces onto a Neo-Haven square."
+    },
+    {
+      "title": "Blood Tournament Aftermath Broadcast",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "VeilNet Live in Lusthara interviews Kenshi and Naobito about the arena's collapse and the anomalous rewrite event while millions watch."
+    },
+    {
+      "title": "Leon Cross's Bar Confrontation and White Lockdown",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "An Ivory Board Knight demands Leon's bar and power grid after an unregistered Key signature; Leon's collar flares; Iris Vane tears a blood rift and extracts Leon and Proxy."
+    },
+    {
+      "title": "Extraction to Neo Haven and Iris's Deal",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "Iris brings Leon and Proxy to Neo Haven and offers protection and collar removal in exchange for breaking Board assets."
+    },
+    {
+      "title": "Reno's Fold and Shadow-War Revelation",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "Reno folds the group into a warehouse, reveals the Weavers are building a rebellion against the High Queen, and removes Leon's collar, awakening the Key of Focus."
+    },
+    {
+      "title": "Niro's Penthouse and Neutral-Ground Arrangement",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "The group arrives at Niro's penthouse; Niro offers shelter and a front-row seat to Board damage while Mireille distrusts Leon."
+    },
+    {
+      "title": "Kenshi's Arrival and Sparring",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "Kenshi arrives at the penthouse, spars with Leon in the sublevel, and the group plans a public strike on a Board suppression tower."
+    },
+    {
+      "title": "Leon's Sublevel Training and Compression Lesson",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "Leon fires the Key of Focus in the warded sublevel; feeling it is only a laser, he receives Niro's mana-compression lesson and demonstration of 5 mega seams."
+    },
+    {
+      "title": "Naobito's Sealed Meeting with Six Weavers",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "Naobito asks Amara, Mei Ling, Isabella, Omar, Freya, and Soren to help extract Nemimoth from the Ivory Dome; they agree to a preliminary assessment."
+    },
+    {
+      "title": "Yurei's Warning in the Mindscape",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "Yurei confronts Naobito about moving too fast and risking both of them for Nemimoth; he embraces her and reaffirms he is not replacing her."
+    },
+    {
+      "title": "Shadow-Breach of the Ivory Dome",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "Soren pulls Naobito into Nemimoth's chamber; Nemimoth greets him as brother; the High Queen enters expecting him; Naobito orders Soren to take Nemimoth and stays behind."
+    },
+    {
+      "title": "Elite District Overlook Watch",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "Soren and Nemimoth watch the damaged Ivory Dome from the elite district terrace; Nemimoth vows not to return if Naobito is broken."
+    },
+    {
+      "title": "Naobito vs High Queen",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "Naobito fights the High Queen while restraining himself; she wounds him; Yurei surfaces with six eyes and threatens her; the six Weavers assault the Dome; Lucien stops time."
+    },
+    {
+      "title": "High Queen's Prophecy",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "The High Queen tells Naobito the Keys will become sentient weapons and 'god's funniest jokes'; Lucien drags all into the Override Zone to discuss it."
+    },
+    {
+      "title": "Kenshi's Warning Call",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "In Niro's sublevel, Kenshi receives a call that Naobito is locked in the Ivory Dome with the High Queen; the group reacts and prepares."
+    },
+    {
+      "title": "Leon's Public Destruction of Suppression Tower",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "Leon fires a compressed cobalt beam through the Board suppression tower; Kenshi handles Enforcers; Proxy hijacks feeds; the King provides the regulator backdoor; the pulse dies and collars fail safe; Leon finishes the tower."
+    },
+    {
+      "title": "Nemimoth's Extraction to the Loom Sanctum",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "Nemimoth appears in the Loom Sanctum where Hana tells her she is not yet an awakened Key; the Weavers argue over Lucien's overreach."
+    },
+    {
+      "title": "Nemimoth's Safehouse and Sister Recognition",
+      "novel": "Override Zone: Cobalt Knight",
+      "summary": "Reno, Saya, and Sylvara receive Nemimoth in Elara's temporary domicile; Nemimoth senses Sylvara's half-awakened Key of Echoes and calls her sister."
+    },
+    {
+      "title": "Timeline Notice",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "The account opens by stating it sits outside primary Override Zone continuity; certain referenced events are deliberately left unexplained and not every detail is authoritative."
+    },
+    {
+      "title": "Overheard Names in the Linen Room",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "Kitsuke overhears two maids whispering about Naobito Yagami, the Dome, the Queen, the Keys, and the Mistress, seeding the compound's hidden history."
+    },
+    {
+      "title": "Telepathy Confrontation",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "Haruto tells Kitsuke his thoughts are loud, admits he hears and sorts minds, and promises not to report private thoughts; Kitsuke's fear becomes wary trust."
+    },
+    {
+      "title": "Family Dinner Disclosure",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "Kitsuke tells his family about Haruto's telepathy; Ryo, Aya, Mei, and Hanae react with anger, worry, and practical protection."
+    },
+    {
+      "title": "Crimson Market Errand",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "Haruto takes Kitsuke to Neo-Haven's Crimson Market by obsidian coin, commands a lure to stop, and collects a cleaned stabilizer lattice from Sae in a mute workshop."
+    },
+    {
+      "title": "Public Cryokinesis Awakening",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "During demonstration season, Kitsuke's palm on the test crystal produces frost and ice instead of neutralization, shocking the clan; Haruto shields him from gossip."
+    },
+    {
+      "title": "Saito's Assessment",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "Elder Saito measures Kitsuke's palm and names the power true-form Cryokinesis, writes limits, and warns that the compound's pride may be harder to train than the ice."
+    },
+    {
+      "title": "Kei Kashimo Arrives",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "Kei meets Kitsuke on the outer path, demonstrates speed, gives advice to let ice run ahead, and flirts with the nickname snowflake."
+    },
+    {
+      "title": "Kei's Unauthorized Entry",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "Kei enters the compound through rear stones without escort; Haruto grants temporary visitor status under Mother's conditions."
+    },
+    {
+      "title": "Lattice Seating at West Boundary",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "Haruto seats the stabilizer lattice into the west boundary stones; the hum steadies the line and Kitsuke learns not to answer the surge with a wall."
+    },
+    {
+      "title": "Storehouse Roof Trespass",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "Aya, Mei, and Kitsuke climb the north storehouse roof; Haruto overrides a courier's alarm and lets the children be children."
+    },
+    {
+      "title": "Toma Dominance Bout",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "Kitsuke sends ice ahead and puts the older neutralization elite Toma on one knee in the center square, earning respect."
+    },
+    {
+      "title": "Jin's Sealed Exchange",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "Gimmickless Jin Kurogane challenges and defeats Kitsuke in pure hand-to-hand, teaching him that fights can be fun and that not all allies light up."
+    },
+    {
+      "title": "First Ice Training",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "Kei trains Kitsuke at the west edge to throw frost lines with intention; he converts a panic surge into a controlled sheet."
+    },
+    {
+      "title": "Dream of the Ice Giant",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "Kitsuke dreams of a jointed ice giant checked by a winged dark figure and a blue-plasma grinner, then trains before dawn to turn the fear into aimed cuts."
+    },
+    {
+      "title": "Snow Flower for Mei",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "After the assessment, Kitsuke makes a small ice flower on the engawa; Mei licks it and laughs, and the family holds together."
+    },
+    {
+      "title": "Suspicious Elder's Offer",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "Near the east records annex, a kindly elder warns Kitsuke that some clan attention is inventory and offers a 'better place,' sounding like a different cage."
+    },
+    {
+      "title": "Abduction of Kitsuke",
+      "novel": "Override Zone: The Kurogane Heir",
+      "summary": "An unknown matte-black operative defeats Kei, sedates Kitsuke, and carries him out; Haruto arrives too late. Kitsuke is held for a master who collects useful winters."
+    }
+  ]
 }

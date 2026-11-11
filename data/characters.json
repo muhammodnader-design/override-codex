@@ -1,272 +1,35 @@
 [
   {
-    "name": "Niro Hart",
-    "faction": "Hart Family",
-    "title": "Malevolence Heir / Sole Surviving Hart Heir",
-    "quotes": [
-      "Don't call it cruelty. I'm just finishing what your lessons started.",
-      "You had twelve chances to be family. You spent them all making me.",
-      "I don't forgive. I balance the ledger."
+    "name": "Aetherion",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "Emissary of Pure Light"
     ],
-    "image": "assets/illustrations/cast/niro.png"
-  },
-  {
-    "name": "Victor Hart",
-    "faction": "Hart Family",
-    "title": "Patriarch (deceased)",
-    "quotes": [
-      "A Hart does not explain himself. He dictates and others adjust.",
-      "Sentiment is expensive. I don't pay for what doesn't profit the name.",
-      "If you have to ask for power, you were never meant to hold it."
+    "role": "Eternal Court of Pure Light representative",
+    "bio": "An ethereal, aqua-robed angelic emissary who explains the tournament rules in the VIP lounge: no outside interference, no killing outside the pit, and a single favor for bracket winners.",
+    "first_appearance": "Sipping a crystalline drink in the neutral VIP lounge.",
+    "novels": [
+      "Override Zone: The Blood Tournament"
     ],
+    "quotes": [],
     "image": null
-  },
-  {
-    "name": "Elena Hart (Mother)",
-    "faction": "Hart Family",
-    "title": "Matriarch (silenced witness)",
-    "quotes": [
-      "Looking away was the only way I knew how to keep you breathing.",
-      "Don't mistake my silence for approval. It was survival.",
-      "I chose to live with regret rather than die with you."
-    ],
-    "image": null
-  },
-  {
-    "name": "Seraphine Hart",
-    "faction": "Hart Family",
-    "title": "Named Successor (deceased)",
-    "quotes": [
-      "Oh, little mistake, did you think the table was ever set for you?",
-      "Smile properly when you answer. You embarrass the portrait.",
-      "Inheritance isn't given. It's taken gracefully."
-    ],
-    "image": null
-  },
-  {
-    "name": "Thaddeus Hart / Thad",
-    "faction": "Hart Family",
-    "title": "The Kind Brother (deceased)",
-    "quotes": [
-      "Just keep your head down a little longer, okay? I'll figure something out.",
-      "You shouldn't have to endure this to be called brother.",
-      "If I lose you too, what was any of it for?"
-    ],
-    "image": null
-  },
-  {
-    "name": "Edward Hart",
-    "faction": "Hart Family",
-    "title": "Enforcer (deceased)",
-    "quotes": [
-      "Let's see how long you last before you start begging the dark.",
-      "It's not locked to punish you. It's locked to teach you where you belong.",
-      "You always take it so personally. That's why it's fun."
-    ],
-    "image": null
-  },
-  {
-    "name": "Nigel Hart",
-    "faction": "Hart Family",
-    "title": "Enforcer (deceased)",
-    "quotes": [
-      "Get up. If you can still breathe, you can still run.",
-      "No one respects the weak who stays down. So move.",
-      "That all you've got, thirteenth?"
-    ],
-    "image": null
-  },
-  {
-    "name": "Naobito Yagami",
-    "faction": "Yagami",
-    "title": "Key of Duality (Vessel)",
-    "quotes": [
-      "It's not possession if I already agreed to carry the weight.",
-      "Quiet is easier. People don't stare at quiet.",
-      "Analyze first. If I can understand it, I can survive it."
-    ],
-    "image": "assets/illustrations/cast/naobito_base.png"
-  },
-  {
-    "name": "Yurei Himura (Dark Maiden)",
-    "faction": "Dark Maiden",
-    "title": "Dark Maiden / Hollow Shell",
-    "quotes": [
-      "Heehee~ you didn't solve my puzzle, lamb, you invited me in.",
-      "Shhh, don't hide those new eyes. I made them just for you.",
-      "You're mine to tease, mine to keep, mine to ruin beautifully~"
-    ],
-    "image": "assets/illustrations/cast/yurei.png"
-  },
-  {
-    "name": "Lucien Moreau",
-    "faction": "Weavers",
-    "title": "Weaver of Time",
-    "quotes": [
-      "Time doesn't heal. It simply gives you room to hold the ache correctly.",
-      "Compress it. Power is not loud, child, it's dense.",
-      "I've watched this timeline end a dozen ways. Surprise me."
-    ],
-    "image": "assets/illustrations/12weavers/Lucien Moreau (Weaver of Time).png"
-  },
-  {
-    "name": "Leon Cross",
-    "faction": "Independent",
-    "title": "Barkeep / Independent",
-    "quotes": [
-      "Bar's closed. And you're standing in my bar.",
-      "I didn't ask for a collar. Or your permission.",
-      "Draw that again and I don't miss twice."
-    ],
-    "image": "assets/illustrations/cast/leon.png"
-  },
-  {
-    "name": "Proxy / PRX-04",
-    "faction": "Independent",
-    "title": "Field Asset",
-    "quotes": [
-      "Congrats, you just pinged everyone who can kill you from orbit.",
-      "Left side's premium, right side's scrapyard. Still shoots though.",
-      "Run smart, not brave. Brave gets registered as debris."
-    ],
-    "image": "assets/illustrations/proxy.png"
-  },
-  {
-    "name": "Nemimoth (Key of Hunger)",
-    "faction": "Keys",
-    "title": "Key of Hunger",
-    "quotes": [
-      "Infinity is lonely when no one else can see where it ends.",
-      "Another sibling woke up. I felt you before I saw you.",
-      "Father worries. I just wait. You'll find me eventually, brother."
-    ],
-    "image": "assets/illustrations/cast/nemimoth.png"
-  },
-  {
-    "name": "Asha Nkosi",
-    "faction": "Rankers",
-    "title": "Weaver of Beasts",
-    "quotes": [
-      "Second place? Good. Means I still have someone worth hunting.",
-      "Talk less, bleed more. That's how we settle rankings.",
-      "If you can take my hit, I'll finally learn your name."
-    ],
-    "image": "assets/illustrations/12weavers/Asha Nkosi (Beast Weaver).png"
-  },
-  {
-    "name": "Viktor Drago",
-    "faction": "Rankers",
-    "title": "Weaver of Chains",
-    "quotes": [
-      "Strength needs no argument. It needs a witness.",
-      "Chains don't restrict me. They remind you where you stand.",
-      "Irrelevant. Come back when you can move me."
-    ],
-    "image": "assets/illustrations/12weavers/viktor.png"
-  },
-  {
-    "name": "Hana Yagami",
-    "faction": "Yagami",
-    "title": "Mistress of Threads",
-    "quotes": [
-      "Of course I'm at the top. The list merely caught up to reality.",
-      "Threads are not pulled. They are convinced to move.",
-      "My son climbs. That was always the design."
-    ],
-    "image": "assets/illustrations/cast/hana yagami.png"
-  },
-  {
-    "name": "Isolde Aster",
-    "faction": "Rankers",
-    "title": "Former Sword Saint of Lightning",
-    "quotes": [
-      "Power without form is just flailing with better lighting.",
-      "I don't need to be faster. I need to be precise once.",
-      "A blade tells you who trained it. Yours tells me everything."
-    ],
-    "image": "assets/illustrations/cast/isolde.png"
-  },
-  {
-    "name": "Mireille Vale",
-    "faction": "Weavers",
-    "title": "Executive Assistant / Blade",
-    "quotes": [
-      "Master, say the word and they all disappear for you.",
-      "Don't look at anyone else. Just keep looking at me.",
-      "Your throne suits you. Let me kneel where I belong."
-    ],
-    "image": "assets/illustrations/cast/mireille.png"
-  },
-  {
-    "name": "Kenshi Kashimo",
-    "faction": "Rankers",
-    "title": "Over-Rev Combatant",
-    "quotes": [
-      "If you're seeing my afterimage, you're already too slow to win.",
-      "Over-Rev isn't speed. It's deciding the finish line's already behind me.",
-      "Rematch? I was born for the rematch."
-    ],
-    "image": "assets/illustrations/Kenshi.png"
-  },
-  {
-    "name": "Master Kael Voss",
-    "faction": "Weavers",
-    "title": "Weaver of Neutrality",
-    "quotes": [
-      "This is improperly classified and therefore improperly contained.",
-      "Enthusiasm is not a substitute for protocol.",
-      "File it, seal it, then we can argue about it."
-    ],
-    "image": "assets/illustrations/12weavers/kael voss.png"
-  },
-  {
-    "name": "Lady Elara Vane",
-    "faction": "Weavers",
-    "title": "Weaver of Threads",
-    "quotes": [
-      "Darling, I didn't pull your strings. I just made you want to dance.",
-      "Every thread matters. Even the ones that think they're free.",
-      "How rude to forget me on a list. I'll remember that."
-    ],
-    "image": "assets/illustrations/12weavers/elara.png"
-  },
-  {
-    "name": "High Weaver Selene Arkwright",
-    "faction": "Weavers",
-    "title": "High Weaver (Law)",
-    "quotes": [
-      "Hierarchy exists so anomalies like you know where to kneel.",
-      "This is not entertainment. This is order being disrupted.",
-      "You will respect the rank, even if you outlive it."
-    ],
-    "image": "assets/illustrations/12weavers/selene.png"
-  },
-  {
-    "name": "Reno",
-    "faction": "Independent",
-    "title": "Field Asset / Logistics",
-    "quotes": [
-      "Probability of success: 12%. Proceeding anyway.",
-      "Efficient. Quiet. Done. No further comment needed.",
-      "Noted. Adjusting for next engagement."
-    ],
-    "image": "assets/illustrations/cast/reno.png"
-  },
-  {
-    "name": "Saya Kurogane",
-    "faction": "Kurogane",
-    "title": "Kurogane Heir",
-    "quotes": [
-      "A-ah, please don't look at my hands when they shake like this!",
-      "I'm not ready, but I'll stand here anyway if you need me.",
-      "Reno, stop calculating my survival rate out loud!"
-    ],
-    "image": "assets/illustrations/cast/saya.png"
   },
   {
     "name": "Amara Khalil",
     "faction": "Weavers",
     "title": "Weaver of Souls",
+    "aliases": [
+      "Weaver of Souls"
+    ],
+    "role": "One of the 12 True Weavers; Weaver of Souls",
+    "bio": "A graceful Egyptian woman in white-and-gold robes with aqua Pure Mana who senses pain and potential for healing. She is the most sympathetic Weaver, offering grace and acknowledging Naobito's intentional design.",
+    "first_appearance": "In the Loom Sanctum, sensing great pain and healing potential in Naobito.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
     "quotes": [
       "I wish you wouldn't rank kindness. It was never a competition.",
       "Even a cruel soul deserves to be heard once before it fades.",
@@ -275,42 +38,97 @@
     "image": "assets/illustrations/12weavers/amara.png"
   },
   {
-    "name": "Mei Ling Zhao (Weaver of Silence)",
-    "faction": "Weavers",
-    "title": "Weaver of Silence",
-    "quotes": [
-      "...",
-      "No. You didn't hear me. That was the point.",
-      "Silence isn't empty. It's where I work."
+    "name": "Archivist Veyl",
+    "faction": "Other",
+    "title": "",
+    "aliases": [],
+    "role": "Fractured Realms Coalition scholar",
+    "bio": "A hooded, multi-eyed intellectual with Neutralization accents who has read sealed reports on Naobito and wants to study him rather than fight him. He predicts the tournament will reveal a new balance.",
+    "first_appearance": "Adjusting his spectacles in the neutral VIP lounge.",
+    "novels": [
+      "Override Zone: The Blood Tournament"
     ],
-    "image": "assets/illustrations/12weavers/mei ling zao.png"
+    "quotes": [],
+    "image": null
   },
   {
-    "name": "Isabella Cortez",
-    "faction": "Weavers",
-    "title": "Weaver of Flames",
-    "quotes": [
-      "Finally, a meeting that isn't boring enough to put my own flames out.",
-      "Burn bright or don't bother showing up at all.",
-      "Oh, Kael, loosen up before you fossilize."
+    "name": "Asha Nkosi",
+    "faction": "Rankers",
+    "title": "Weaver of Beasts",
+    "aliases": [
+      "Weaver of Beasts"
     ],
-    "image": "assets/illustrations/12weavers/isabella.png"
+    "role": "One of the 12 True Weavers; Weaver of Beasts; fighter",
+    "bio": "Personally insists on fighting Naobito, invoking her authority to turn the match into a 2v1 against both Naobito/Yurei and Kenshi. She unleashes Wild Hunt: Apex Mantle and survives the arena's destruction, then acknowledges both as worthy, keeping her scars as trophies in the Primal Expanse.",
+    "first_appearance": "In the Loom Sanctum, watching Naobito with primal intensity.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The Blood Tournament"
+    ],
+    "quotes": [
+      "Second place? Good. Means I still have someone worth hunting.",
+      "Talk less, bleed more. That's how we settle rankings.",
+      "If you can take my hit, I'll finally learn your name."
+    ],
+    "image": "assets/illustrations/12weavers/Asha Nkosi (Beast Weaver).png"
   },
   {
-    "name": "Omar al-Sayed",
-    "faction": "Independent",
-    "title": "Weaver of Sands",
-    "quotes": [
-      "The sands remember every footstep, even those that try to erase themselves.",
-      "Patience. The desert always wins by waiting.",
-      "Storms pass. What remains is what was built correctly."
+    "name": "Aya Kurogane",
+    "faction": "Other",
+    "title": "",
+    "aliases": [],
+    "role": "Kitsuke's 15-year-old sister; sharp-tongued defender",
+    "bio": "Quick with looks and answers, protects the family by needling it first. Fiercely guards Kitsuke's dignity, threatens war over nicknames, and is the first to suspect that Kei Kashimo is pulling him out of his depth.",
+    "first_appearance": "At the kitchen table, eyeing Kitsuke over her bowl and demanding he admit if he got in trouble.",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
     ],
-    "image": "assets/illustrations/12weavers/omar.png"
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Daisuke",
+    "faction": "Other",
+    "title": "",
+    "aliases": [],
+    "role": "School bully (surviving tormentor)",
+    "bio": "The third of Naobito's long-time bullies, named among the trio at the school gate. He participates in the years of torment that shaped Naobito's isolation.",
+    "first_appearance": "Named at the school gate alongside Kenji and Haruto as Naobito's tormentors.",
+    "novels": [
+      "Override Zone: The Dark Maiden"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Director Cho",
+    "faction": "Other",
+    "title": "",
+    "aliases": [],
+    "role": "Antagonist; board director of Hart Industries",
+    "bio": "A sixty-year-old director loyal to Victor Hart who moves for a no-confidence vote against Niro. Niro exposes his crimes, and Mireille breaks his wrist and threatens him with a Malevolence needle until he retires, securing Niro's control.",
+    "first_appearance": "Slamming his folder on the 47th-floor boardroom table during a rainstorm.",
+    "novels": [
+      "Override Zone: The 'Hart' that shall beat"
+    ],
+    "quotes": [],
+    "image": null
   },
   {
     "name": "Dr. Elias Thorn",
     "faction": "Independent",
     "title": "Weaver of Flesh",
+    "aliases": [
+      "Weaver of Flesh"
+    ],
+    "role": "One of the 12 True Weavers; Weaver of Flesh",
+    "bio": "A gaunt, clinical British Weaver with scalpel-like fingers who studies Naobito's symbiotic biology with scientific fascination. He twitches violently at supernatural revelations.",
+    "first_appearance": "In the Loom Sanctum, studying Naobito like a fascinating dissection.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
     "quotes": [
       "Fascinating. Your Information Alteration just rewrote my notes as I wrote them.",
       "I need a fresh sample. Don't worry, you'll barely feel the extraction.",
@@ -319,9 +137,131 @@
     "image": "assets/illustrations/12weavers/thorn.png"
   },
   {
+    "name": "Edward Hart",
+    "faction": "Hart Family",
+    "title": "Enforcer (deceased)",
+    "aliases": [],
+    "role": "Antagonist; sadistic brother",
+    "bio": "A brother who runs psychological 'lessons,' locking young Niro in dark rooms. He confesses to helping murder Thad. He is the first killed in the massacre, stumbling into the dining hall with a shotgun wound to the head.",
+    "first_appearance": "Locking Niro in a dark storage room with a single candle as a 'lesson.'",
+    "novels": [
+      "Override Zone: The 'Hart' that shall beat"
+    ],
+    "quotes": [
+      "Let's see how long you last before you start begging the dark.",
+      "It's not locked to punish you. It's locked to teach you where you belong.",
+      "You always take it so personally. That's why it's fun."
+    ],
+    "image": null
+  },
+  {
+    "name": "Elder Lirael",
+    "faction": "Other",
+    "title": "",
+    "aliases": [],
+    "role": "Verdant Conclave spirit elder",
+    "bio": "A graceful spirit elder with living green vines across her skin who laments the tournament's violence and hopes the boy's light is not broken.",
+    "first_appearance": "Shaking her head in the neutral VIP lounge.",
+    "novels": [
+      "Override Zone: The Blood Tournament"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Elder Morinaga",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "old pillar"
+    ],
+    "role": "Beloved Kurogane elder and memory-keeper",
+    "bio": "Bent back, clear eyes, still pours tea himself. Tells the shaped version of Naobito Yagami's legend (Dome, Queen, Keys, Maiden) and warns that stories become cruel when children carry them alone. Represents the clan's living memory rather than its charts.",
+    "first_appearance": "Pouring tea in his old-paper-and-roasted-barley-tea house as the family visits.",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Elder Saito",
+    "faction": "Other",
+    "title": "",
+    "aliases": [],
+    "role": "Assessment elder; diagnostician of weaves",
+    "bio": "Dry, careful, speaks of abilities like weather reports. Measures Kitsuke's palm with a lens and names his power true-form Cryokinesis, not contamination. Is more honest about unchartable talents like Kenshi Kashimo than about most diagnoses, and tells elders that children are not political weather.",
+    "first_appearance": "Already waiting in the old assessment room behind the archive wing when Haruto brings Kitsuke in.",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Elena Hart",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "Mother",
+      "Elena"
+    ],
+    "role": "Antagonist by inaction; matriarch who chooses survival over protecting Niro",
+    "bio": "Niro's silent mother, elegant and empty-eyed. She watches the abuse from behind one-way glass but never intervenes, believing acknowledgment would paint targets on both of them. She survives the massacre and is forced to lie to police that it was a home invasion. Her punishment is to live knowing what she helped create.",
+    "first_appearance": "Standing beside Victor at the funeral, elegant and silent, never looking at her youngest son.",
+    "novels": [
+      "Override Zone: The 'Hart' that shall beat"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Elena Hart (Mother)",
+    "faction": "Hart Family",
+    "title": "Matriarch (silenced witness)",
+    "aliases": [],
+    "role": "",
+    "bio": "",
+    "first_appearance": "",
+    "novels": [],
+    "quotes": [
+      "Looking away was the only way I knew how to keep you breathing.",
+      "Don't mistake my silence for approval. It was survival.",
+      "I chose to live with regret rather than die with you."
+    ],
+    "image": null
+  },
+  {
+    "name": "Elias Hart",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "Grandfather Elias"
+    ],
+    "role": "Deceased founder of the Hart empire",
+    "bio": "Ruthless founder who built Hart Industries from nothing and whose funeral sets the story in motion. His 'weakness is a disease' philosophy, delivered at his funeral, becomes the curse that shapes Niro.",
+    "first_appearance": "Being buried at the Hart family cemetery as Victor eulogizes him.",
+    "novels": [
+      "Override Zone: The 'Hart' that shall beat"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
     "name": "Freya Haldorsdottir",
     "faction": "Rankers",
     "title": "Weaver of Storms",
+    "aliases": [
+      "Weaver of Storms"
+    ],
+    "role": "One of the 12 True Weavers; Weaver of Storms",
+    "bio": "A fierce Icelandic Weaver with white-blonde hair braided with silver runes and lightning in her eyes. She asks whether Naobito will be the storm's eye or its ruin.",
+    "first_appearance": "In the Loom Sanctum, eyes crackling with lightning.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
     "quotes": [
       "Call a storm and I will answer with a bigger one.",
       "Thunder doesn't ask permission to break the sky.",
@@ -330,20 +270,284 @@
     "image": "assets/illustrations/12weavers/freya.png"
   },
   {
-    "name": "Soren Blackwood",
-    "faction": "Independent",
-    "title": "Weaver of Shadows",
-    "quotes": [
-      "You didn't see me leave. You never do.",
-      "Shadows don't follow me. I follow them.",
-      "Keep talking. I'm already gone."
+    "name": "Gorzak the Flayer",
+    "faction": "Other",
+    "title": "",
+    "aliases": [],
+    "role": "Abyssal Dominion Malevolence brute",
+    "bio": "A hulking red-skinned brute defeated in the first bout by Lirael Thornvine, who cuts him cleanly in half with a Nature Mana leaf-blade.",
+    "first_appearance": "Charging Lirael Thornvine in the first official match.",
+    "novels": [
+      "Override Zone: The Blood Tournament"
     ],
-    "image": "assets/illustrations/12weavers/soren.png"
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Hana Yagami",
+    "faction": "Yagami",
+    "title": "Mistress of Threads",
+    "aliases": [
+      "Mistress of Threads",
+      "the one who stitched the original Containment",
+      "Ka-san"
+    ],
+    "role": "Supreme being; Naobito's mother; creator of the Law of Containment",
+    "bio": "Arrives at the arena in a flood of cyan mana, revealing herself as Naobito's mother and triggering a memory of his infancy as the first Key. She places him straight into the finals, drops him into the Weavers' box, and tests him by awakening Sylvara. She watches with proud, terrifying maternal satisfaction.",
+    "first_appearance": "Stepping into the fighting pit in a perfect circle of cyan mana, instantly freezing the arena.",
+    "novels": [
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [
+      "Of course I'm at the top. The list merely caught up to reality.",
+      "Threads are not pulled. They are convinced to move.",
+      "My son climbs. That was always the design."
+    ],
+    "image": "assets/illustrations/cast/hana yagami.png"
+  },
+  {
+    "name": "Hanae Kurogane",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "Mother"
+    ],
+    "role": "Kurogane matriarch and clan administrator",
+    "bio": "Polite to everyone, soft only with her children. Runs clan administration with a tight-shouldered public face, negotiates Haruto's authority with practical fear, and chooses arms-first comfort over politics when Kitsuke awakens or vanishes. Keeps a light on after the abduction like a fact.",
+    "first_appearance": "At the head of the kitchen table, hair pinned up, shoulders tight from a day of clan administration.",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Haruto",
+    "faction": "Other",
+    "title": "",
+    "aliases": [],
+    "role": "School bully (surviving tormentor)",
+    "bio": "One of Naobito's three original tormentors, part of the surviving duo after Takumi's death. He clutches his desk in fear when Naobito speaks with Yurei's echo.",
+    "first_appearance": "At the school gate with Kenji and Daisuke, mocking Naobito.",
+    "novels": [
+      "Override Zone: The Dark Maiden"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Haruto Yagami",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "Haruto-sama",
+      "the black quiet man who fixes things",
+      "Yagami-san"
+    ],
+    "role": "Compound leader and telepath; protector of the Kurogane house",
+    "bio": "Wears black from throat to heel and runs the Kurogane compound after the Yagami name changed the crest on the gate. A telepath who hears thoughts, sorts threats, lies, and private fears, and can issue simple telepathic commands. Not Naobito's duplicate: he chooses prevention over pride, seating a Neo-Haven stabilizer lattice into old boundary stones and protecting Kitsuke's awakening from clan panic. Tired, exact, and gentler around children than around liars.",
+    "first_appearance": "Walking the main path at dawn in black, face still \"like a door that has not decided whether to open,\" as seen by Kitsuke.",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "High Queen",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "Nemimoth's mother"
+    ],
+    "role": "True power behind the Ivory Board; antagonist",
+    "bio": "The woman actually preparing the Board for war, treating it as a private board game. She expects Naobito, fights him in the Ivory Dome, wounds him, and reveals a prophecy that the Keys will become sentient weapons and 'god's funniest jokes.' She allows the rebellion to grow in the dark so it becomes a single target.",
+    "first_appearance": "Entering Nemimoth's chamber without haste, smirking at Naobito as if the extraction were a scheduled appointment.",
+    "novels": [
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "High Weaver Selene Arkwright",
+    "faction": "Weavers",
+    "title": "High Weaver (Law)",
+    "aliases": [
+      "Weaver of Fate"
+    ],
+    "role": "Leader of the 12 True Weavers; Weaver of Fate",
+    "bio": "An older woman with pure white hair and a gentle but terrifying presence who leads the council. She reads the geometric script of reality and judges Naobito in the Loom Sanctum. She demands to know why he should not be sealed.",
+    "first_appearance": "Seated at the highest throne in the Loom Sanctum, confronting Naobito with the council's judgment.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [
+      "Hierarchy exists so anomalies like you know where to kneel.",
+      "This is not entertainment. This is order being disrupted.",
+      "You will respect the rank, even if you outlive it."
+    ],
+    "image": "assets/illustrations/12weavers/selene.png"
+  },
+  {
+    "name": "Instructor Daisuke",
+    "faction": "Other",
+    "title": "",
+    "aliases": [],
+    "role": "Junior drill instructor",
+    "bio": "Calls pairs for control tests and keeps the demonstration yard's rules. Recognizes Kitsuke's dominance over Toma and marks Jin's exchange, enforcing \"no maiming\" while the compound stares.",
+    "first_appearance": "Calling \"Kitsuke Kurogane. Center.\" during demonstration season.",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Iris Vane",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "high-tier vampire",
+      "disowned Vane"
+    ],
+    "role": "Vampire; Elara Vane's disowned sister; shadow-war conspirator",
+    "bio": "A high-tier vampire who tears blood rifts and masks Key signatures with casual elegance. She extracts Leon from the white lockdown, brokers a deal to break Board assets in exchange for protection, and proposes publicly shattering a visible symbol of control to destroy the Board's illusion of coverage. She is bitter that Elara used her as a VIP courier.",
+    "first_appearance": "Stepping through a liquid seam of dark, iron-rich blood into the white lockdown, glass of blood in hand.",
+    "novels": [
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Isabella Cortez",
+    "faction": "Weavers",
+    "title": "Weaver of Flames",
+    "aliases": [
+      "Weaver of Flames"
+    ],
+    "role": "One of the 12 True Weavers; Weaver of Flames",
+    "bio": "A passionate Mexican-Brazilian Weaver with wild dark curls and burning-ember eyes who wields red-orange mana. She finds Naobito exciting and laughs at the chaos he causes.",
+    "first_appearance": "In the Loom Sanctum, grinning with flames dancing between her fingers.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [
+      "Finally, a meeting that isn't boring enough to put my own flames out.",
+      "Burn bright or don't bother showing up at all.",
+      "Oh, Kael, loosen up before you fossilize."
+    ],
+    "image": "assets/illustrations/12weavers/isabella.png"
+  },
+  {
+    "name": "Isolde Aster",
+    "faction": "Rankers",
+    "title": "Former Sword Saint of Lightning",
+    "aliases": [
+      "Sword Saint of Lightning"
+    ],
+    "role": "Revived fighter; messenger of Hana",
+    "bio": "The former Sword Saint of Lightning, dead for ten years and revived by cyan/Malevolence mana. She fights Naobito in a cyan-violet storm dome, delivers Hana's message that the tournament is a filter and the remaining Keys are hidden among the fighters, then whispers 'Pass' when he defeats her.",
+    "first_appearance": "Stepping out of glowing cyan light in ornate silver-and-cyan plate armor.",
+    "novels": [
+      "Override Zone: The Blood Tournament"
+    ],
+    "quotes": [
+      "Power without form is just flailing with better lighting.",
+      "I don't need to be faster. I need to be precise once.",
+      "A blade tells you who trained it. Yours tells me everything."
+    ],
+    "image": "assets/illustrations/cast/isolde.png"
+  },
+  {
+    "name": "Jin Kurogane",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "gimmickless"
+    ],
+    "role": "Older Kurogane disciple; hand-to-hand specialist without an awakened weave",
+    "bio": "Broad-shouldered, scraped knuckles, gimmickless in a clan that prizes interruption. Proposes and wins a sealed no-ability exchange to show Kitsuke that fights can be fun and that some clan members are on his side \"the boring way.\" His stubbornness is a strength charts cannot place.",
+    "first_appearance": "Stepping out of the intermediate line after Toma's bout to challenge Kitsuke to pure hand-to-hand.",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Kei Kashimo",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "Kei-senpai"
+    ],
+    "role": "Eighteen-year-old Kashimo courier/speed fighter; Kitsuke's ice trainer",
+    "bio": "Tall, rangy, mended coat, dark hair with an uneven sheen, and speed enough to circle a boy before he finishes a thought. Niece of Kenshi Kashimo; courier-adjacent and boundary-tested. Trains Kitsuke to send cold ahead instead of clutching it, flirts without cruelty, and is badly beaten by the unknown abductor while trying to protect him.",
+    "first_appearance": "Meeting Kitsuke on the outer path beyond the north gate and calling him \"the little snowfall the wards are gossiping about.\"",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Kenji",
+    "faction": "Other",
+    "title": "",
+    "aliases": [],
+    "role": "School bully (surviving tormentor)",
+    "bio": "One of the trio of bullies who tormented Naobito for years. He is tripped by shadow threads and later face-plants in the cafeteria. He survives Takumi's death and remains terrified of Naobito.",
+    "first_appearance": "Waiting at the school gate with Haruto and Daisuke, cracking knuckles and mocking Naobito.",
+    "novels": [
+      "Override Zone: The Dark Maiden"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Kenshi Kashimo",
+    "faction": "Rankers",
+    "title": "Over-Rev Combatant",
+    "aliases": [
+      "Earth freelancer",
+      "kinetic rat",
+      "little kinetic friend",
+      "kinetic anomaly",
+      "uncle Kenshi"
+    ],
+    "role": "Naobito's childhood friend; kinetic anomaly; unexpected ally",
+    "bio": "Smug on purpose, useful against his will, and unbound in a way that makes institutions nervous and survivors loyal. Elder Saito describes him as a personality that happens to move too fast; Haruto respects him as unconditionally caring, smart, and unbound. His Kashimo routes reach places Kurogane banners do not.",
+    "first_appearance": "Watching the broadcast in his Neo-Haven apartment, recognizing Naobito.",
+    "novels": [
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight",
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [
+      "If you're seeing my afterimage, you're already too slow to win.",
+      "Over-Rev isn't speed. It's deciding the finish line's already behind me.",
+      "Rematch? I was born for the rematch."
+    ],
+    "image": "assets/illustrations/Kenshi.png"
   },
   {
     "name": "Kiritaka Yagami",
     "faction": "Yagami",
     "title": "Patriarch (Yagami)",
+    "aliases": [],
+    "role": "Naobito's father; Hana's husband; immortal",
+    "bio": "Naobito's smug, handsome, immortal father steps out of a golden Fold in deep space. He confirms he knew about the Key design, expresses pride, warns that the remaining Keys are waking, and teases Yurei before vanishing.",
+    "first_appearance": "Stepping out of a soft golden Fold in the deep-space void, hands in his coat pockets.",
+    "novels": [
+      "Override Zone: The Blood Tournament"
+    ],
     "quotes": [
       "That's my boy! See, Hana? Battle IQ, just like his old man!",
       "Haha, look at him climb. Told you he'd rewrite that list.",
@@ -352,9 +556,574 @@
     "image": "assets/illustrations/cast/kiritaka.png"
   },
   {
+    "name": "Kitsuke Kurogane",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "snowflake",
+      "little snowfall",
+      "the freeze boy"
+    ],
+    "role": "Protagonist; 12-year-old Kurogane cryomancer",
+    "bio": "Narrator. A twelve-year-old Kurogane junior disciple whose family bloodline is silver-white Neutralization (interruption), but who awakens true-form Cryokinesis during a public demonstration. Watchful, proud, easily embarrassed, and determined to turn a mismatched gift into a controlled tool. Trained by Haruto Yagami's prevention, Kei Kashimo's speed drills, and Jin Kurogane's hand-to-hand. Ends the account abducted by an unknown operative for a master who collects useful winters.",
+    "first_appearance": "Opening line of the account: a twelve-year-old watching the black-coated Haruto Yagami walk the compound's main path and feeling the expectations bend the floorboards.",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Kurogane Clan Head",
+    "faction": "Other",
+    "title": "",
+    "aliases": [],
+    "role": "Saya's father; Kurogane Clan leader",
+    "bio": "Watches Naobito's dominant display from the Kurogane estate with narrowed eyes, declaring that if Naobito returns, Saya will be their bridge or their weapon.",
+    "first_appearance": "Watching the VeilNet feed in a traditional Japanese estate room.",
+    "novels": [
+      "Override Zone: The Blood Tournament"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Lady Elara Vane",
+    "faction": "Weavers",
+    "title": "Weaver of Threads",
+    "aliases": [
+      "Weaver of Threads",
+      "Weaver of the Third Seam"
+    ],
+    "role": "One of the 12 True Weavers; tailor of vessels",
+    "bio": "An elegant, designer-goth Weaver in her fifties who runs a Gothic-modern atelier enforcing the Law of Containment. She collects and stitches cracked vessels, measures Naobito with questions, and dispatches Reno as her failsafe. She is undecided about Naobito, viewing him as a magnificent but flawed project.",
+    "first_appearance": "Waiting at the center of her atelier after Reno folds Naobito out of the cafeteria.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [
+      "Darling, I didn't pull your strings. I just made you want to dance.",
+      "Every thread matters. Even the ones that think they're free.",
+      "How rude to forget me on a list. I'll remember that."
+    ],
+    "image": "assets/illustrations/12weavers/elara.png"
+  },
+  {
+    "name": "Leon Cross",
+    "faction": "Independent",
+    "title": "Barkeep / Independent",
+    "aliases": [
+      "the quiet one",
+      "Key of Focus"
+    ],
+    "role": "Protagonist; Key of Focus; former Pawn District bartender",
+    "bio": "A collared bartender in the Ivory Board's Pawn District whose forehead gemstone is the Key of Focus. During the Board's white lockdown Iris Vane extracts him to Neo Haven; Reno removes his Inhibitor Collar, awakening unrestricted cobalt power. He trains in Niro Hart's warded sublevel, learns mana compression, and publicly destroys a Board suppression tower, triggering collars to fail safe. He initially feels his power is 'just a laser' until Niro teaches him to treat it as the one honest thing the system never took.",
+    "first_appearance": "Wiping a glass behind the counter in the Underbelly dive bar as the Blood Tournament collapses on the illegal terminal.",
+    "novels": [
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [
+      "Bar's closed. And you're standing in my bar.",
+      "I didn't ask for a collar. Or your permission.",
+      "Draw that again and I don't miss twice."
+    ],
+    "image": "assets/illustrations/cast/leon.png"
+  },
+  {
+    "name": "Lirael Thornvine",
+    "faction": "Other",
+    "title": "",
+    "aliases": [],
+    "role": "Verdant Conclave Nature Mana fighter; rising star",
+    "bio": "A lean, vine-haired Rank 3 Nature user who defeats Gorzak the Flayer in under thirty seconds with a single clean leaf-blade slash. She wins multiple bouts with surgical efficiency, catching Naobito's attention as a quiet, deadly lower-rank fighter.",
+    "first_appearance": "Stepping into the pit as the first official match fighter.",
+    "novels": [
+      "Override Zone: The Blood Tournament"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Lord Varak of the Red Abyss",
+    "faction": "Other",
+    "title": "",
+    "aliases": [],
+    "role": "Abyssal Dominion demon lord; challenger",
+    "bio": "A towering, red-skinned demon lord who shatters Hana's incomplete gate to fight Naobito himself. He charges with raw Malevolence Mana but is systematically dismantled and bound in violet bandages within seconds.",
+    "first_appearance": "Exploding through the incomplete Folded gate, roaring at the Mistress.",
+    "novels": [
+      "Override Zone: The Blood Tournament"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Lucien Moreau",
+    "faction": "Weavers",
+    "title": "Weaver of Time",
+    "aliases": [
+      "Weaver of Time"
+    ],
+    "role": "One of the 12 True Weavers; Naobito's closest ally among them",
+    "bio": "The Weaver of Time shows unprecedented warmth toward Naobito, materializing a throne for him beside his own and calling him 'little tinkerer.' He reveals the existence of the Keys, the second Key (Sylvara), and warns that in some timelines Naobito is killed by the other Keys. He ends the arc moving chess pieces onto a Neo-Haven square.",
+    "first_appearance": "Steps out of a fold in the atelier after Naobito refuses the three choices, offering the Override Zone.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The 'Hart' that shall beat",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [
+      "Time doesn't heal. It simply gives you room to hold the ache correctly.",
+      "Compress it. Power is not loud, child, it's dense.",
+      "I've watched this timeline end a dozen ways. Surprise me."
+    ],
+    "image": "assets/illustrations/12weavers/Lucien Moreau (Weaver of Time).png"
+  },
+  {
+    "name": "Master Kael Voss",
+    "faction": "Weavers",
+    "title": "Weaver of Neutrality",
+    "aliases": [
+      "Weaver of Neutrality"
+    ],
+    "role": "One of the 12 True Weavers; Saya's master",
+    "bio": "A stern, emotionless Weaver of Neutrality in his late fifties who believes in absolute balance and will erase anything threatening the Law. He permits Saya to observe Naobito and admits emotion can reveal truths logic cannot. He is dangerous but not personally hostile.",
+    "first_appearance": "In the Sanctum of Absolute Zero beneath Mount Fuji, receiving Saya's report about Naobito.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [
+      "This is improperly classified and therefore improperly contained.",
+      "Enthusiasm is not a substitute for protocol.",
+      "File it, seal it, then we can argue about it."
+    ],
+    "image": "assets/illustrations/12weavers/kael voss.png"
+  },
+  {
+    "name": "Mei Kurogane",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "little sister"
+    ],
+    "role": "Kitsuke's 9-year-old sister",
+    "bio": "Talks when nervous, goes quiet when truly upset. Decides Yagami is \"the black quiet man who fixes things,\" asks if thoughts about sweets can be heard, and holds Kitsuke's first ice flower like a star. Her affection makes the compound feel survivable.",
+    "first_appearance": "At the kitchen table, kicking Kitsuke's shin and asking if Yagami can hear her thinking about sweets.",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Mei Ling Zhao",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "Weaver of Silence"
+    ],
+    "role": "One of the 12 True Weavers; Weaver of Silence",
+    "bio": "A petite, serene Chinese Weaver who listens to things no one else can hear and rarely speaks. She offers only unreadable smiles and deep frowns, embodying silent observation.",
+    "first_appearance": "Seated in the Loom Sanctum with eyes closed, offering a small unreadable smile.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Mei Ling Zhao (Weaver of Silence)",
+    "faction": "Weavers",
+    "title": "Weaver of Silence",
+    "aliases": [],
+    "role": "",
+    "bio": "",
+    "first_appearance": "",
+    "novels": [],
+    "quotes": [
+      "...",
+      "No. You didn't hear me. That was the point.",
+      "Silence isn't empty. It's where I work."
+    ],
+    "image": "assets/illustrations/12weavers/mei ling zao.png"
+  },
+  {
+    "name": "Mireille Vale",
+    "faction": "Weavers",
+    "title": "Executive Assistant / Blade",
+    "aliases": [
+      "devoted blade",
+      "Master's blade",
+      "yandere secretary"
+    ],
+    "role": "Antagonist/ally; Niro's devoted secretary and enforcer",
+    "bio": "A 25-year-old with silver-white hair and obsessive, fanatical love for Niro, serving as his devoted blade and killer. She executes his enemies poetically and kneels at his feet. She burns with jealous hatred toward anyone who draws Niro's interest, including Naobito.",
+    "first_appearance": "Approaching Niro in the Obsidian Penthouse with quarterly reports and flushed adoration.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The 'Hart' that shall beat",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [
+      "Master, say the word and they all disappear for you.",
+      "Don't look at anyone else. Just keep looking at me.",
+      "Your throne suits you. Let me kneel where I belong."
+    ],
+    "image": "assets/illustrations/cast/mireille.png"
+  },
+  {
+    "name": "Mistress of Threads",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "the one who stitched the original Containment"
+    ],
+    "role": "Supreme being; creator of the Law of Containment and the 12 Weavers",
+    "bio": "An ancient being older than any empire who saw the first age of free mana dissolving cities and wrote the Law of Containment in her own blood. She created the Weavers, designed the puzzle and Naobito's destiny, and watches silently through them. She is the only one who can read geometric script by right.",
+    "first_appearance": "Referenced by Elara as the one who stitched original Containment; later revealed as the architect of Naobito's puzzle destiny.",
+    "novels": [
+      "Override Zone: The Dark Maiden"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Naobito Yagami",
+    "faction": "Yagami",
+    "title": "Key of Duality (Vessel)",
+    "aliases": [
+      "little lamb",
+      "destined vessel",
+      "fixer",
+      "little tinkerer",
+      "Key of Duality",
+      "Class-S Reality Anomaly",
+      "Great Naobito Yagami",
+      "the Yagami boy",
+      "the quiet boy who fixed other people's problems"
+    ],
+    "role": "Protagonist; Key of Duality; destined vessel of the Dark Maiden",
+    "bio": "Two years after the first arc, Naobito returns as a polished, god-tier Symbiote-Host. He crashes into the Crimson Veil Arena as a violet meteor, dismantles Lord Varak, survives Isolde Aster, and awakens Sylvara Kane as the Key of Echoes. In the Hollow Shell he learns to house and rewrite Yurei's foundational code, and with Kenshi's help forces a draw against True Weaver Asha Nkosi, destroying the arena. By the end he is designated a Class-S Reality Anomaly and hides in Neo-Haven with Kenshi and Yurei.",
+    "first_appearance": "Hunched over the cursed puzzle in his cramped bedroom, bruised from bullying, as the final piece clicks into place.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight",
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [
+      "It's not possession if I already agreed to carry the weight.",
+      "Quiet is easier. People don't stare at quiet.",
+      "Analyze first. If I can understand it, I can survive it."
+    ],
+    "image": "assets/illustrations/cast/naobito_base.png"
+  },
+  {
+    "name": "Nemimoth",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "Key of Hunger"
+    ],
+    "role": "High Queen's daughter; Key of Hunger; extracted asset",
+    "bio": "A slender, pale-haired girl isolated in the Ivory Dome, lonely and drawn to Naobito's projection. She is the Key of Hunger but not yet awakened; Hana later confirms she still requires unlocking. Naobito and Soren breach the Dome to extract her; the High Queen lets Naobito stay while Nemimoth escapes with Soren. In Elara's safehouse she recognizes Sylvara as 'sister.'",
+    "first_appearance": "Standing alone before a holographic playback of Naobito in the Ivory Dome, reaching through his frozen face.",
+    "novels": [
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Nemimoth (Key of Hunger)",
+    "faction": "Keys",
+    "title": "Key of Hunger",
+    "aliases": [],
+    "role": "",
+    "bio": "",
+    "first_appearance": "",
+    "novels": [],
+    "quotes": [
+      "Infinity is lonely when no one else can see where it ends.",
+      "Another sibling woke up. I felt you before I saw you.",
+      "Father worries. I just wait. You'll find me eventually, brother."
+    ],
+    "image": "assets/illustrations/cast/nemimoth.png"
+  },
+  {
+    "name": "Nigel Hart",
+    "faction": "Hart Family",
+    "title": "Enforcer (deceased)",
+    "aliases": [],
+    "role": "Antagonist; brutal brother",
+    "bio": "The physical enforcer of the lessons, making Niro run until collapse. He joins the conspiracy to kill Thad and is killed during the massacre when a compressed Malevolence orb blows a hole through his chest.",
+    "first_appearance": "Making young Niro run laps and dragging him up by the collar.",
+    "novels": [
+      "Override Zone: The 'Hart' that shall beat"
+    ],
+    "quotes": [
+      "Get up. If you can still breathe, you can still run.",
+      "No one respects the weak who stays down. So move.",
+      "That all you've got, thirteenth?"
+    ],
+    "image": null
+  },
+  {
+    "name": "Niro Hart",
+    "faction": "Hart Family",
+    "title": "Malevolence Heir / Sole Surviving Hart Heir",
+    "aliases": [
+      "devil in white",
+      "prodigy",
+      "the thirteenth",
+      "the mistake"
+    ],
+    "role": "Protagonist of the origin story; future antagonist/rival; Malevolence Mana user and ruler of Hart Industries",
+    "bio": "Born the thirteenth child of the cruel Hart family, Niro is abused from age eight as the 'mistake.' He awakens Malevolence Mana at his grandfather's funeral and is forged by years of 'lessons' from his siblings and father's contempt. After his only ally Thad is murdered by his siblings, he slaughters nearly the entire family at sixteen, inherits the empire, and builds Hart Industries into a quintillionaire powerhouse. At twenty-seven, bored, he turns toward rumors of a boy in Tokyo bonded to an ancient maiden.",
+    "first_appearance": "Stepping out of a black limousine in the alley after Naobito and Saya's ramen dinner, crimson Malevolence Mana announcing his arrival.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The 'Hart' that shall beat",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [
+      "Don't call it cruelty. I'm just finishing what your lessons started.",
+      "You had twelve chances to be family. You spent them all making me.",
+      "I don't forgive. I balance the ledger."
+    ],
+    "image": "assets/illustrations/cast/niro.png"
+  },
+  {
+    "name": "Omar al-Sayed",
+    "faction": "Independent",
+    "title": "Weaver of Sands",
+    "aliases": [
+      "Weaver of Sands"
+    ],
+    "role": "One of the 12 True Weavers; Weaver of Sands",
+    "bio": "A calm, ancient Egyptian-Arab Weaver in desert tones who compares Naobito to a great storm. He is astonished when Naobito reads the Mistress's geometric script.",
+    "first_appearance": "Seated in the Loom Sanctum, inclining his head respectfully to Naobito.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [
+      "The sands remember every footstep, even those that try to erase themselves.",
+      "Patience. The desert always wins by waiting.",
+      "Storms pass. What remains is what was built correctly."
+    ],
+    "image": "assets/illustrations/12weavers/omar.png"
+  },
+  {
+    "name": "Proxy",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "patchwork"
+    ],
+    "role": "Leon's cyborg companion; hacker and data runner",
+    "bio": "A half-scavenged cyborg with a mechanical eye who moves data and fixes problems. He accompanies Leon through the lockdown and extraction, hijacks the VeilNet district feed during the tower attack, and receives the Ivory Board regulator backdoor from the King. Half his body is scavenged because staying 'official' meant staying owned.",
+    "first_appearance": "Moving beside Leon through the crowded lower corridors of the Pawn District, mechanical eye scanning the crowd.",
+    "novels": [
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Proxy / PRX-04",
+    "faction": "Independent",
+    "title": "Field Asset",
+    "aliases": [],
+    "role": "",
+    "bio": "",
+    "first_appearance": "",
+    "novels": [],
+    "quotes": [
+      "Congrats, you just pinged everyone who can kill you from orbit.",
+      "Left side's premium, right side's scrapyard. Still shoots though.",
+      "Run smart, not brave. Brave gets registered as debris."
+    ],
+    "image": "assets/illustrations/proxy.png"
+  },
+  {
+    "name": "Reno",
+    "faction": "Independent",
+    "title": "Field Asset / Logistics",
+    "aliases": [
+      "Elara's pawn",
+      "attack dog"
+    ],
+    "role": "Weaver's pawn; spatial folder / collector of leaking vessels",
+    "bio": "A silent, flat-affect human who swore his body as a permanent catalyst for Lady Elara Vane. He folds space using obsidian coins and sealed mana rounds in six-shooters, collects leaking vessels like Naobito, and serves as Elara's hidden failsafe. He gradually shows quiet respect for Naobito's growth, leaving small gifts.",
+    "first_appearance": "Steps into the cafeteria through the double doors, two heavy six-shooters on his hips, and declares Naobito is 'leaking.'",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [
+      "Probability of success: 12%. Proceeding anyway.",
+      "Efficient. Quiet. Done. No further comment needed.",
+      "Noted. Adjusting for next engagement."
+    ],
+    "image": "assets/illustrations/cast/reno.png"
+  },
+  {
+    "name": "Ryo Kurogane",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "elder brother"
+    ],
+    "role": "Kitsuke's 17-year-old brother; family rear guard",
+    "bio": "Tall, steady, trusted on sight; believes Haruto is dangerous but means well. Protects the family by positioning himself between them and the compound's noise, insists on being told before Kitsuke leaves the walls, and takes questions at the main hall door so his mother can hold her children first.",
+    "first_appearance": "At the family kitchen table, flicking Kitsuke's chopsticks and warning him about \"the stare.\"",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Sae",
+    "faction": "Other",
+    "title": "",
+    "aliases": [],
+    "role": "Neo-Haven workshop contact; stabilizer lattice supplier",
+    "bio": "Middle-aged, practical, call-stained fingers; runs a copper-weave mute room in the Crimson Market. Cleaned the stabilizer lattice with no Board tags. Confessed to Naobito Yagami in high school and stayed behind selling sealed work while he became a rumor with casualties. Gives Kitsuke the advice not to answer soft things with silence.",
+    "first_appearance": "Stepping out from behind the canvas partition in the dampened workshop.",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Saya Kurogane",
+    "faction": "Kurogane",
+    "title": "Kurogane Heir",
+    "aliases": [
+      "silver dove",
+      "little silver dove"
+    ],
+    "role": "Rank 5 Specialist; Neutralization Mage; empathetic ally",
+    "bio": "An emotional, auburn-haired Specialist whose silver-white Neutralization Mana lets her feel the pain behind Corruption. She investigates Naobito's trail, argues he deserves a chance, and befriends him over ramen. She stands with the boy and the maiden against erasure.",
+    "first_appearance": "Kneeling in the ruined school hallway, pressing her palm to Takumi's dried blood and sensing a lonely child's pain.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [
+      "A-ah, please don't look at my hands when they shake like this!",
+      "I'm not ready, but I'll stand here anyway if you need me.",
+      "Reno, stop calculating my survival rate out loud!"
+    ],
+    "image": "assets/illustrations/cast/saya.png"
+  },
+  {
+    "name": "Seraphine Hart",
+    "faction": "Hart Family",
+    "title": "Named Successor (deceased)",
+    "aliases": [
+      "Sera",
+      "the golden child",
+      "designated heir"
+    ],
+    "role": "Antagonist; eldest sister and designated heir",
+    "bio": "The cruelest sibling, who makes Niro recite his worthlessness and grooms herself as CEO. She conspires with Edward and Nigel to kill Thad, then is herself killed when Niro's compressed Malevolence orb detonates her during the massacre, leaving a smoking crater.",
+    "first_appearance": "Mentioned by Niro in his backstory as the sister who laughed about putting 'the little bastard in his proper place.'",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The 'Hart' that shall beat"
+    ],
+    "quotes": [
+      "Oh, little mistake, did you think the table was ever set for you?",
+      "Smile properly when you answer. You embarrass the portrait.",
+      "Inheritance isn't given. It's taken gracefully."
+    ],
+    "image": null
+  },
+  {
+    "name": "Soren Blackwood",
+    "faction": "Independent",
+    "title": "Weaver of Shadows",
+    "aliases": [
+      "Weaver of Shadows"
+    ],
+    "role": "One of the 12 True Weavers; Weaver of Shadows",
+    "bio": "Shadow-breaches into Nemimoth's chamber with Naobito, extracts Nemimoth when Naobito orders him to, and later watches the damaged Dome from the elite district terrace with her. His shadows are starved in the bright Ivory Board architecture.",
+    "first_appearance": "In the Loom Sanctum, darkness shifting around him as he speaks.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [
+      "You didn't see me leave. You never do.",
+      "Shadows don't follow me. I follow them.",
+      "Keep talking. I'm already gone."
+    ],
+    "image": "assets/illustrations/12weavers/soren.png"
+  },
+  {
+    "name": "Suspicious Elder",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "polished-wood elder"
+    ],
+    "role": "Manipulative clan elder; offers Kitsuke an alternate cage",
+    "bio": "Smooth, kindly seeming, and rehearsed. Approaches Kitsuke near the east records annex, warns him that some clan attention is inventory not protection, and offers \"a place better than this compound\" whenever Kitsuke feels finished with. His gentleness reads as a door closing.",
+    "first_appearance": "Already in Kitsuke's path when he turns from watching the courier and the elder at the east records annex.",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Sylvara 'Syl' Kane",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "Key of Echoes",
+      "little echo"
+    ],
+    "role": "Scavenger from the Fractured Realms; Key of Echoes",
+    "bio": "A ragged, terrified scavenger in mismatched tech-gear who is awakened mid-match by Yurei's voice telling her to scream. Her Echo ability produces apocalyptic sonic blasts. Naobito pulls her into his mindscape, bonds with her, and together they create a fused Range Crest that launches the Goliath into deep space.",
+    "first_appearance": "Shivering in the pit in scavenged tech-gear, moments from being crushed by the Goliath.",
+    "novels": [
+      "Override Zone: The Blood Tournament"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
     "name": "Sylvara Kane",
     "faction": "Independent",
     "title": "Anomaly",
+    "aliases": [
+      "Key of Echoes",
+      "little echo"
+    ],
+    "role": "Scavenger from the Fractured Realms; half-awakened Key of Echoes",
+    "bio": "Lingers in the safehouse and is recognized by Nemimoth, who senses her half-awakened Key of Echoes and calls her 'sister.' She accepts the connection awkwardly but genuinely.",
+    "first_appearance": "At the edge of the arrival hall in scavenged layers, giving a small awkward wave.",
+    "novels": [
+      "Override Zone: Cobalt Knight"
+    ],
     "quotes": [
       "Um... if I'm not on the list, does that mean I'm safe or just forgotten?",
       "Please don't call me the secret final boss. I'm really not!",
@@ -363,9 +1132,130 @@
     "image": "assets/illustrations/cast/sylvara.png"
   },
   {
+    "name": "Takumi Sato",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "golden boy",
+      "soccer captain"
+    ],
+    "role": "Bully; victim of Yurei's power",
+    "bio": "The popular soccer captain who publicly mocked and shoved Naobito in the crowded hallway. Yurei punished him with imaginary agony before his body combusted from the inside out, spraying blood across the corridor.",
+    "first_appearance": "Stepping into Naobito's path in the crowded corridor, phone cameras out, before being swallowed by darkness and killed.",
+    "novels": [
+      "Override Zone: The Dark Maiden"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Thaddeus Hart",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "Thad",
+      "Thaddy"
+    ],
+    "role": "Ally; Niro's only kind brother",
+    "bio": "Seventeen when introduced, the only sibling who treats Niro like a person. He tries to shield Niro, pleads with Victor to stop the lessons, and promises to get him out. His siblings murder him on the mountain road to remove his influence. His death snaps the last thread of Niro's mercy.",
+    "first_appearance": "Sliding into the seat next to eight-year-old Niro in the funeral limousine, whispering comfort.",
+    "novels": [
+      "Override Zone: The 'Hart' that shall beat"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Thaddeus Hart / Thad",
+    "faction": "Hart Family",
+    "title": "The Kind Brother (deceased)",
+    "aliases": [],
+    "role": "",
+    "bio": "",
+    "first_appearance": "",
+    "novels": [],
+    "quotes": [
+      "Just keep your head down a little longer, okay? I'll figure something out.",
+      "You shouldn't have to endure this to be called brother.",
+      "If I lose you too, what was any of it for?"
+    ],
+    "image": null
+  },
+  {
+    "name": "The Abductor",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "matte-black operative",
+      "the woman"
+    ],
+    "role": "Unknown operative who kidnaps Kitsuke",
+    "bio": "A woman in matte travel black with no clan mark and no wasted movement. Defeats Kei Kashimo with surgical precision, drops Kitsuke with a measured sedative, and leaves one line: \"My master is gonna love you.\" Her master collects \"useful winters.\"",
+    "first_appearance": "Standing across from Kei Kashimo in the inner court after a hard snap of displaced wind.",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "The Compound Maids",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "older maid with the stiff knee",
+      "younger maid"
+    ],
+    "role": "Servants who carry and leak compound rumor",
+    "bio": "Two maids whose whispered argument in the east linen room gives Kitsuke his first fragments of Naobito Yagami, the Dome, the Queen, and the Keys. The older one warns that stories are heavy and stick to small hands; the younger one fears names being spoken in open halls.",
+    "first_appearance": "Arguing in low voices inside the east linen room while Kitsuke fetches towels.",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "The Crimson Market Lure",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "woman with the careful pocket"
+    ],
+    "role": "Unidentified woman who approaches Kitsuke in Neo-Haven",
+    "bio": "Smiles soft and concerned in the Crimson Market, one hand toward Kitsuke's sleeve and the other too carefully in her pocket. Haruto stops her with a simple telepathic command. Her ill intentions are the reason Kitsuke starts reading the city as a place full of smiles that are not safe.",
+    "first_appearance": "Stepping into Kitsuke's path in the Crimson Market crowd.",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "The King",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "Ivory Board King"
+    ],
+    "role": "Figurehead leader of the Ivory Board; Nemimoth's father",
+    "bio": "Highest authority in name only, powerless against the Queens and Bishops who truly rule. He is a father trying to protect Nemimoth. He secretly aids Leon by providing the suppression tower's pulse-regulator backdoor, declaring he is tired of systems that survive by attaching themselves to living people.",
+    "first_appearance": "Entering Nemimoth's chamber after the unregistered Key alert, dropping his rigid posture to be a father.",
+    "novels": [
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
     "name": "The King (Ivory Board)",
     "faction": "Ivory Board",
     "title": "Ivory Board Sovereign",
+    "aliases": [],
+    "role": "",
+    "bio": "",
+    "first_appearance": "",
+    "novels": [],
     "quotes": [
       "Nemi, you've been staring at that projection for hours. Are you eating properly?",
       "They call me King, but I can't even protect you from a boarding Queen.",
@@ -374,9 +1264,81 @@
     "image": null
   },
   {
+    "name": "The Maid",
+    "faction": "Independent",
+    "title": "Servant (hidden ally)",
+    "aliases": [],
+    "role": "",
+    "bio": "",
+    "first_appearance": "",
+    "novels": [],
+    "quotes": [
+      "Young master... shall I... no, forgive me, I shouldn't ask.",
+      "If they see me help you, they'll hurt you twice for it.",
+      "Please endure it. That's all I can offer you."
+    ],
+    "image": null
+  },
+  {
+    "name": "The Sealed-Case Courier",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "travel-coat courier"
+    ],
+    "role": "Courier carrying sealed cases between Kurogane and outside contacts",
+    "bio": "Quiet, travel-coated, and case-carrying; makes officers stand straighter. Appears at the roof warning, at the boundary-adjacent errand, and near the east records annex speaking too closely with the suspicious elder. His presence marks the compound's hidden traffic.",
+    "first_appearance": "Standing in the lane below the north storehouse roof, telling the children to get down.",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Toma",
+    "faction": "Other",
+    "title": "",
+    "aliases": [],
+    "role": "Fifteen-year-old Kurogane neutralization elite",
+    "bio": "Clean, polite, certain; used by instructors to humble loud juniors. His silver neutralization meets Kitsuke's frost in a public bout and he goes to one knee, then bows from there and admits he underestimated the younger boy.",
+    "first_appearance": "Stepping into the center square for the control test against Kitsuke.",
+    "novels": [
+      "Override Zone: The Kurogane Heir"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Veil Wardens Leader",
+    "faction": "Other",
+    "title": "",
+    "aliases": [],
+    "role": "Leader of the Veil Wardens (neutral enforcers)",
+    "bio": "A scarred woman with silver Neutralization Mana who watches the broadcast and warns that the tournament will break the balance, offering sanctuary to Naobito if he wins.",
+    "first_appearance": "Watching the broadcast in a hidden bunker beneath the city.",
+    "novels": [
+      "Override Zone: The Blood Tournament"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
     "name": "VeilNet Anchor",
     "faction": "Ivory Board",
     "title": "Broadcast Host",
+    "aliases": [
+      "Succubus Anchor",
+      "incubus anchor",
+      "Incubus Anchor"
+    ],
+    "role": "VeilNet broadcast host",
+    "bio": "Initially an incubus with glowing red eyes, then shifts mid-broadcast into a stunning succubus with rose-gold eyes and horns, narrating the tournament with predatory excitement and playful sin.",
+    "first_appearance": "Grinning into the camera as the broadcast opens.",
+    "novels": [
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
     "quotes": [
       "Ladies, gentlemen, monsters and miracles - welcome to where debts die screaming!",
       "This isn't a tournament, this is the universe filing for divorce in blood!",
@@ -385,14 +1347,82 @@
     "image": null
   },
   {
-    "name": "The Maid",
-    "faction": "Independent",
-    "title": "Servant (hidden ally)",
+    "name": "Victor Hart",
+    "faction": "Hart Family",
+    "title": "Patriarch (deceased)",
+    "aliases": [
+      "Father",
+      "head of the Hart family"
+    ],
+    "role": "Antagonist; patriarch of the Hart family; CEO of Hart Industries",
+    "bio": "Tall, imposing patriarch who rules his family like a kingdom. He teaches that weakness is a disease, oversees Niro's brutal 'lessons,' and dismisses Thad's pleas. He is killed by Niro during the massacre when a wave of Malevolence Mana crushes his ribs against the wall.",
+    "first_appearance": "Stepping to the podium at Elias Hart's funeral to deliver the speech about strength and weakness.",
+    "novels": [
+      "Override Zone: The 'Hart' that shall beat"
+    ],
     "quotes": [
-      "Young master... shall I... no, forgive me, I shouldn't ask.",
-      "If they see me help you, they'll hurt you twice for it.",
-      "Please endure it. That's all I can offer you."
+      "A Hart does not explain himself. He dictates and others adjust.",
+      "Sentiment is expensive. I don't pay for what doesn't profit the name.",
+      "If you have to ask for power, you were never meant to hold it."
     ],
     "image": null
+  },
+  {
+    "name": "Viktor Drago",
+    "faction": "Rankers",
+    "title": "Weaver of Chains",
+    "aliases": [
+      "Weaver of Chains"
+    ],
+    "role": "One of the 12 True Weavers; Weaver of Chains",
+    "bio": "A massive, imposing Russian Weaver wrapped in self-moving iron-gray chains who believes vessels bonded deeply to Corruption should be sealed permanently. He is hostile and furious at Naobito's audacity and the revelation of his deeper destiny.",
+    "first_appearance": "Seated in the Loom Sanctum, chains rattling as he demands Naobito be contained.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [
+      "Strength needs no argument. It needs a witness.",
+      "Chains don't restrict me. They remind you where you stand.",
+      "Irrelevant. Come back when you can move me."
+    ],
+    "image": "assets/illustrations/12weavers/viktor.png"
+  },
+  {
+    "name": "Yurei Himura",
+    "faction": "Other",
+    "title": "",
+    "aliases": [
+      "The Dark Maiden",
+      "Yami no Otome",
+      "Maiden of the Hollow Loom"
+    ],
+    "role": "Antagonist/ally; ancient fallen maiden; co-pilot of the Hollow Shell",
+    "bio": "Originally a mortal village oracle who could see fate-threads and wove healing bandages, she was broken when warlords burned her village and forced her to weave for their armies. She became the Dark Maiden, sealing herself in a puzzle to wait for a worthy lonely fixer, and bonds to Naobito as an possessive, manic presence. Over time she is negotiated down from full possession to a voice in his mind, forming a fragile partnership.",
+    "first_appearance": "Manic female laughter in the void after Naobito solves the puzzle, six colossal violet eyes igniting around him.",
+    "novels": [
+      "Override Zone: The Dark Maiden",
+      "Override Zone: The Blood Tournament",
+      "Override Zone: Cobalt Knight"
+    ],
+    "quotes": [],
+    "image": null
+  },
+  {
+    "name": "Yurei Himura (Dark Maiden)",
+    "faction": "Dark Maiden",
+    "title": "Dark Maiden / Hollow Shell",
+    "aliases": [],
+    "role": "",
+    "bio": "",
+    "first_appearance": "",
+    "novels": [],
+    "quotes": [
+      "Heehee~ you didn't solve my puzzle, lamb, you invited me in.",
+      "Shhh, don't hide those new eyes. I made them just for you.",
+      "You're mine to tease, mine to keep, mine to ruin beautifully~"
+    ],
+    "image": "assets/illustrations/cast/yurei.png"
   }
 ]

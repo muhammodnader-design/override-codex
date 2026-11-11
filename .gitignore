@@ -16,3 +16,8 @@ venv/
 
 # build artifacts
 lore_dump.txt
+
+# extraction artifacts
+extract_*.json
+merge_lore.py
+lore_dump.txt
