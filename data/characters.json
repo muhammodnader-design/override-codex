@@ -200,8 +200,8 @@
   },
   {
     "name": "Elena Hart",
-    "faction": "Other",
-    "title": "",
+    "faction": "Hart Family",
+    "title": "Matriarch (silenced witness)",
     "aliases": [
       "Mother",
       "Elena"
@@ -212,18 +212,6 @@
     "novels": [
       "Override Zone: The 'Hart' that shall beat"
     ],
-    "quotes": [],
-    "image": null
-  },
-  {
-    "name": "Elena Hart (Mother)",
-    "faction": "Hart Family",
-    "title": "Matriarch (silenced witness)",
-    "aliases": [],
-    "role": "",
-    "bio": "",
-    "first_appearance": "",
-    "novels": [],
     "quotes": [
       "Looking away was the only way I knew how to keep you breathing.",
       "Don't mistake my silence for approval. It was survival.",
@@ -722,8 +710,8 @@
   },
   {
     "name": "Mei Ling Zhao",
-    "faction": "Other",
-    "title": "",
+    "faction": "Weavers",
+    "title": "Weaver of Silence",
     "aliases": [
       "Weaver of Silence"
     ],
@@ -735,18 +723,6 @@
       "Override Zone: The Blood Tournament",
       "Override Zone: Cobalt Knight"
     ],
-    "quotes": [],
-    "image": null
-  },
-  {
-    "name": "Mei Ling Zhao (Weaver of Silence)",
-    "faction": "Weavers",
-    "title": "Weaver of Silence",
-    "aliases": [],
-    "role": "",
-    "bio": "",
-    "first_appearance": "",
-    "novels": [],
     "quotes": [
       "...",
       "No. You didn't hear me. That was the point.",
@@ -828,8 +804,8 @@
   },
   {
     "name": "Nemimoth",
-    "faction": "Other",
-    "title": "",
+    "faction": "Keys",
+    "title": "Key of Hunger",
     "aliases": [
       "Key of Hunger"
     ],
@@ -839,18 +815,6 @@
     "novels": [
       "Override Zone: Cobalt Knight"
     ],
-    "quotes": [],
-    "image": null
-  },
-  {
-    "name": "Nemimoth (Key of Hunger)",
-    "faction": "Keys",
-    "title": "Key of Hunger",
-    "aliases": [],
-    "role": "",
-    "bio": "",
-    "first_appearance": "",
-    "novels": [],
     "quotes": [
       "Infinity is lonely when no one else can see where it ends.",
       "Another sibling woke up. I felt you before I saw you.",
@@ -927,7 +891,7 @@
   {
     "name": "Proxy",
     "faction": "Other",
-    "title": "",
+    "title": "Field Asset",
     "aliases": [
       "patchwork"
     ],
@@ -937,18 +901,6 @@
     "novels": [
       "Override Zone: Cobalt Knight"
     ],
-    "quotes": [],
-    "image": null
-  },
-  {
-    "name": "Proxy / PRX-04",
-    "faction": "Independent",
-    "title": "Field Asset",
-    "aliases": [],
-    "role": "",
-    "bio": "",
-    "first_appearance": "",
-    "novels": [],
     "quotes": [
       "Congrats, you just pinged everyone who can kill you from orbit.",
       "Left side's premium, right side's scrapyard. Still shoots though.",
@@ -1095,23 +1047,6 @@
   },
   {
     "name": "Sylvara 'Syl' Kane",
-    "faction": "Other",
-    "title": "",
-    "aliases": [
-      "Key of Echoes",
-      "little echo"
-    ],
-    "role": "Scavenger from the Fractured Realms; Key of Echoes",
-    "bio": "A ragged, terrified scavenger in mismatched tech-gear who is awakened mid-match by Yurei's voice telling her to scream. Her Echo ability produces apocalyptic sonic blasts. Naobito pulls her into his mindscape, bonds with her, and together they create a fused Range Crest that launches the Goliath into deep space.",
-    "first_appearance": "Shivering in the pit in scavenged tech-gear, moments from being crushed by the Goliath.",
-    "novels": [
-      "Override Zone: The Blood Tournament"
-    ],
-    "quotes": [],
-    "image": null
-  },
-  {
-    "name": "Sylvara Kane",
     "faction": "Independent",
     "title": "Anomaly",
     "aliases": [
@@ -1119,9 +1054,10 @@
       "little echo"
     ],
     "role": "Scavenger from the Fractured Realms; half-awakened Key of Echoes",
-    "bio": "Lingers in the safehouse and is recognized by Nemimoth, who senses her half-awakened Key of Echoes and calls her 'sister.' She accepts the connection awkwardly but genuinely.",
-    "first_appearance": "At the edge of the arrival hall in scavenged layers, giving a small awkward wave.",
+    "bio": "A ragged, terrified scavenger in mismatched tech-gear who is awakened mid-match by Yurei's voice telling her to scream. Her Echo ability produces apocalyptic sonic blasts. Naobito pulls her into his mindscape, bonds with her, and together they create a fused Range Crest that launches the Goliath into deep space.",
+    "first_appearance": "Shivering in the pit in scavenged tech-gear, moments from being crushed by the Goliath.",
     "novels": [
+      "Override Zone: The Blood Tournament",
       "Override Zone: Cobalt Knight"
     ],
     "quotes": [
@@ -1233,8 +1169,8 @@
   },
   {
     "name": "The King",
-    "faction": "Other",
-    "title": "",
+    "faction": "Ivory Board",
+    "title": "Ivory Board Sovereign",
     "aliases": [
       "Ivory Board King"
     ],
@@ -1244,18 +1180,6 @@
     "novels": [
       "Override Zone: Cobalt Knight"
     ],
-    "quotes": [],
-    "image": null
-  },
-  {
-    "name": "The King (Ivory Board)",
-    "faction": "Ivory Board",
-    "title": "Ivory Board Sovereign",
-    "aliases": [],
-    "role": "",
-    "bio": "",
-    "first_appearance": "",
-    "novels": [],
     "quotes": [
       "Nemi, you've been staring at that projection for hours. Are you eating properly?",
       "They call me King, but I can't even protect you from a boarding Queen.",
@@ -1391,8 +1315,8 @@
   },
   {
     "name": "Yurei Himura",
-    "faction": "Other",
-    "title": "",
+    "faction": "Dark Maiden",
+    "title": "Dark Maiden / Hollow Shell",
     "aliases": [
       "The Dark Maiden",
       "Yami no Otome",
@@ -1406,18 +1330,6 @@
       "Override Zone: The Blood Tournament",
       "Override Zone: Cobalt Knight"
     ],
-    "quotes": [],
-    "image": null
-  },
-  {
-    "name": "Yurei Himura (Dark Maiden)",
-    "faction": "Dark Maiden",
-    "title": "Dark Maiden / Hollow Shell",
-    "aliases": [],
-    "role": "",
-    "bio": "",
-    "first_appearance": "",
-    "novels": [],
     "quotes": [
       "Heehee~ you didn't solve my puzzle, lamb, you invited me in.",
       "Shhh, don't hide those new eyes. I made them just for you.",

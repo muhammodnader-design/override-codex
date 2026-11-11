@@ -21,3 +21,5 @@ words_k.txt
 make_extract*.py
 write_json.py
 extract_docx.py
+
+.vercel
