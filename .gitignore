@@ -13,3 +13,6 @@ venv/
 
 # Optional: large illustrations (uncomment if using Git LFS instead)
 # assets/illustrations/
+
+# build artifacts
+lore_dump.txt
