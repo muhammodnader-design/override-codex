@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Override Zone — Codex & Reader</title>
+<meta name="description" content="Interactive codex and online reader for the Override Zone novel universe: characters, factions, illustrations, and full novels." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>_void_</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">Override Zone</a>
+    <nav class="nav">
+      <a href="#/characters">Characters</a>
+      <a href="#/novels">Novels</a>
+      <a href="#/gallery">Gallery</a>
+      <a href="#/lore">Lore</a>
+      <a href="#/about">About</a>
+    </nav>
+    <div class="topbar-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">◐</button>
+      <button id="searchToggle" class="icon-btn" aria-label="Search">⌕</button>
+    </div>
+  </header>
+
+  <div id="searchOverlay" class="search-overlay hidden">
+    <div class="search-box">
+      <input id="globalSearch" type="search" placeholder="Search characters, quotes, novels…" autofocus />
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+
+  <main id="app" class="app"></main>
+
+  <footer class="footer">
+    <p>Override Zone — an original universe by Muhammad Nader. Codex & reader built as a college project.</p>
+    <p class="muted">All text and illustrations © their creator. Fan use only.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

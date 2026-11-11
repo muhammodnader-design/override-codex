@@ -1,0 +1,26 @@
+[
+  {
+    "id": "novel_1",
+    "title": "Override Zone: The Dark Maiden",
+    "file": "novel_1.json",
+    "paragraphs": 1432
+  },
+  {
+    "id": "novel_2",
+    "title": "The Hart That Shall Beat",
+    "file": "novel_2.json",
+    "paragraphs": 359
+  },
+  {
+    "id": "novel_3",
+    "title": "Override Zone: The Blood Tournament",
+    "file": "novel_3.json",
+    "paragraphs": 1485
+  },
+  {
+    "id": "novel_4",
+    "title": "Override Zone: Cobalt Knight",
+    "file": "novel_4.json",
+    "paragraphs": 1047
+  }
+]

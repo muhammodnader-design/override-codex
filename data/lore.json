@@ -1,0 +1,41 @@
+{
+  "disclaimer": "This account sits outside the primary Override Zone continuity. In the original timeline, the central crisis resolved in a different configuration of survivors, losses, and unanswered questions. Certain events referenced here are left deliberately unexplained; they may be mentioned once or twice and then abandoned. Not every detail should be treated as authoritative. Read this as a partial record, a rumor with structure, or a memory that does not fully agree with the official board.",
+  "factions": [
+    {
+      "name": "Hart Family",
+      "desc": "The central family. Power, cruelty, and inheritance define them."
+    },
+    {
+      "name": "Yagami",
+      "desc": "Naobito and Hana's line. Analytical, survival-driven."
+    },
+    {
+      "name": "Weavers",
+      "desc": "Those who pull threads of reality — Elara, Selene, Lucien, Kael, Mireille, Amara, Isabella, Mei Ling."
+    },
+    {
+      "name": "Rankers",
+      "desc": "Combatants who climb the lists — Asha, Viktor, Kenshi, Freya, Isolde."
+    },
+    {
+      "name": "Keys",
+      "desc": "Nemimoth and the Keys of Hunger."
+    },
+    {
+      "name": "Ivory Board",
+      "desc": "The governing body — The King, VeilNet Anchor."
+    },
+    {
+      "name": "Kurogane",
+      "desc": "Saya Kurogane and allies."
+    },
+    {
+      "name": "Independent",
+      "desc": "Rogue actors: Leon, Proxy, Reno, Omar, Soren, Elias Thorn, Sylvara, The Maid."
+    },
+    {
+      "name": "Dark Maiden",
+      "desc": "Yurei Himura — the entity behind the puzzle."
+    }
+  ]
+}

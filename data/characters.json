@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Niro Hart",
+    "faction": "Hart Family",
+    "quotes": [
+      "Don't call it cruelty. I'm just finishing what your lessons started.",
+      "You had twelve chances to be family. You spent them all making me.",
+      "I don't forgive. I balance the ledger."
+    ],
+    "image": "assets/illustrations/cast/niro.png"
+  },
+  {
+    "name": "Victor Hart",
+    "faction": "Hart Family",
+    "quotes": [
+      "A Hart does not explain himself. He dictates and others adjust.",
+      "Sentiment is expensive. I don't pay for what doesn't profit the name.",
+      "If you have to ask for power, you were never meant to hold it."
+    ],
+    "image": null
+  },
+  {
+    "name": "Elena Hart (Mother)",
+    "faction": "Hart Family",
+    "quotes": [
+      "Looking away was the only way I knew how to keep you breathing.",
+      "Don't mistake my silence for approval. It was survival.",
+      "I chose to live with regret rather than die with you."
+    ],
+    "image": null
+  },
+  {
+    "name": "Seraphine Hart",
+    "faction": "Hart Family",
+    "quotes": [
+      "Oh, little mistake, did you think the table was ever set for you?",
+      "Smile properly when you answer. You embarrass the portrait.",
+      "Inheritance isn't given. It's taken gracefully."
+    ],
+    "image": null
+  },
+  {
+    "name": "Thaddeus Hart / Thad",
+    "faction": "Hart Family",
+    "quotes": [
+      "Just keep your head down a little longer, okay? I'll figure something out.",
+      "You shouldn't have to endure this to be called brother.",
+      "If I lose you too, what was any of it for?"
+    ],
+    "image": null
+  },
+  {
+    "name": "Edward Hart",
+    "faction": "Hart Family",
+    "quotes": [
+      "Let's see how long you last before you start begging the dark.",
+      "It's not locked to punish you. It's locked to teach you where you belong.",
+      "You always take it so personally. That's why it's fun."
+    ],
+    "image": null
+  },
+  {
+    "name": "Nigel Hart",
+    "faction": "Hart Family",
+    "quotes": [
+      "Get up. If you can still breathe, you can still run.",
+      "No one respects the weak who stays down. So move.",
+      "That all you've got, thirteenth?"
+    ],
+    "image": null
+  },
+  {
+    "name": "Naobito Yagami",
+    "faction": "Yagami",
+    "quotes": [
+      "It's not possession if I already agreed to carry the weight.",
+      "Quiet is easier. People don't stare at quiet.",
+      "Analyze first. If I can understand it, I can survive it."
+    ],
+    "image": "assets/illustrations/cast/naobito_base.png"
+  },
+  {
+    "name": "Yurei Himura (Dark Maiden)",
+    "faction": "Dark Maiden",
+    "quotes": [
+      "Heehee~ you didn't solve my puzzle, lamb, you invited me in.",
+      "Shhh, don't hide those new eyes. I made them just for you.",
+      "You're mine to tease, mine to keep, mine to ruin beautifully~"
+    ],
+    "image": "assets/illustrations/cast/yurei.png"
+  },
+  {
+    "name": "Lucien Moreau",
+    "faction": "Weavers",
+    "quotes": [
+      "Time doesn't heal. It simply gives you room to hold the ache correctly.",
+      "Compress it. Power is not loud, child, it's dense.",
+      "I've watched this timeline end a dozen ways. Surprise me."
+    ],
+    "image": "assets/illustrations/12weavers/Lucien Moreau (Weaver of Time).png"
+  },
+  {
+    "name": "Leon Cross",
+    "faction": "Independent",
+    "quotes": [
+      "Bar's closed. And you're standing in my bar.",
+      "I didn't ask for a collar. Or your permission.",
+      "Draw that again and I don't miss twice."
+    ],
+    "image": "assets/illustrations/cast/leon.png"
+  },
+  {
+    "name": "Proxy / PRX-04",
+    "faction": "Independent",
+    "quotes": [
+      "Congrats, you just pinged everyone who can kill you from orbit.",
+      "Left side's premium, right side's scrapyard. Still shoots though.",
+      "Run smart, not brave. Brave gets registered as debris."
+    ],
+    "image": "assets/illustrations/proxy.png"
+  },
+  {
+    "name": "Nemimoth (Key of Hunger)",
+    "faction": "Keys",
+    "quotes": [
+      "Infinity is lonely when no one else can see where it ends.",
+      "Another sibling woke up. I felt you before I saw you.",
+      "Father worries. I just wait. You'll find me eventually, brother."
+    ],
+    "image": "assets/illustrations/cast/nemimoth.png"
+  },
+  {
+    "name": "Asha Nkosi",
+    "faction": "Rankers",
+    "quotes": [
+      "Second place? Good. Means I still have someone worth hunting.",
+      "Talk less, bleed more. That's how we settle rankings.",
+      "If you can take my hit, I'll finally learn your name."
+    ],
+    "image": "assets/illustrations/12weavers/Asha Nkosi (Beast Weaver).png"
+  },
+  {
+    "name": "Viktor Drago",
+    "faction": "Rankers",
+    "quotes": [
+      "Strength needs no argument. It needs a witness.",
+      "Chains don't restrict me. They remind you where you stand.",
+      "Irrelevant. Come back when you can move me."
+    ],
+    "image": "assets/illustrations/12weavers/viktor.png"
+  },
+  {
+    "name": "Hana Yagami",
+    "faction": "Yagami",
+    "quotes": [
+      "Of course I'm at the top. The list merely caught up to reality.",
+      "Threads are not pulled. They are convinced to move.",
+      "My son climbs. That was always the design."
+    ],
+    "image": "assets/illustrations/cast/hana yagami.png"
+  },
+  {
+    "name": "Isolde Aster",
+    "faction": "Rankers",
+    "quotes": [
+      "Power without form is just flailing with better lighting.",
+      "I don't need to be faster. I need to be precise once.",
+      "A blade tells you who trained it. Yours tells me everything."
+    ],
+    "image": "assets/illustrations/cast/isolde.png"
+  },
+  {
+    "name": "Mireille Vale",
+    "faction": "Weavers",
+    "quotes": [
+      "Master, say the word and they all disappear for you.",
+      "Don't look at anyone else. Just keep looking at me.",
+      "Your throne suits you. Let me kneel where I belong."
+    ],
+    "image": "assets/illustrations/cast/mireille.png"
+  },
+  {
+    "name": "Kenshi Kashimo",
+    "faction": "Rankers",
+    "quotes": [
+      "If you're seeing my afterimage, you're already too slow to win.",
+      "Over-Rev isn't speed. It's deciding the finish line's already behind me.",
+      "Rematch? I was born for the rematch."
+    ],
+    "image": "assets/illustrations/Kenshi.png"
+  },
+  {
+    "name": "Master Kael Voss",
+    "faction": "Weavers",
+    "quotes": [
+      "This is improperly classified and therefore improperly contained.",
+      "Enthusiasm is not a substitute for protocol.",
+      "File it, seal it, then we can argue about it."
+    ],
+    "image": "assets/illustrations/12weavers/kael voss.png"
+  },
+  {
+    "name": "Lady Elara Vane",
+    "faction": "Weavers",
+    "quotes": [
+      "Darling, I didn't pull your strings. I just made you want to dance.",
+      "Every thread matters. Even the ones that think they're free.",
+      "How rude to forget me on a list. I'll remember that."
+    ],
+    "image": "assets/illustrations/12weavers/elara.png"
+  },
+  {
+    "name": "High Weaver Selene Arkwright",
+    "faction": "Weavers",
+    "quotes": [
+      "Hierarchy exists so anomalies like you know where to kneel.",
+      "This is not entertainment. This is order being disrupted.",
+      "You will respect the rank, even if you outlive it."
+    ],
+    "image": "assets/illustrations/12weavers/selene.png"
+  },
+  {
+    "name": "Reno",
+    "faction": "Independent",
+    "quotes": [
+      "Probability of success: 12%. Proceeding anyway.",
+      "Efficient. Quiet. Done. No further comment needed.",
+      "Noted. Adjusting for next engagement."
+    ],
+    "image": "assets/illustrations/cast/reno.png"
+  },
+  {
+    "name": "Saya Kurogane",
+    "faction": "Kurogane",
+    "quotes": [
+      "A-ah, please don't look at my hands when they shake like this!",
+      "I'm not ready, but I'll stand here anyway if you need me.",
+      "Reno, stop calculating my survival rate out loud!"
+    ],
+    "image": "assets/illustrations/cast/saya.png"
+  },
+  {
+    "name": "Amara Khalil",
+    "faction": "Weavers",
+    "quotes": [
+      "I wish you wouldn't rank kindness. It was never a competition.",
+      "Even a cruel soul deserves to be heard once before it fades.",
+      "Gently. Even power can be offered gently."
+    ],
+    "image": "assets/illustrations/12weavers/amara.png"
+  },
+  {
+    "name": "Mei Ling Zhao (Weaver of Silence)",
+    "faction": "Weavers",
+    "quotes": [
+      "...",
+      "No. You didn't hear me. That was the point.",
+      "Silence isn't empty. It's where I work."
+    ],
+    "image": "assets/illustrations/12weavers/mei ling zao.png"
+  },
+  {
+    "name": "Isabella Cortez",
+    "faction": "Weavers",
+    "quotes": [
+      "Finally, a meeting that isn't boring enough to put my own flames out.",
+      "Burn bright or don't bother showing up at all.",
+      "Oh, Kael, loosen up before you fossilize."
+    ],
+    "image": "assets/illustrations/12weavers/isabella.png"
+  },
+  {
+    "name": "Omar al-Sayed",
+    "faction": "Independent",
+    "quotes": [
+      "The sands remember every footstep, even those that try to erase themselves.",
+      "Patience. The desert always wins by waiting.",
+      "Storms pass. What remains is what was built correctly."
+    ],
+    "image": "assets/illustrations/12weavers/omar.png"
+  },
+  {
+    "name": "Dr. Elias Thorn",
+    "faction": "Independent",
+    "quotes": [
+      "Fascinating. Your Information Alteration just rewrote my notes as I wrote them.",
+      "I need a fresh sample. Don't worry, you'll barely feel the extraction.",
+      "Flesh is just a very cooperative kind of clay."
+    ],
+    "image": "assets/illustrations/12weavers/thorn.png"
+  },
+  {
+    "name": "Freya Haldorsdottir",
+    "faction": "Rankers",
+    "quotes": [
+      "Call a storm and I will answer with a bigger one.",
+      "Thunder doesn't ask permission to break the sky.",
+      "Stand firm or be scattered. Your choice."
+    ],
+    "image": "assets/illustrations/12weavers/freya.png"
+  },
+  {
+    "name": "Soren Blackwood",
+    "faction": "Independent",
+    "quotes": [
+      "You didn't see me leave. You never do.",
+      "Shadows don't follow me. I follow them.",
+      "Keep talking. I'm already gone."
+    ],
+    "image": "assets/illustrations/12weavers/soren.png"
+  },
+  {
+    "name": "Kiritaka Yagami",
+    "faction": "Yagami",
+    "quotes": [
+      "That's my boy! See, Hana? Battle IQ, just like his old man!",
+      "Haha, look at him climb. Told you he'd rewrite that list.",
+      "Proud doesn't even cover it. That's our son up there."
+    ],
+    "image": "assets/illustrations/cast/kiritaka.png"
+  },
+  {
+    "name": "Sylvara Kane",
+    "faction": "Independent",
+    "quotes": [
+      "Um... if I'm not on the list, does that mean I'm safe or just forgotten?",
+      "Please don't call me the secret final boss. I'm really not!",
+      "I just... I don't want to be irrelevant either."
+    ],
+    "image": "assets/illustrations/cast/sylvara.png"
+  },
+  {
+    "name": "The King (Ivory Board)",
+    "faction": "Ivory Board",
+    "quotes": [
+      "Nemi, you've been staring at that projection for hours. Are you eating properly?",
+      "They call me King, but I can't even protect you from a boarding Queen.",
+      "Another signature below? Gods, how many of you are there?"
+    ],
+    "image": null
+  },
+  {
+    "name": "VeilNet Anchor",
+    "faction": "Ivory Board",
+    "quotes": [
+      "Ladies, gentlemen, monsters and miracles - welcome to where debts die screaming!",
+      "This isn't a tournament, this is the universe filing for divorce in blood!",
+      "Look at those sigils flare - try not to worship too loudly, cameras are watching!"
+    ],
+    "image": null
+  },
+  {
+    "name": "The Maid",
+    "faction": "Independent",
+    "quotes": [
+      "Young master... shall I... no, forgive me, I shouldn't ask.",
+      "If they see me help you, they'll hurt you twice for it.",
+      "Please endure it. That's all I can offer you."
+    ],
+    "image": null
+  }
+]
