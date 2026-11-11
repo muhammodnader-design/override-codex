@@ -61,6 +61,7 @@ function route() {
     case 'read': renderReader(rest.join('/')); break;
     case 'gallery': renderGallery(); break;
     case 'lore': renderLore(); break;
+    case 'chat': renderChat(rest); break;
     case 'about': renderAbout(); break;
     default: renderHome();
   }
@@ -197,6 +198,7 @@ function renderCharacter(s) {
         ${c.first_appearance ? `<p class="meta" style="margin-top:8px;"><strong>First appearance:</strong> ${c.first_appearance}</p>` : ''}
         ${c.novels && c.novels.length ? `<p class="meta"><strong>Appears in:</strong> ${c.novels.join(', ')}</p>` : ''}
         <button class="btn sm" id="favBtn">${isFav ? '★ Favorited' : '☆ Favorite'}</button>
+      <a class="btn sm" href="#/chat/${slug(c.name)}">💬 Chat with ${c.name.split(' ')[0]}</a>
         <h3 style="margin-top:16px;">Quotes</h3>
         <ul style="padding-left:18px;">
           ${c.quotes.map(q=>`<li style="margin-bottom:8px; font-style:italic;">"${q}"</li>`).join('')}
@@ -450,6 +452,91 @@ function renderLore() {
       if (el) el.scrollIntoView({behavior:'smooth'});
     });
   });
+}
+
+// ---------- Chat ----------
+state.chat = state.chat || { charSlug: null, messages: [] };
+
+function renderChat(rest) {
+  const slugParam = (rest && rest[0]) ? rest.join('/') : null;
+  if (slugParam && slugParam !== state.chat.charSlug) {
+    state.chat.charSlug = slugParam;
+    state.chat.messages = [];
+  }
+  if (!state.chat.charSlug && state.characters.length) {
+    state.chat.charSlug = slug(state.characters[0].name);
+  }
+  const c = state.characters.find(x => slug(x.name) === state.chat.charSlug);
+  $app().innerHTML = `
+    <h2 class="section-title">Ask the Codex</h2>
+    <p class="meta" style="margin-bottom:12px;">Chat with a character. Powered by free AI (Pollinations). No API key needed. Responses are fictional and may hallucinate.</p>
+    <div class="controls">
+      <select id="chatChar">${state.characters.map(ch=>`<option value="${slug(ch.name)}" ${slug(ch.name)===state.chat.charSlug?'selected':''}>${ch.name}</option>`).join('')}</select>
+      <button class="btn" id="chatClear">Clear chat</button>
+    </div>
+    <div id="chatWindow" style="background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:16px; min-height:300px; max-height:60vh; overflow:auto; margin-bottom:12px;"></div>
+    <div style="display:flex; gap:8px;">
+      <input id="chatInput" type="text" placeholder="Ask ${c?c.name:'...'} something…" style="flex:1; padding:10px 12px; border-radius:8px; border:1px solid var(--border); background:var(--bg-2); color:var(--text); font-family:inherit;" />
+      <button class="btn primary" id="chatSend">Send</button>
+    </div>
+    <p class="meta" style="margin-top:8px; font-size:12px;">Tip: try "What do you want most?" or "Tell me about your past."</p>
+  `;
+  const win = document.getElementById('chatWindow');
+  function renderMsgs() {
+    win.innerHTML = state.chat.messages.map(m => `
+      <div style="margin-bottom:12px; ${m.role==='user'?'text-align:right;':''}">
+        <div style="display:inline-block; max-width:85%; padding:8px 12px; border-radius:10px; ${m.role==='user'?'background:var(--accent); color:#fff;':'background:var(--bg-2);'}">
+          <div style="font-size:11px; opacity:.7; margin-bottom:2px;">${m.role==='user'?'You': (c?c.name:'Character')}</div>
+          <div style="white-space:pre-wrap;">${escapeHtml(m.content)}</div>
+        </div>
+      </div>
+    `).join('') || '<div class="empty">Start a conversation.</div>';
+    win.scrollTop = win.scrollHeight;
+  }
+  renderMsgs();
+
+  document.getElementById('chatChar').addEventListener('change', e => {
+    state.chat.charSlug = e.target.value;
+    state.chat.messages = [];
+    renderChat([]);
+  });
+  document.getElementById('chatClear').addEventListener('click', () => {
+    state.chat.messages = [];
+    renderMsgs();
+  });
+
+  async function send() {
+    const input = document.getElementById('chatInput');
+    const text = input.value.trim();
+    if (!text) return;
+    input.value = '';
+    state.chat.messages.push({role:'user', content:text});
+    renderMsgs();
+    const thinking = {role:'assistant', content:'…thinking…'};
+    state.chat.messages.push(thinking);
+    renderMsgs();
+    try {
+      const ch = state.characters.find(x => slug(x.name) === state.chat.charSlug);
+      const sys = `You are ${ch.name}, ${ch.title||''}, of the ${ch.faction} faction in the Override Zone universe. Stay in character. Use these quotes as voice reference: ${ch.quotes.join(' | ')}. Background: ${ch.bio||''}. Keep replies under 120 words. Never break character. Never mention being an AI.`;
+      const msgs = [{role:'system', content:sys}, ...state.chat.messages.filter(m=>m!==thinking).map(m=>({role:m.role, content:m.content}))];
+      const res = await fetch('https://text.pollinations.ai/openai', {
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({model:'openai', messages:msgs, temperature:0.8, max_tokens:200})
+      });
+      if (!res.ok) throw new Error('HTTP '+res.status);
+      const data = await res.json();
+      const reply = data?.choices?.[0]?.message?.content || data?.choices?.[0]?.text || '...';
+      state.chat.messages.pop(); // remove thinking
+      state.chat.messages.push({role:'assistant', content:reply.trim()});
+    } catch (err) {
+      state.chat.messages.pop();
+      state.chat.messages.push({role:'assistant', content:'(The Codex is silent. '+err.message+')'});
+    }
+    renderMsgs();
+  }
+  document.getElementById('chatSend').addEventListener('click', send);
+  document.getElementById('chatInput').addEventListener('keydown', e => { if (e.key==='Enter') send(); });
 }
 
 // ---------- About ----------
