@@ -405,7 +405,11 @@ function renderLore() {
     </div>
 
     <h3 id="lore-events" class="section-title" style="font-size:20px; margin-top:24px;">Events & Timeline (${L.events.length})</h3>
-    ${L.events.map(e=>`<div class="card" style="margin-bottom:10px;"><h3 style="font-size:15px;">${e.title} <span class="meta" style="font-size:11px;">(${e.novel||''})</span></h3><p class="meta">${e.summary||''}</p>${e.participants&&e.participants.length?`<p class="meta" style="margin-top:4px;"><strong>Participants:</strong> ${e.participants.join(', ')}</p>`:''}</div>`).join('')}
+    <p class="meta" style="margin-bottom:10px;">Grouped by novel. Click a novel to expand. Click an event for details.</p>
+    <div class="controls" style="margin-bottom:10px;">
+      <input id="evSearch" type="search" placeholder="Search events…" style="flex:1; min-width:200px;" />
+    </div>
+    <div id="evGroups"></div>
 
     <h3 id="lore-rankings" class="section-title" style="font-size:20px; margin-top:24px;">Power Rankings (fan tier list)</h3>
     ${L.rankings.map(r=>`<div class="card" style="margin-bottom:10px;"><h3 style="font-size:15px;">${r.tier}</h3><p class="meta">${r.names.join(' · ')}</p></div>`).join('')}
@@ -432,6 +436,63 @@ function renderLore() {
     <h3 id="lore-disclaimer" class="section-title" style="font-size:20px; margin-top:24px;">Disclaimer</h3>
     <div class="card"><p style="white-space:pre-wrap;">${escapeHtml(L.disclaimer)}</p></div>
   `;
+  // Events: grouped, collapsible, searchable
+  const evGroups = document.getElementById('evGroups');
+  if (evGroups) {
+    const novels = [...new Set(L.events.map(e=>e.novel).filter(Boolean))];
+    const groups = novels.map(nv => ({ novel: nv, events: L.events.filter(e=>e.novel===nv) }));
+    // also events with no novel
+    const none = L.events.filter(e=>!e.novel);
+    if (none.length) groups.push({ novel: 'Other', events: none });
+
+    function renderGroups(filter) {
+      const f = (filter||'').toLowerCase();
+      evGroups.innerHTML = groups.map((g, gi) => {
+        const evs = g.events.filter(e => !f || (e.title||'').toLowerCase().includes(f) || (e.summary||'').toLowerCase().includes(f) || (e.participants||[]).some(p=>p.toLowerCase().includes(f)));
+        if (f && evs.length === 0) return '';
+        return `
+          <div class="card" style="margin-bottom:10px;">
+            <div class="ev-toggle" data-gi="${gi}" style="cursor:pointer; display:flex; justify-content:space-between; align-items:center;">
+              <h4 style="margin:0; font-family:var(--font-head); font-size:15px;">${g.novel} <span class="meta">(${evs.length} events)</span></h4>
+              <span class="ev-caret" style="color:var(--muted);">${gi===0?'▾':'▸'}</span>
+            </div>
+            <div class="ev-body" data-gi="${gi}" style="${gi===0?'':'display:none;'} margin-top:8px;">
+              ${evs.map(e => `
+                <div class="ev-item" style="border-left:2px solid var(--border); padding:6px 10px; margin-bottom:6px; cursor:pointer;">
+                  <div style="font-weight:600; font-size:14px;">${e.title}</div>
+                  <div class="ev-detail" style="display:none; margin-top:4px;">
+                    <p class="meta" style="margin:0;">${e.summary||''}</p>
+                    ${e.participants&&e.participants.length?`<p class="meta" style="margin-top:2px;"><strong>Participants:</strong> ${e.participants.join(', ')}</p>`:''}
+                  </div>
+                </div>
+              `).join('') || '<div class="empty">No events match.</div>'}
+            </div>
+          </div>
+        `;
+      }).join('');
+      // toggle group expand
+      evGroups.querySelectorAll('.ev-toggle').forEach(t => {
+        t.addEventListener('click', () => {
+          const gi = t.dataset.gi;
+          const body = evGroups.querySelector('.ev-body[data-gi="'+gi+'"]');
+          const caret = t.querySelector('.ev-caret');
+          if (body.style.display === 'none') { body.style.display=''; caret.textContent='▾'; }
+          else { body.style.display='none'; caret.textContent='▸'; }
+        });
+      });
+      // toggle event detail
+      evGroups.querySelectorAll('.ev-item').forEach(it => {
+        it.addEventListener('click', () => {
+          const det = it.querySelector('.ev-detail');
+          if (det) det.style.display = det.style.display==='none' ? '' : 'none';
+        });
+      });
+    }
+    renderGroups('');
+    const evSearch = document.getElementById('evSearch');
+    if (evSearch) evSearch.addEventListener('input', e => renderGroups(e.target.value));
+  }
+
   // load more quotes
   const btn = document.getElementById('loadMoreQuotes');
   if (btn) {
